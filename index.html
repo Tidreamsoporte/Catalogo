@@ -40,8 +40,8 @@
       transition: all 0.45s cubic-bezier(0.25, 1, 0.5, 1);
       cursor: pointer;
       user-select: none;
-      border: none; /* Borde transparente/eliminado */
-      background-color: transparent; /* Fondo transparente para lucir el efecto carrusel */
+      border: none;
+      background-color: transparent;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -50,7 +50,7 @@
     .game-card img {
       width: 100%;
       height: 100%;
-      object-fit: contain; /* Ajusta la imagen completa a su proporción natural */
+      object-fit: contain;
       border-radius: 10px;
     }
 
@@ -142,17 +142,17 @@
       <!-- Filtro de Plataforma -->
       <select id="platformFilter" onchange="cambiarFiltroPlataforma(this.value)" class="bg-slate-800 text-xs text-slate-200 border border-slate-700 px-3 py-1.5 rounded-lg focus:outline-none cursor-pointer">
         <option value="ALL">Todas las Plataformas</option>
-        	<option value="Xbox 360">Xbox 360</option>
-              <option value="Xbox One">Xbox One</option>
-			  <option value="PlayStation 1">PlayStation 1</option>
-			  <option value="PlayStation 2">PlayStation 2</option>
-			  <option value="PlayStation 3">PlayStation 3</option>
-              <option value="PlayStation 4">PlayStation 4</option>
-              <option value="PlayStation 5">PlayStation 5</option>
-              <option value="Nintendo Switch">Nintendo Switch</option>
-			  <option value="Nintendo Wii">Nintendo Wii</option>
-			  <option value="Nintendo Gamecube">Nintendo Gamecube</option>
-              <option value="PC">PC / Steam</option>
+        <option value="Xbox 360">Xbox 360</option>
+        <option value="Xbox One">Xbox One</option>
+        <option value="PlayStation 1">PlayStation 1</option>
+        <option value="PlayStation 2">PlayStation 2</option>
+        <option value="PlayStation 3">PlayStation 3</option>
+        <option value="PlayStation 4">PlayStation 4</option>
+        <option value="PlayStation 5">PlayStation 5</option>
+        <option value="Nintendo Switch">Nintendo Switch</option>
+        <option value="Nintendo Wii">Nintendo Wii</option>
+        <option value="Nintendo Gamecube">Nintendo Gamecube</option>
+        <option value="PC">PC / Steam</option>
       </select>
 
       <!-- Botón Carrito de Compras -->
@@ -261,14 +261,14 @@
             <select id="formPlataforma" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500">
               <option value="Xbox 360">Xbox 360</option>
               <option value="Xbox One">Xbox One</option>
-			  <option value="PlayStation 1">PlayStation 1</option>
-			  <option value="PlayStation 2">PlayStation 2</option>
-			  <option value="PlayStation 3">PlayStation 3</option>
+              <option value="PlayStation 1">PlayStation 1</option>
+              <option value="PlayStation 2">PlayStation 2</option>
+              <option value="PlayStation 3">PlayStation 3</option>
               <option value="PlayStation 4">PlayStation 4</option>
               <option value="PlayStation 5">PlayStation 5</option>
               <option value="Nintendo Switch">Nintendo Switch</option>
-			  <option value="Nintendo Wii">Nintendo Wii</option>
-			  <option value="Nintendo Gamecube">Nintendo Gamecube</option>
+              <option value="Nintendo Wii">Nintendo Wii</option>
+              <option value="Nintendo Gamecube">Nintendo Gamecube</option>
               <option value="PC">PC / Steam</option>
             </select>
           </div>
@@ -447,7 +447,7 @@
       
       const listaActiva = obtenerJuegosFiltrados();
       if (listaActiva.length === 0) {
-        container.innerHTML = `<div class="text-slate-400 text-sm font-semibold">No hay juegos disponibles. Cambia al Modo Administrador para agregarlos.</div>`;
+        container.innerHTML = `<div class="text-slate-400 text-sm font-semibold">No hay juegos disponibles para esta plataforma.</div>`;
         actualizarDetalles();
         return;
       }
@@ -637,7 +637,7 @@
       cerrarCarrito();
     }
 
-    // ADMINISTRACIÓN DE JUEGOS (ENLAZADO GLOBALMENTE)
+    // ADMINISTRACIÓN DE JUEGOS
     function abrirAdmin() {
       modoAdmin = true;
       document.getElementById('labelModo').innerText = "Modo Administrador";
@@ -670,8 +670,8 @@
           <td class="p-3 text-slate-300">${juego.peso}</td>
           <td class="p-3 font-semibold text-emerald-400">$${Number(juego.valor).toLocaleString()}</td>
           <td class="p-3 text-center space-x-3">
-            <button type="button" onclick="editarJuegoPorIndex(${index})" class="text-blue-400 hover:text-blue-300 cursor-pointer p-1" title="Editar"><i class="fa-solid fa-pen"></i></button>
-            <button type="button" onclick="eliminarJuegoPorIndex(${index})" class="text-red-400 hover:text-red-300 cursor-pointer p-1" title="Eliminar"><i class="fa-solid fa-trash"></i></button>
+            <button type="button" onclick="editarJuegoPorIndex(${index})" class="text-blue-400 hover:text-blue-300 cursor-pointer" title="Editar"><i class="fa-solid fa-pen-to-square"></i></button>
+            <button type="button" onclick="eliminarJuego(${index})" class="text-red-400 hover:text-red-300 cursor-pointer" title="Eliminar"><i class="fa-solid fa-trash"></i></button>
           </td>
         `;
         tbody.appendChild(tr);
@@ -680,53 +680,49 @@
 
     function guardarJuegoForm(e) {
       e.preventDefault();
-      const index = parseInt(document.getElementById('editIndex').value);
+      const editIndex = parseInt(document.getElementById('editIndex').value);
       
       const nuevoJuego = {
-        id: index >= 0 ? juegos[index].id : Date.now(),
-        titulo: document.getElementById('formTitulo').value,
+        id: editIndex === -1 ? Date.now() : juegos[editIndex].id,
+        titulo: document.getElementById('formTitulo').value.trim(),
         plataforma: document.getElementById('formPlataforma').value,
-        peso: document.getElementById('formPeso').value,
-        valor: parseFloat(document.getElementById('formValor').value) || 0,
-        caratula: document.getElementById('formCaratula').value
+        peso: document.getElementById('formPeso').value.trim(),
+        valor: Number(document.getElementById('formValor').value),
+        caratula: document.getElementById('formCaratula').value.trim()
       };
 
-      if (index >= 0) {
-        juegos[index] = nuevoJuego;
-        mostrarToast("Juego actualizado correctamente");
-      } else {
+      if (editIndex === -1) {
         juegos.push(nuevoJuego);
         mostrarToast("Juego agregado con éxito");
+      } else {
+        juegos[editIndex] = nuevoJuego;
+        mostrarToast("Juego actualizado con éxito");
+        document.getElementById('editIndex').value = -1;
       }
 
       localStorage.setItem('catalogo_juegos_3d', JSON.stringify(juegos));
-      limpiarFormulario();
+      document.getElementById('gameForm').reset();
       renderizarTablaAdmin();
     }
 
-    window.editarJuegoPorIndex = function(index) {
-      const juego = juegos[index];
-      if (!juego) return;
+    function editarJuegoPorIndex(index) {
+      const j = juegos[index];
       document.getElementById('editIndex').value = index;
-      document.getElementById('formTitulo').value = juego.titulo;
-      document.getElementById('formPlataforma').value = juego.plataforma;
-      document.getElementById('formPeso').value = juego.peso;
-      document.getElementById('formValor').value = juego.valor;
-      document.getElementById('formCaratula').value = juego.caratula;
-      mostrarToast("Modo edición activado en formulario", "info");
-    };
+      document.getElementById('formTitulo').value = j.titulo;
+      document.getElementById('formPlataforma').value = j.plataforma;
+      document.getElementById('formPeso').value = j.peso;
+      document.getElementById('formValor').value = j.valor;
+      document.getElementById('formCaratula').value = j.caratula;
+    }
 
-    window.eliminarJuegoPorIndex = function(index) {
-      const juegoAEliminar = juegos[index];
-      if (!juegoAEliminar) return;
-      
-      if (confirm(`¿Estás seguro de eliminar "${juegoAEliminar.titulo}" del catálogo?`)) {
+    function eliminarJuego(index) {
+      if (confirm("¿Estás seguro de eliminar este juego?")) {
         juegos.splice(index, 1);
         localStorage.setItem('catalogo_juegos_3d', JSON.stringify(juegos));
         renderizarTablaAdmin();
-        mostrarToast("Juego eliminado del sistema", "info");
+        mostrarToast("Juego eliminado", "info");
       }
-    };
+    }
 
     function limpiarFormulario() {
       document.getElementById('gameForm').reset();
