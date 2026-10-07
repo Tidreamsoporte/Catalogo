@@ -4,11 +4,11 @@
     "titulo": "Tekken Tag Tournament",
     "plataforma": "PlayStation 2",
     "peso": "3.2 GB",
-    "valor": 15000,
+    "valor": 1000,
     "caratula": "https://i.postimg.cc/PrH4SHQm/SCES-50001.png"
   },
   {
-    "id": 1791381579948,
+    "id": 2,
     "titulo": "Dark Cloud",
     "plataforma": "PlayStation 2",
     "peso": "1 GB",
@@ -16,11 +16,35 @@
     "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50295.png"
   },
   {
-    "id": 1791381579949,
+    "id": 3,
     "titulo": "Twisted Metal Black",
     "plataforma": "PlayStation 2",
     "peso": "1.87 GB",
     "valor": 1000,
     "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50360.png"
+  },
+  {
+    "id": 4,
+    "titulo": "Dead or Alive 2",
+    "plataforma": "PlayStation 2",
+    "peso": "4.35 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50003.png"
+  },
+  {
+    "id": 5,
+    "titulo": "Time crisis 2",
+    "plataforma": "PlayStation 2",
+    "peso": "4.37 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50300.png"
+  },
+  {
+    "id": 6,
+    "titulo": "Jak and Dexter the precursor legecy",
+    "plataforma": "PlayStation 2",
+    "peso": "1.35 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50361.png"
   }
 ]
