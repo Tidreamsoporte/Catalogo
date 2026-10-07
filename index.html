@@ -271,12 +271,17 @@
             <input type="number" step="1" id="formValor" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="Ej. 15000">
           </div>
           <div class="sm:col-span-2">
-            <label class="block text-xs font-bold text-slate-300 mb-1">URL de la Carátula (GitHub Raw)</label>
-            <input type="url" id="formCaratula" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="https://raw.githubusercontent.com/usuario/repo/main/imagen.png">
+            <label class="block text-xs font-bold text-slate-300 mb-1">Enlace Directo de la Carátula (Postimages i.postimg.cc)</label>
+            <input type="url" id="formCaratula" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="https://i.postimg.cc/xxxxxx/imagen.png">
           </div>
-          <div class="sm:col-span-2 flex justify-end gap-2 pt-2">
-            <button type="button" onclick="limpiarFormulario()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold px-3 py-2 rounded-xl text-xs transition cursor-pointer">Cancelar</button>
-            <button type="submit" class="bg-blue-600 hover:bg-blue-500 text-white font-extrabold px-4 py-2 rounded-xl text-xs transition cursor-pointer">Guardar Juego</button>
+          <div class="sm:col-span-2 flex items-center justify-between pt-2">
+            <button type="button" onclick="exportarJuegosJSON()" class="bg-emerald-900/60 hover:bg-emerald-900 text-emerald-300 border border-emerald-700/50 font-bold px-3 py-2 rounded-xl text-xs transition cursor-pointer flex items-center gap-1.5">
+              <i class="fa-solid fa-file-code"></i> Descargar data.json para GitHub
+            </button>
+            <div class="flex gap-2">
+              <button type="button" onclick="limpiarFormulario()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold px-3 py-2 rounded-xl text-xs transition cursor-pointer">Cancelar</button>
+              <button type="submit" class="bg-blue-600 hover:bg-blue-500 text-white font-extrabold px-4 py-2 rounded-xl text-xs transition cursor-pointer">Guardar Juego</button>
+            </div>
           </div>
         </form>
 
@@ -337,7 +342,7 @@
     const claveSeguraBase64 = "MTIzNA==";
 
     const juegosDefault = [
-      { id: 1, titulo: 'Spider-Man 2', plataforma: 'PlayStation 5', peso: '85.4 GB', valor: 59990, caratula: 'https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50300.png' }
+      { id: 1, titulo: 'Tekken Tag Tournament', plataforma: 'PlayStation 2', peso: '3.2 GB', valor: 15000, caratula: 'https://i.postimg.cc/PrH4SHQm/SCES-50001.png' }
     ];
 
     let juegos = JSON.parse(localStorage.getItem('catalogo_juegos_3d')) || juegosDefault;
@@ -646,6 +651,17 @@
     function limpiarFormulario() {
       document.getElementById('gameForm').reset();
       document.getElementById('editIndex').value = -1;
+    }
+
+    function exportarJuegosJSON() {
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(juegos, null, 2));
+      const downloadAnchor = document.createElement('a');
+      downloadAnchor.setAttribute("href", dataStr);
+      downloadAnchor.setAttribute("download", "juegos.json");
+      document.body.appendChild(downloadAnchor);
+      downloadAnchor.click();
+      downloadAnchor.remove();
+      mostrarToast("Archivo JSON generado para GitHub", "info");
     }
   </script>
 </body>
