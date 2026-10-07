@@ -193,7 +193,7 @@
           <span id="juegoPlataformaBadge" class="bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider">Plataforma</span>
           <span id="juegoPeso" class="text-slate-400 font-mono text-xs"><i class="fa-solid fa-hard-drive mr-1"></i> 0 GB</span>
         </div>
-        <h2 id="juegoTitulo" class="text-lg sm:text-xl font-black text-white tracking-wide truncate max-w-xs sm:max-w-md mx-auto sm:mx-0">Cargando...</h2>
+        <h2 id="juegoTitulo" class="text-lg sm:text-xl font-black text-white tracking-wide truncate max-w-xs sm:max-w-md mx-auto sm:mx-0">Cargando catálogo...</h2>
       </div>
 
       <div class="flex items-center justify-between sm:justify-end gap-4 w-full sm:w-auto bg-slate-950/60 border border-slate-800/80 px-4 py-2.5 rounded-xl">
@@ -276,7 +276,7 @@
           </div>
           <div class="sm:col-span-2 flex items-center justify-between pt-2">
             <button type="button" onclick="exportarJuegosJSON()" class="bg-emerald-900/60 hover:bg-emerald-900 text-emerald-300 border border-emerald-700/50 font-bold px-3 py-2 rounded-xl text-xs transition cursor-pointer flex items-center gap-1.5">
-              <i class="fa-solid fa-file-code"></i> Descargar data.json para GitHub
+              <i class="fa-solid fa-file-code"></i> Descargar juegos.json para GitHub
             </button>
             <div class="flex gap-2">
               <button type="button" onclick="limpiarFormulario()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold px-3 py-2 rounded-xl text-xs transition cursor-pointer">Cancelar</button>
@@ -291,6 +291,7 @@
             <table class="w-full text-left text-xs sm:text-sm text-slate-300">
               <thead class="bg-slate-950 text-slate-400 uppercase text-[10px] sm:text-[11px]">
                 <tr>
+                  <th class="p-2 sm:p-3">ID</th>
                   <th class="p-2 sm:p-3">Carátula</th>
                   <th class="p-2 sm:p-3">Título</th>
                   <th class="p-2 sm:p-3">Plataforma</th>
@@ -340,12 +341,7 @@
 
   <script>
     const claveSeguraBase64 = "MTIzNA==";
-
-    const juegosDefault = [
-      { id: 1, titulo: 'Tekken Tag Tournament', plataforma: 'PlayStation 2', peso: '3.2 GB', valor: 15000, caratula: 'https://i.postimg.cc/PrH4SHQm/SCES-50001.png' }
-    ];
-
-    let juegos = JSON.parse(localStorage.getItem('catalogo_juegos_3d')) || juegosDefault;
+    let juegos = [];
     let carrito = JSON.parse(localStorage.getItem('carrito_juegos_3d')) || [];
     let indiceActual = 0;
     let filtroPlataforma = 'ALL';
@@ -363,14 +359,30 @@
       setTimeout(() => toast.remove(), 3000);
     }
 
+    // CARGAR CATÁLOGO FRESCO DESDE EL ARCHIVO JSON EN GITHUB (EVITA CACHÉ)
+    async function cargarJuegosDesdeGitHub() {
+      try {
+        // Añadimos ?t=Date.now() para forzar al navegador a descargar siempre la versión más reciente
+        const respuesta = await fetch(`./juegos.json?t=${Date.now()}`);
+        if (!respuesta.ok) throw new Error("No se pudo cargar el archivo");
+        juegos = await respuesta.json();
+      } catch (error) {
+        console.warn("Usando datos predeterminados de respaldo:", error);
+        juegos = [
+          { id: 1, titulo: 'Tekken Tag Tournament', plataforma: 'PlayStation 2', peso: '3.2 GB', valor: 15000, caratula: 'https://i.postimg.cc/PrH4SHQm/SCES-50001.png' }
+        ];
+      }
+      renderizarCoverflow();
+      actualizarDetalles();
+    }
+
     function obtenerJuegosFiltrados() {
       if (filtroPlataforma === 'ALL') return juegos;
       return juegos.filter(j => j.plataforma === filtroPlataforma);
     }
 
     document.addEventListener('DOMContentLoaded', () => {
-      renderizarCoverflow();
-      actualizarDetalles();
+      cargarJuegosDesdeGitHub();
       actualizarContadorCarrito();
 
       let touchStartX = 0;
@@ -585,12 +597,13 @@
       const tbody = document.getElementById('tablaJuegosBody');
       tbody.innerHTML = '';
       if (juegos.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="5" class="p-4 text-center text-slate-500">Sin juegos.</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="6" class="p-4 text-center text-slate-500">Sin juegos.</td></tr>`;
         return;
       }
       juegos.forEach((j, index) => {
         tbody.innerHTML += `
           <tr class="hover:bg-slate-900/50">
+            <td class="p-2 sm:p-3 font-mono text-emerald-400 font-bold">#${j.id}</td>
             <td class="p-2 sm:p-3"><img src="${j.caratula}" class="w-8 h-12 object-contain bg-black rounded border border-slate-700"></td>
             <td class="p-2 sm:p-3 font-bold text-white truncate max-w-[100px] sm:max-w-none">${j.titulo}</td>
             <td class="p-2 sm:p-3"><span class="bg-slate-800 text-blue-400 text-[10px] px-2 py-0.5 rounded border border-slate-700">${j.plataforma}</span></td>
@@ -607,8 +620,18 @@
     function guardarJuegoForm(e) {
       e.preventDefault();
       const editIndex = parseInt(document.getElementById('editIndex').value);
+      
+      // CREAR ID AUTOMÁTICO SECUENCIAL (1, 2, 3...)
+      let nuevoId = 1;
+      if (editIndex === -1 && juegos.length > 0) {
+        const maxId = Math.max(...juegos.map(j => Number(j.id) || 0));
+        nuevoId = maxId + 1;
+      } else if (editIndex !== -1) {
+        nuevoId = juegos[editIndex].id;
+      }
+
       const nuevo = {
-        id: editIndex === -1 ? Date.now() : juegos[editIndex].id,
+        id: nuevoId,
         titulo: document.getElementById('formTitulo').value.trim(),
         plataforma: document.getElementById('formPlataforma').value,
         peso: document.getElementById('formPeso').value.trim(),
@@ -624,9 +647,10 @@
         mostrarToast("Juego actualizado");
         document.getElementById('editIndex').value = -1;
       }
-      localStorage.setItem('catalogo_juegos_3d', JSON.stringify(juegos));
+
       document.getElementById('gameForm').reset();
       renderizarTablaAdmin();
+      renderizarCoverflow();
     }
 
     function editarJuego(index) {
@@ -642,8 +666,8 @@
     function eliminarJuego(index) {
       if (confirm("¿Eliminar juego?")) {
         juegos.splice(index, 1);
-        localStorage.setItem('catalogo_juegos_3d', JSON.stringify(juegos));
         renderizarTablaAdmin();
+        renderizarCoverflow();
         mostrarToast("Eliminado", "info");
       }
     }
@@ -661,7 +685,7 @@
       document.body.appendChild(downloadAnchor);
       downloadAnchor.click();
       downloadAnchor.remove();
-      mostrarToast("Archivo JSON generado para GitHub", "info");
+      mostrarToast("Archivo juegos.json listo para GitHub", "info");
     }
   </script>
 </body>
