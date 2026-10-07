@@ -70,5 +70,213 @@
     "peso": "2.45 GB",
     "valor": 1000,
     "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-51177.png"
+  },
+  {
+    "id": 10,
+    "titulo": "Dark Chronicle",
+    "plataforma": "PlayStation 2",
+    "peso": "4.37 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-51190.png"
+  },
+  {
+    "id": 11,
+    "titulo": "Ratchet & Clank 2",
+    "plataforma": "PlayStation 2",
+    "peso": "3.30 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-51607.png"
+  },
+  {
+    "id": 12,
+    "titulo": "Jak II Renegade",
+    "plataforma": "PlayStation 2",
+    "peso": "4.10 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-51608.png"
+  },
+  {
+    "id": 13,
+    "titulo": "Jackie Chan Adventures",
+    "plataforma": "PlayStation 2",
+    "peso": "1.37 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-52412.png"
+  },
+  {
+    "id": 14,
+    "titulo": "Smash Court Tennis PT2",
+    "plataforma": "PlayStation 2",
+    "peso": "3.90 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-52423.png"
+  },
+  {
+    "id": 15,
+    "titulo": "Ratchet and Clank 3",
+    "plataforma": "PlayStation 2",
+    "peso": "4.15 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-52456.png"
+  },
+  {
+    "id": 16,
+    "titulo": "Jak 3",
+    "plataforma": "PlayStation 2",
+    "peso": "4.18 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-52460.png"
+  },
+  {
+    "id": 17,
+    "titulo": "Sly 2 Band of Thieves",
+    "plataforma": "PlayStation 2",
+    "peso": "4.27 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-52529.png"
+  },
+  {
+    "id": 18,
+    "titulo": "Death by Degrees",
+    "plataforma": "PlayStation 2",
+    "peso": "4.10 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-52586.png"
+  },
+  {
+    "id": 19,
+    "titulo": "God of War",
+    "plataforma": "PlayStation 2",
+    "peso": "7.46 GB",
+    "valor": 2000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53133.png"
+  },
+  {
+    "id": 20,
+    "titulo": "Tekken 5",
+    "plataforma": "PlayStation 2",
+    "peso": "3.81 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53202.png"
+  },
+  {
+    "id": 21,
+    "titulo": "Jak X",
+    "plataforma": "PlayStation 2",
+    "peso": "4.34 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53286.png"
+  },
+  {
+    "id": 22,
+    "titulo": "Shadow of the Colossus",
+    "plataforma": "PlayStation 2",
+    "peso": "4.31 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53326.png"
+  },
+  {
+    "id": 23,
+    "titulo": "Sly 3",
+    "plataforma": "PlayStation 2",
+    "peso": "4.12 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53409.png"
+  },
+  {
+    "id": 24,
+    "titulo": "Urban Reign",
+    "plataforma": "PlayStation 2",
+    "peso": "2.67 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53688.png"
+  },
+  {
+    "id": 25,
+    "titulo": "Shinobido Way of the Ninja",
+    "plataforma": "PlayStation 2",
+    "peso": "3.64 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53931.png"
+  },
+  {
+    "id": 26,
+    "titulo": "God of War II",
+    "plataforma": "PlayStation 2",
+    "peso": "7.80 GB",
+    "valor": 2000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-54206.png"
+  },
+  {
+    "id": 27,
+    "titulo": "Rogue Galaxy",
+    "plataforma": "PlayStation 2",
+    "peso": "4.24 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-54552.png"
+  },
+  {
+    "id": 28,
+    "titulo": "Ratchet Clank Size Matters",
+    "plataforma": "PlayStation 2",
+    "peso": "1.84 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-55019.png"
+  },
+  {
+    "id": 29,
+    "titulo": "Jak and Daxter the Lost Frontier",
+    "plataforma": "PlayStation 2",
+    "peso": "3.42 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-55510.png"
+  },
+  {
+    "id": 30,
+    "titulo": "Twisted Metal Extra",
+    "plataforma": "PlayStation 2",
+    "peso": "3.90 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCUS-97621.png"
+  },
+  {
+    "id": 31,
+    "titulo": "Rayman Revolution",
+    "plataforma": "PlayStation 2",
+    "peso": "4.18 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50044.png"
+  },
+  {
+    "id": 32,
+    "titulo": "Pato Donald Quack Attack",
+    "plataforma": "PlayStation 2",
+    "peso": "843 MB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50048.png"
+  },
+  {
+    "id": 33,
+    "titulo": "Street Fighter EX3",
+    "plataforma": "PlayStation 2",
+    "peso": "582 MB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50072.png"
+  },
+  {
+    "id": 34,
+    "titulo": "Rumble Racing",
+    "plataforma": "PlayStation 2",
+    "peso": "579 MB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50120.png"
+  },
+  {
+    "id": 35,
+    "titulo": "Army Men Green Rogue",
+    "plataforma": "PlayStation 2",
+    "peso": "1.51 GB",
+    "valor": 1000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50191.png"
   }
 ]
