@@ -9,15 +9,19 @@
   <style>
     body { background-color: #090d16; color: #f8fafc; font-family: 'Segoe UI', system-ui, sans-serif; overflow-x: hidden; }
 
-    /* CONTENEDOR COVER FLOW 3D */
+    /* CONTENEDOR COVER FLOW 3D ADAPTADO A MÓVILES */
     .coverflow-viewport {
       perspective: 1000px;
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 420px;
+      height: 360px;
       position: relative;
       width: 100%;
+    }
+
+    @media (min-width: 768px) {
+      .coverflow-viewport { height: 420px; }
     }
 
     .coverflow-container {
@@ -29,14 +33,14 @@
       transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
     }
 
-    /* CARÁTULAS DE JUEGOS - FONDO Y BORDE TRANSPARENTES */
+    /* CARÁTULAS DE JUEGOS - TAMAÑO ADAPTABLE */
     .game-card {
       position: absolute;
-      width: 220px;
-      height: 310px;
-      border-radius: 12px;
+      width: 160px;
+      height: 230px;
+      border-radius: 10px;
       overflow: hidden;
-      box-shadow: 0 20px 30px rgba(0, 0, 0, 0.8);
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.8);
       transition: all 0.45s cubic-bezier(0.25, 1, 0.5, 1);
       cursor: pointer;
       user-select: none;
@@ -47,10 +51,18 @@
       justify-content: center;
     }
 
+    @media (min-width: 768px) {
+      .game-card {
+        width: 220px;
+        height: 310px;
+        border-radius: 12px;
+      }
+    }
+
     .game-card img {
       width: 100%;
       height: 100%;
-      object-fit: contain;
+      object-fit: cover;
       border-radius: 10px;
     }
 
@@ -66,25 +78,36 @@
       pointer-events: none;
     }
 
-    /* ESTADOS SEGÚN LA POSICIÓN RELATIVA */
+    /* ESTADOS 3D RESPONSIVOS */
     .game-card.active {
-      transform: translateX(0) translateZ(160px) rotateY(0deg);
+      transform: translateX(0) translateZ(120px) rotateY(0deg);
       z-index: 30;
       box-shadow: 0 25px 50px rgba(0, 0, 0, 0.95);
       filter: brightness(1.1);
     }
-    .game-card.left-1 { transform: translateX(-180px) translateZ(0px) rotateY(35deg); z-index: 20; opacity: 0.85; filter: brightness(0.65); }
-    .game-card.left-2 { transform: translateX(-320px) translateZ(-100px) rotateY(45deg); z-index: 10; opacity: 0.5; filter: brightness(0.4); }
-    .game-card.right-1 { transform: translateX(180px) translateZ(0px) rotateY(-35deg); z-index: 20; opacity: 0.85; filter: brightness(0.65); }
-    .game-card.right-2 { transform: translateX(320px) translateZ(-100px) rotateY(-45deg); z-index: 10; opacity: 0.5; filter: brightness(0.4); }
-    .game-card.far-left { transform: translateX(-450px) translateZ(-200px) rotateY(50deg); z-index: 1; opacity: 0; pointer-events: none; }
-    .game-card.far-right { transform: translateX(450px) translateZ(-200px) rotateY(-50deg); z-index: 1; opacity: 0; pointer-events: none; }
+    @media (min-width: 768px) {
+      .game-card.active { transform: translateX(0) translateZ(160px) rotateY(0deg); }
+    }
 
-    /* TOAST NOTIFICACIONES PROFESIONALES */
+    .game-card.left-1 { transform: translateX(-110px) translateZ(0px) rotateY(30deg); z-index: 20; opacity: 0.8; filter: brightness(0.6); }
+    .game-card.left-2 { transform: translateX(-200px) translateZ(-80px) rotateY(40deg); z-index: 10; opacity: 0.4; filter: brightness(0.3); }
+    .game-card.right-1 { transform: translateX(110px) translateZ(0px) rotateY(-30deg); z-index: 20; opacity: 0.8; filter: brightness(0.6); }
+    .game-card.right-2 { transform: translateX(200px) translateZ(-80px) rotateY(-40deg); z-index: 10; opacity: 0.4; filter: brightness(0.3); }
+    
+    @media (min-width: 768px) {
+      .game-card.left-1 { transform: translateX(-180px) translateZ(0px) rotateY(35deg); }
+      .game-card.left-2 { transform: translateX(-320px) translateZ(-100px) rotateY(45deg); }
+      .game-card.right-1 { transform: translateX(180px) translateZ(0px) rotateY(-35deg); }
+      .game-card.right-2 { transform: translateX(320px) translateZ(-100px) rotateY(-45deg); }
+    }
+
+    .game-card.far-left, .game-card.far-right { opacity: 0; pointer-events: none; }
+
+    /* TOAST NOTIFICACIONES */
     #toastContainer {
       position: fixed;
-      bottom: 24px;
-      right: 24px;
+      bottom: 20px;
+      right: 20px;
       z-index: 9999;
       display: flex;
       flex-direction: column;
@@ -95,52 +118,44 @@
       background: rgba(15, 23, 42, 0.95);
       border: 1px solid rgba(255, 255, 255, 0.15);
       color: #fff;
-      padding: 12px 20px;
-      border-radius: 12px;
+      padding: 10px 16px;
+      border-radius: 10px;
       box-shadow: 0 10px 25px rgba(0,0,0,0.5);
       backdrop-filter: blur(10px);
-      font-size: 13px;
+      font-size: 12px;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 8px;
       pointer-events: auto;
       animation: slideIn 0.3s ease forwards, fadeOut 0.3s ease 2.7s forwards;
     }
-    @keyframes slideIn {
-      from { transform: translateY(100%); opacity: 0; }
-      to { transform: translateY(0); opacity: 1; }
-    }
-    @keyframes fadeOut {
-      from { opacity: 1; }
-      to { opacity: 0; transform: translateY(10px); }
-    }
+    @keyframes slideIn { from { transform: translateY(100%); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    @keyframes fadeOut { from { opacity: 1; } to { opacity: 0; transform: translateY(10px); } }
 
-    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
     ::-webkit-scrollbar-track { background: #090d16; }
     ::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
-    ::-webkit-scrollbar-thumb:hover { background: #10b981; }
   </style>
 </head>
 <body class="min-h-screen flex flex-col justify-between select-none">
 
-  <!-- CONTENEDOR DE NOTIFICACIONES TOAST -->
   <div id="toastContainer"></div>
 
-  <!-- ENCABEZADO -->
-  <header class="h-[65px] bg-slate-900/80 backdrop-blur-md border-b border-slate-800 px-6 flex items-center justify-between z-20">
+  <!-- ENCABEZADO RESPONSIVO -->
+  <header class="bg-slate-900/90 backdrop-blur-md border-b border-slate-800 px-4 py-3 flex flex-wrap items-center justify-between gap-3 z-20">
     <div class="flex items-center gap-3">
-      <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-400 flex items-center justify-center text-slate-950 font-black text-xl shadow-lg shadow-emerald-500/20">
+      <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-400 flex items-center justify-center text-slate-950 font-black text-lg shadow-lg shadow-emerald-500/20">
         <i class="fa-solid fa-gamepad"></i>
       </div>
       <div>
-        <h1 class="font-bold text-base text-white leading-none">Zona Gamer Digital</h1>
-        <span id="labelModo" class="text-[11px] text-emerald-400 font-medium">Vista de Cliente</span>
+        <h1 class="font-bold text-sm sm:text-base text-white leading-none">Zona Gamer</h1>
+        <span id="labelModo" class="text-[10px] text-emerald-400 font-medium">Vista de Cliente</span>
       </div>
     </div>
 
-    <div class="flex items-center gap-3">
+    <div class="flex items-center gap-2 flex-wrap">
       <!-- Filtro de Plataforma -->
-      <select id="platformFilter" onchange="cambiarFiltroPlataforma(this.value)" class="bg-slate-800 text-xs text-slate-200 border border-slate-700 px-3 py-1.5 rounded-lg focus:outline-none cursor-pointer">
+      <select id="platformFilter" onchange="cambiarFiltroPlataforma(this.value)" class="bg-slate-800 text-xs text-slate-200 border border-slate-700 px-2.5 py-1.5 rounded-lg focus:outline-none cursor-pointer">
         <option value="ALL">Todas las Plataformas</option>
         <option value="Xbox 360">Xbox 360</option>
         <option value="Xbox One">Xbox One</option>
@@ -155,70 +170,66 @@
         <option value="PC">PC / Steam</option>
       </select>
 
-      <!-- Botón Carrito de Compras -->
-      <button onclick="abrirCarrito()" class="relative bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 px-3.5 py-1.5 rounded-lg text-xs font-semibold transition flex items-center gap-2 cursor-pointer">
-        <i class="fa-solid fa-cart-shopping text-emerald-400"></i> Carrito
-        <span id="cartCount" class="absolute -top-2 -right-2 bg-emerald-500 text-slate-950 font-bold text-[10px] w-5 h-5 rounded-full flex items-center justify-center shadow">0</span>
+      <!-- Carrito -->
+      <button onclick="abrirCarrito()" class="relative bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 px-3 py-1.5 rounded-lg text-xs font-semibold transition flex items-center gap-1.5 cursor-pointer">
+        <i class="fa-solid fa-cart-shopping text-emerald-400"></i> <span class="hidden sm:inline">Carrito</span>
+        <span id="cartCount" class="absolute -top-1.5 -right-1.5 bg-emerald-500 text-slate-950 font-bold text-[9px] w-4 h-4 rounded-full flex items-center justify-center shadow">0</span>
       </button>
 
-      <!-- Botón Cambiar Vista (Admin / Cliente) -->
-      <button id="btnToggleModo" onclick="toggleModoSistema()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 px-3.5 py-1.5 rounded-lg text-xs font-semibold transition flex items-center gap-2 cursor-pointer">
-        <i class="fa-solid fa-user-shield text-blue-400"></i> <span id="textToggleModo">Modo Administrador</span>
+      <!-- Botón Admin -->
+      <button id="btnToggleModo" onclick="toggleModoSistema()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 px-3 py-1.5 rounded-lg text-xs font-semibold transition flex items-center gap-1.5 cursor-pointer">
+        <i class="fa-solid fa-user-shield text-blue-400"></i> <span id="textToggleModo" class="hidden sm:inline">Admin</span>
       </button>
     </div>
   </header>
 
-  <!-- SECCIÓN CENTRAL DE CARÁTULAS (COVER FLOW 3D) -->
-  <main class="flex-1 flex flex-col items-center justify-center my-4 relative">
+  <!-- SECCIÓN CENTRAL COVER FLOW -->
+  <main class="flex-1 flex flex-col items-center justify-center my-2 relative px-2">
     
     <!-- FLECHA IZQUIERDA -->
-    <button onclick="mover(-1)" class="absolute left-6 lg:left-20 z-40 w-14 h-14 rounded-full bg-slate-900/80 border border-slate-700 hover:border-emerald-500 text-white hover:text-emerald-400 flex items-center justify-center text-xl backdrop-blur-md transition shadow-2xl active:scale-95 cursor-pointer">
+    <button onclick="mover(-1)" class="absolute left-2 sm:left-6 z-40 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-slate-900/80 border border-slate-700 hover:border-emerald-500 text-white hover:text-emerald-400 flex items-center justify-center text-sm sm:text-base backdrop-blur-md transition shadow-lg active:scale-95 cursor-pointer">
       <i class="fa-solid fa-chevron-left"></i>
     </button>
 
-    <!-- ESCENARIO COVERFLOW -->
+    <!-- ESCENARIO -->
     <div class="coverflow-viewport w-full">
-      <div id="coverflowContainer" class="coverflow-container">
-        <!-- Generado dinámicamente -->
-      </div>
+      <div id="coverflowContainer" class="coverflow-container"></div>
     </div>
 
     <!-- FLECHA DERECHA -->
-    <button onclick="mover(1)" class="absolute right-6 lg:right-20 z-40 w-14 h-14 rounded-full bg-slate-900/80 border border-slate-700 hover:border-emerald-500 text-white hover:text-emerald-400 flex items-center justify-center text-xl backdrop-blur-md transition shadow-2xl active:scale-95 cursor-pointer">
+    <button onclick="mover(1)" class="absolute right-2 sm:right-6 z-40 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-slate-900/80 border border-slate-700 hover:border-emerald-500 text-white hover:text-emerald-400 flex items-center justify-center text-sm sm:text-base backdrop-blur-md transition shadow-lg active:scale-95 cursor-pointer">
       <i class="fa-solid fa-chevron-right"></i>
     </button>
 
   </main>
 
-  <!-- FICHA DE DETALLES DEL JUEGO SELECCIONADO -->
-  <footer class="bg-slate-900/90 border-t border-slate-800 p-6 backdrop-blur-xl z-20">
-    <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+  <!-- FICHA INFERIOR ADAPTABLE -->
+  <footer class="bg-slate-900/95 border-t border-slate-800 p-4 sm:p-5 backdrop-blur-xl z-20">
+    <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
       
-      <!-- Información del Juego -->
-      <div class="text-center md:text-left space-y-1">
-        <div class="flex items-center justify-center md:justify-start gap-3">
-          <span id="juegoPlataformaBadge" class="bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 px-2.5 py-0.5 rounded-full text-[11px] font-bold uppercase tracking-wider">Plataforma</span>
+      <div class="text-center sm:text-left space-y-1 w-full sm:w-auto">
+        <div class="flex items-center justify-center sm:justify-start gap-2">
+          <span id="juegoPlataformaBadge" class="bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider">Plataforma</span>
           <span id="juegoPeso" class="text-slate-400 font-mono text-xs"><i class="fa-solid fa-hard-drive mr-1"></i> 0 GB</span>
         </div>
-        <h2 id="juegoTitulo" class="text-2xl font-black text-white tracking-wide">Cargando juego...</h2>
+        <h2 id="juegoTitulo" class="text-lg sm:text-xl font-black text-white tracking-wide truncate max-w-xs sm:max-w-md mx-auto sm:mx-0">Cargando...</h2>
       </div>
 
-      <!-- Precios y Botón de Acción -->
-      <div class="flex items-center gap-6 bg-slate-950/60 border border-slate-800/80 px-6 py-3 rounded-2xl">
-        <div class="text-right">
-          <span class="text-[10px] text-slate-400 uppercase font-bold block">Valor</span>
-          <span id="juegoPrecio" class="text-2xl font-black text-emerald-400 font-mono">$0</span>
+      <div class="flex items-center justify-between sm:justify-end gap-4 w-full sm:w-auto bg-slate-950/60 border border-slate-800/80 px-4 py-2.5 rounded-xl">
+        <div class="text-left sm:text-right">
+          <span class="text-[9px] text-slate-400 uppercase font-bold block">Valor</span>
+          <span id="juegoPrecio" class="text-xl font-black text-emerald-400 font-mono">$0</span>
         </div>
 
-        <button id="btnAgregarCarrito" onclick="agregarAlCarrito()" class="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold px-6 py-3 rounded-xl shadow-lg shadow-emerald-500/20 text-xs transition uppercase tracking-wider flex items-center gap-2 active:scale-95 cursor-pointer">
-          <i class="fa-solid fa-cart-plus text-base"></i> Agregar al Carrito
+        <button id="btnAgregarCarrito" onclick="agregarAlCarrito()" class="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold px-4 py-2.5 rounded-lg shadow-lg shadow-emerald-500/20 text-xs transition uppercase tracking-wider flex items-center gap-2 active:scale-95 cursor-pointer">
+          <i class="fa-solid fa-cart-plus text-sm"></i> Agregar
         </button>
       </div>
 
     </div>
   </footer>
 
-  <!-- MODAL DE CONTRASEÑA ADMIN (PROFESIONAL) -->
+  <!-- MODAL CONTRASEÑA ADMIN -->
   <div id="passwordModal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex items-center justify-center p-4">
     <div class="bg-slate-900 border border-slate-700 w-full max-w-sm rounded-2xl overflow-hidden shadow-2xl p-6 space-y-4">
       <div class="text-center space-y-1">
@@ -238,27 +249,26 @@
     </div>
   </div>
 
-  <!-- MODAL DE ADMINISTRACIÓN (EXCLUSIVO ADMIN) -->
-  <div id="adminModal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex items-center justify-center p-4">
+  <!-- MODAL ADMIN -->
+  <div id="adminModal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex items-center justify-center p-3 sm:p-4">
     <div class="bg-slate-900 border border-slate-700 w-full max-w-4xl rounded-2xl overflow-hidden shadow-2xl flex flex-col max-h-[90vh]">
-      <div class="bg-slate-950 px-6 py-4 border-b border-slate-800 flex justify-between items-center">
-        <h3 class="text-lg font-bold text-white flex items-center gap-2">
-          <i class="fa-solid fa-gear text-blue-400"></i> Panel de Administración de Juegos
+      <div class="bg-slate-950 px-5 py-3.5 border-b border-slate-800 flex justify-between items-center">
+        <h3 class="text-sm sm:text-base font-bold text-white flex items-center gap-2">
+          <i class="fa-solid fa-gear text-blue-400"></i> Panel de Administración
         </h3>
-        <button onclick="cerrarAdmin()" class="text-slate-400 hover:text-white text-xl cursor-pointer"><i class="fa-solid fa-xmark"></i></button>
+        <button onclick="cerrarAdmin()" class="text-slate-400 hover:text-white text-lg cursor-pointer"><i class="fa-solid fa-xmark"></i></button>
       </div>
 
-      <div class="p-6 overflow-y-auto flex-1 space-y-6">
-        <!-- Formulario para agregar / editar -->
-        <form id="gameForm" onsubmit="guardarJuegoForm(event)" class="bg-slate-950/60 p-5 rounded-xl border border-slate-800 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="p-4 sm:p-6 overflow-y-auto flex-1 space-y-6">
+        <form id="gameForm" onsubmit="guardarJuegoForm(event)" class="bg-slate-950/60 p-4 sm:p-5 rounded-xl border border-slate-800 grid grid-cols-1 sm:grid-cols-2 gap-3">
           <input type="hidden" id="editIndex" value="-1">
           <div>
             <label class="block text-xs font-bold text-slate-300 mb-1">Título del Juego</label>
-            <input type="text" id="formTitulo" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="Ej. Halo 3">
+            <input type="text" id="formTitulo" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="Ej. Halo 3">
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-300 mb-1">Tipo de Plataforma</label>
-            <select id="formPlataforma" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500">
+            <label class="block text-xs font-bold text-slate-300 mb-1">Plataforma</label>
+            <select id="formPlataforma" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500">
               <option value="Xbox 360">Xbox 360</option>
               <option value="Xbox One">Xbox One</option>
               <option value="PlayStation 1">PlayStation 1</option>
@@ -273,36 +283,34 @@
             </select>
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-300 mb-1">Peso / Tamaño (Ej. 8.5 GB)</label>
-            <input type="text" id="formPeso" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="Ej. 12.0 GB">
+            <label class="block text-xs font-bold text-slate-300 mb-1">Peso (Ej. 8.5 GB)</label>
+            <input type="text" id="formPeso" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="Ej. 12.0 GB">
           </div>
           <div>
             <label class="block text-xs font-bold text-slate-300 mb-1">Valor ($)</label>
-            <input type="number" step="1" id="formValor" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="Ej. 15000">
+            <input type="number" step="1" id="formValor" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="Ej. 15000">
           </div>
-          <div class="md:col-span-2">
-            <label class="block text-xs font-bold text-slate-300 mb-1">URL de la Carátula (Imagen)</label>
-            <input type="url" id="formCaratula" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="https://ejemplo.com/caratula.jpg">
+          <div class="sm:col-span-2">
+            <label class="block text-xs font-bold text-slate-300 mb-1">URL de la Carátula (GitHub Raw)</label>
+            <input type="url" id="formCaratula" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="https://raw.githubusercontent.com/usuario/repo/main/imagen.png">
           </div>
-          <div class="md:col-span-2 flex justify-end gap-3 pt-2">
-            <button type="button" onclick="limpiarFormulario()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold px-4 py-2 rounded-xl text-xs transition cursor-pointer">Cancelar</button>
-            <button type="submit" class="bg-blue-600 hover:bg-blue-500 text-white font-extrabold px-5 py-2 rounded-xl text-xs transition cursor-pointer">Guardar Juego</button>
+          <div class="sm:col-span-2 flex justify-end gap-2 pt-2">
+            <button type="button" onclick="limpiarFormulario()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold px-3 py-2 rounded-xl text-xs transition cursor-pointer">Cancelar</button>
+            <button type="submit" class="bg-blue-600 hover:bg-blue-500 text-white font-extrabold px-4 py-2 rounded-xl text-xs transition cursor-pointer">Guardar Juego</button>
           </div>
         </form>
 
-        <!-- Tabla de Juegos Registrados -->
         <div>
-          <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Juegos Registrados en el Sistema</h4>
+          <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Listado Registrado</h4>
           <div class="overflow-x-auto">
-            <table class="w-full text-left text-sm text-slate-300">
-              <thead class="bg-slate-950 text-slate-400 uppercase text-[11px]">
+            <table class="w-full text-left text-xs sm:text-sm text-slate-300">
+              <thead class="bg-slate-950 text-slate-400 uppercase text-[10px] sm:text-[11px]">
                 <tr>
-                  <th class="p-3">Carátula</th>
-                  <th class="p-3">Título</th>
-                  <th class="p-3">Plataforma</th>
-                  <th class="p-3">Peso</th>
-                  <th class="p-3">Valor</th>
-                  <th class="p-3 text-center">Acciones</th>
+                  <th class="p-2 sm:p-3">Carátula</th>
+                  <th class="p-2 sm:p-3">Título</th>
+                  <th class="p-2 sm:p-3">Plataforma</th>
+                  <th class="p-2 sm:p-3">Valor</th>
+                  <th class="p-2 sm:p-3 text-center">Acciones</th>
                 </tr>
               </thead>
               <tbody id="tablaJuegosBody" class="divide-y divide-slate-800"></tbody>
@@ -313,35 +321,31 @@
     </div>
   </div>
 
-  <!-- MODAL DE CARRITO Y PAGOS -->
-  <div id="cartModal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex items-center justify-center p-4">
+  <!-- MODAL CARRITO -->
+  <div id="cartModal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex items-center justify-center p-3 sm:p-4">
     <div class="bg-slate-900 border border-slate-700 w-full max-w-2xl rounded-2xl overflow-hidden shadow-2xl flex flex-col max-h-[85vh]">
-      <div class="bg-slate-950 px-6 py-4 border-b border-slate-800 flex justify-between items-center">
-        <h3 class="text-lg font-bold text-white flex items-center gap-2">
-          <i class="fa-solid fa-cart-shopping text-emerald-400"></i> Carrito de Juegos Seleccionados
+      <div class="bg-slate-950 px-5 py-3.5 border-b border-slate-800 flex justify-between items-center">
+        <h3 class="text-sm sm:text-base font-bold text-white flex items-center gap-2">
+          <i class="fa-solid fa-cart-shopping text-emerald-400"></i> Carrito de Compras
         </h3>
-        <button onclick="cerrarCarrito()" class="text-slate-400 hover:text-white text-xl cursor-pointer"><i class="fa-solid fa-xmark"></i></button>
+        <button onclick="cerrarCarrito()" class="text-slate-400 hover:text-white text-lg cursor-pointer"><i class="fa-solid fa-xmark"></i></button>
       </div>
 
-      <div class="p-6 overflow-y-auto flex-1 space-y-4">
-        <div id="cartItemsContainer" class="space-y-3">
-          <!-- Dinámico -->
-        </div>
-      </div>
+      <div class="p-4 sm:p-6 overflow-y-auto flex-1 space-y-3" id="cartItemsContainer"></div>
 
-      <div class="bg-slate-950 px-6 py-4 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="bg-slate-950 px-4 sm:px-6 py-3.5 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-3">
         <div>
-          <span class="text-xs text-slate-400 block uppercase font-bold">Total a Pagar</span>
-          <span id="cartTotalAmount" class="text-2xl font-black text-emerald-400 font-mono">$0</span>
+          <span class="text-[10px] text-slate-400 block uppercase font-bold">Total a Pagar</span>
+          <span id="cartTotalAmount" class="text-xl sm:text-2xl font-black text-emerald-400 font-mono">$0</span>
         </div>
-        <div class="flex items-center gap-2 flex-wrap justify-end">
-          <button onclick="descargarListadoTXT()" class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold px-4 py-2.5 rounded-xl text-xs transition flex items-center gap-2 cursor-pointer">
-            <i class="fa-solid fa-download"></i> Descargar .TXT
+        <div class="flex items-center gap-2 flex-wrap justify-end w-full sm:w-auto">
+          <button onclick="descargarListadoTXT()" class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold px-3 py-2 rounded-xl text-xs transition flex items-center gap-1.5 cursor-pointer">
+            <i class="fa-solid fa-download"></i> .TXT
           </button>
-          <button onclick="enviarWhatsApp()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-4 py-2.5 rounded-xl text-xs transition flex items-center gap-2 cursor-pointer">
+          <button onclick="enviarWhatsApp()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-3 py-2 rounded-xl text-xs transition flex items-center gap-1.5 cursor-pointer">
             <i class="fa-brands fa-whatsapp"></i> WhatsApp
           </button>
-          <button onclick="simularPago()" class="bg-blue-600 hover:bg-blue-500 text-white font-extrabold px-5 py-2.5 rounded-xl text-xs transition flex items-center gap-2 cursor-pointer">
+          <button onclick="simularPago()" class="bg-blue-600 hover:bg-blue-500 text-white font-extrabold px-4 py-2 rounded-xl text-xs transition flex items-center gap-1.5 cursor-pointer">
             <i class="fa-solid fa-credit-card"></i> Pagar
           </button>
         </div>
@@ -350,16 +354,13 @@
   </div>
 
   <script>
-    // CONTRASEÑA CIFRADA EN BASE64 ("1234" es MTIzNA==)
     const claveSeguraBase64 = "MTIzNA==";
 
-    // DATOS INICIALES Y PERSISTENCIA LOCAL
+    // JUEGOS POR DEFECTO USANDO RAW DE GITHUB O ENLACES ESTABLES PÚBLICOS
     const juegosDefault = [
-      { id: 1, titulo: 'Spider-Man 2', plataforma: 'PlayStation 5', peso: '85.4 GB', valor: 59990, caratula: 'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=400&q=80' },
+      { id: 1, titulo: 'Spider-Man 2', plataforma: 'PlayStation 5', peso: '85.4 GB', valor: 59990, caratula: 'https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50300.png' },
       { id: 2, titulo: 'God of War Ragnarök', plataforma: 'PlayStation 4', peso: '90.2 GB', valor: 49990, caratula: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400&q=80' },
-      { id: 3, titulo: 'Elden Ring', plataforma: 'PC', peso: '45.0 GB', valor: 44990, caratula: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&q=80' },
-      { id: 4, titulo: 'Halo 3', plataforma: 'Xbox 360', peso: '12.0 GB', valor: 15000, caratula: 'https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?w=400&q=80' },
-      { id: 5, titulo: 'Zelda: Tears of the Kingdom', plataforma: 'Nintendo Switch', peso: '18.2 GB', valor: 54990, caratula: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&q=80' }
+      { id: 3, titulo: 'Elden Ring', plataforma: 'PC', peso: '45.0 GB', valor: 44990, caratula: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&q=80' }
     ];
 
     let juegos = JSON.parse(localStorage.getItem('catalogo_juegos_3d')) || juegosDefault;
@@ -368,22 +369,16 @@
     let filtroPlataforma = 'ALL';
     let modoAdmin = false;
 
-    // SISTEMA DE NOTIFICACIONES TOAST PROFESIONALES
     function mostrarToast(mensaje, tipo = 'success') {
       const container = document.getElementById('toastContainer');
       const toast = document.createElement('div');
       toast.className = 'toast';
-      
-      let icono = '<i class="fa-solid fa-circle-check text-emerald-400 text-base"></i>';
-      if (tipo === 'error') icono = '<i class="fa-solid fa-circle-exclamation text-red-400 text-base"></i>';
-      if (tipo === 'info') icono = '<i class="fa-solid fa-circle-info text-blue-400 text-base"></i>';
-
+      let icono = '<i class="fa-solid fa-circle-check text-emerald-400 text-sm"></i>';
+      if (tipo === 'error') icono = '<i class="fa-solid fa-circle-exclamation text-red-400 text-sm"></i>';
+      if (tipo === 'info') icono = '<i class="fa-solid fa-circle-info text-blue-400 text-sm"></i>';
       toast.innerHTML = `${icono} <span>${mensaje}</span>`;
       container.appendChild(toast);
-
-      setTimeout(() => {
-        toast.remove();
-      }, 3000);
+      setTimeout(() => toast.remove(), 3000);
     }
 
     function obtenerJuegosFiltrados() {
@@ -396,18 +391,19 @@
       actualizarDetalles();
       actualizarContadorCarrito();
 
-      document.addEventListener('keydown', (e) => {
-        const adminOpen = !document.getElementById('adminModal').classList.contains('hidden');
-        const cartOpen = !document.getElementById('cartModal').classList.contains('hidden');
-        const passOpen = !document.getElementById('passwordModal').classList.contains('hidden');
-        if (!adminOpen && !cartOpen && !passOpen) {
-          if (e.key === 'ArrowLeft') mover(-1);
-          if (e.key === 'ArrowRight') mover(1);
-        }
-      });
+      // Soporte de gestos táctiles básicos (Swipe) para móviles
+      let touchStartX = 0;
+      let touchEndX = 0;
+      const viewport = document.querySelector('.coverflow-viewport');
+      
+      viewport.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].screenX; }, false);
+      viewport.addEventListener('touchend', e => {
+        touchEndX = e.changedTouches[0].screenX;
+        if (touchEndX < touchStartX - 50) mover(1);
+        if (touchEndX > touchStartX + 50) mover(-1);
+      }, false);
     });
 
-    // CONTROL DE MODOS Y CONTRASEÑA
     function toggleModoSistema() {
       if (!modoAdmin) {
         document.getElementById('inputAdminPass').value = '';
@@ -416,15 +412,13 @@
       } else {
         modoAdmin = false;
         document.getElementById('labelModo').innerText = "Vista de Cliente";
-        document.getElementById('textToggleModo').innerText = "Modo Administrador";
+        document.getElementById('textToggleModo').innerText = "Admin";
         renderizarCoverflow();
-        mostrarToast("Cerrada sesión de administrador", "info");
+        mostrarToast("Sesión cerrada", "info");
       }
     }
 
-    function cerrarPasswordModal() {
-      document.getElementById('passwordModal').classList.add('hidden');
-    }
+    function cerrarPasswordModal() { document.getElementById('passwordModal').classList.add('hidden'); }
 
     function verificarPasswordAdmin(e) {
       e.preventDefault();
@@ -433,21 +427,20 @@
         modoAdmin = true;
         cerrarPasswordModal();
         abrirAdmin();
-        mostrarToast("¡Acceso de Administrador concedido!", "success");
+        mostrarToast("Acceso concedido", "success");
       } else {
         mostrarToast("Contraseña incorrecta", "error");
         document.getElementById('inputAdminPass').value = '';
-        document.getElementById('inputAdminPass').focus();
       }
     }
 
     function renderizarCoverflow() {
       const container = document.getElementById('coverflowContainer');
       container.innerHTML = '';
-      
       const listaActiva = obtenerJuegosFiltrados();
+      
       if (listaActiva.length === 0) {
-        container.innerHTML = `<div class="text-slate-400 text-sm font-semibold">No hay juegos disponibles para esta plataforma.</div>`;
+        container.innerHTML = `<div class="text-slate-400 text-xs sm:text-sm font-semibold text-center px-4">No hay juegos para esta plataforma.</div>`;
         actualizarDetalles();
         return;
       }
@@ -458,11 +451,9 @@
         const card = document.createElement('div');
         card.className = `game-card ${obtenerClasePosicion(i, indiceActual)}`;
         card.onclick = () => seleccionar(i);
-        
-        card.innerHTML = `<img src="${juego.caratula}" alt="${juego.titulo}">`;
+        card.innerHTML = `<img src="${juego.caratula}" alt="${juego.titulo}" onerror="this.src='https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&q=80'">`;
         container.appendChild(card);
       });
-
       actualizarDetalles();
     }
 
@@ -477,171 +468,129 @@
       if (diff > 2) return 'far-right';
     }
 
-    function mover(direccion) {
+    function mover(dir) {
       const listaActiva = obtenerJuegosFiltrados();
       if (listaActiva.length === 0) return;
-
-      const nuevoIndice = indiceActual + direccion;
-      if (nuevoIndice >= 0 && nuevoIndice < listaActiva.length) {
-        indiceActual = nuevoIndice;
+      const nuevo = indiceActual + dir;
+      if (nuevo >= 0 && nuevo < listaActiva.length) {
+        indiceActual = nuevo;
         renderizarCoverflow();
       }
     }
 
-    function seleccionar(index) {
-      indiceActual = index;
-      renderizarCoverflow();
-    }
-
-    function cambiarFiltroPlataforma(valor) {
-      filtroPlataforma = valor;
-      indiceActual = 0;
-      renderizarCoverflow();
-    }
+    function seleccionar(i) { indiceActual = i; renderizarCoverflow(); }
+    function cambiarFiltroPlataforma(val) { filtroPlataforma = val; indiceActual = 0; renderizarCoverflow(); }
 
     function actualizarDetalles() {
       const listaActiva = obtenerJuegosFiltrados();
       if (listaActiva.length === 0) {
-        document.getElementById('juegoTitulo').innerText = "Sin juegos disponibles";
+        document.getElementById('juegoTitulo').innerText = "Sin juegos";
         document.getElementById('juegoPlataformaBadge').innerText = "---";
         document.getElementById('juegoPeso').innerHTML = `<i class="fa-solid fa-hard-drive mr-1"></i> 0 GB`;
         document.getElementById('juegoPrecio').innerText = "$0";
         return;
       }
-
-      const juego = listaActiva[indiceActual];
-      document.getElementById('juegoTitulo').innerText = juego.titulo;
-      document.getElementById('juegoPlataformaBadge').innerText = juego.plataforma;
-      document.getElementById('juegoPeso').innerHTML = `<i class="fa-solid fa-hard-drive mr-1"></i> ${juego.peso}`;
-      document.getElementById('juegoPrecio').innerText = `$${Number(juego.valor).toLocaleString()}`;
+      const j = listaActiva[indiceActual];
+      document.getElementById('juegoTitulo').innerText = j.titulo;
+      document.getElementById('juegoPlataformaBadge').innerText = j.plataforma;
+      document.getElementById('juegoPeso').innerHTML = `<i class="fa-solid fa-hard-drive mr-1"></i> ${j.peso}`;
+      document.getElementById('juegoPrecio').innerText = `$${Number(j.valor).toLocaleString()}`;
     }
 
-    // CARRITO DE COMPRAS
     function agregarAlCarrito() {
       const listaActiva = obtenerJuegosFiltrados();
       if (listaActiva.length === 0) return;
       const juego = listaActiva[indiceActual];
-
-      const existe = carrito.find(item => item.id === juego.id);
-      if (!existe) {
+      if (!carrito.some(item => item.id === juego.id)) {
         carrito.push(juego);
         localStorage.setItem('carrito_juegos_3d', JSON.stringify(carrito));
         actualizarContadorCarrito();
-        mostrarToast(`"${juego.titulo}" añadido al carrito`);
+        mostrarToast(`"${juego.titulo}" agregado`);
       } else {
-        mostrarToast("Este juego ya está en el carrito", "info");
+        mostrarToast("Ya está en el carrito", "info");
       }
     }
 
-    function actualizarContadorCarrito() {
-      document.getElementById('cartCount').innerText = carrito.length;
-    }
-
-    function abrirCarrito() {
-      renderizarItemsCarrito();
-      document.getElementById('cartModal').classList.remove('hidden');
-    }
-
-    function cerrarCarrito() {
-      document.getElementById('cartModal').classList.add('hidden');
-    }
+    function actualizarContadorCarrito() { document.getElementById('cartCount').innerText = carrito.length; }
+    function abrirCarrito() { renderizarItemsCarrito(); document.getElementById('cartModal').classList.remove('hidden'); }
+    function cerrarCarrito() { document.getElementById('cartModal').classList.add('hidden'); }
 
     function renderizarItemsCarrito() {
       const container = document.getElementById('cartItemsContainer');
       container.innerHTML = '';
-
       if (carrito.length === 0) {
-        container.innerHTML = `<p class="text-slate-400 text-sm text-center py-6">Tu carrito está vacío.</p>`;
+        container.innerHTML = `<p class="text-slate-400 text-xs sm:text-sm text-center py-6">Tu carrito está vacío.</p>`;
         document.getElementById('cartTotalAmount').innerText = "$0";
         return;
       }
-
       let total = 0;
       carrito.forEach((item, index) => {
         total += item.valor;
         container.innerHTML += `
-          <div class="flex items-center justify-between bg-slate-950 p-3 rounded-xl border border-slate-800">
-            <div class="flex items-center gap-3">
-              <img src="${item.caratula}" class="w-12 h-16 object-cover rounded-lg border border-slate-700">
-              <div>
-                <h4 class="font-bold text-white text-sm">${item.titulo}</h4>
-                <span class="text-[11px] text-emerald-400">${item.plataforma} • ${item.peso}</span>
+          <div class="flex items-center justify-between bg-slate-950 p-2.5 sm:p-3 rounded-xl border border-slate-800 gap-2">
+            <div class="flex items-center gap-3 overflow-hidden">
+              <img src="${item.caratula}" class="w-10 h-14 object-cover rounded-lg border border-slate-700 flex-shrink-0">
+              <div class="truncate">
+                <h4 class="font-bold text-white text-xs sm:text-sm truncate">${item.titulo}</h4>
+                <span class="text-[10px] sm:text-[11px] text-emerald-400">${item.plataforma}</span>
               </div>
             </div>
-            <div class="flex items-center gap-4">
-              <span class="font-mono font-bold text-emerald-400">$${Number(item.valor).toLocaleString()}</span>
-              <button onclick="eliminarDelCarrito(${index})" class="text-red-400 hover:text-red-300 text-sm cursor-pointer"><i class="fa-solid fa-trash"></i></button>
+            <div class="flex items-center gap-3 flex-shrink-0">
+              <span class="font-mono font-bold text-xs sm:text-sm text-emerald-400">$${Number(item.valor).toLocaleString()}</span>
+              <button onclick="eliminarDelCarrito(${index})" class="text-red-400 hover:text-red-300 text-xs cursor-pointer"><i class="fa-solid fa-trash"></i></button>
             </div>
           </div>
         `;
       });
-
       document.getElementById('cartTotalAmount').innerText = `$${Number(total).toLocaleString()}`;
     }
 
-    function eliminarDelCarrito(index) {
-      carrito.splice(index, 1);
+    function eliminarDelCarrito(i) {
+      carrito.splice(i, 1);
       localStorage.setItem('carrito_juegos_3d', JSON.stringify(carrito));
       actualizarContadorCarrito();
       renderizarItemsCarrito();
-      mostrarToast("Juego eliminado del carrito", "info");
+      mostrarToast("Eliminado", "info");
     }
 
     function descargarListadoTXT() {
-      if (carrito.length === 0) {
-        mostrarToast("El carrito está vacío", "error");
-        return;
-      }
-      let contenido = "=== LISTADO DE JUEGOS SELECCIONADOS ===\n\n";
+      if (carrito.length === 0) return mostrarToast("Carrito vacío", "error");
+      let contenido = "=== JUEGOS SELECCIONADOS ===\n\n";
       let total = 0;
       carrito.forEach((item, i) => {
-        contenido += `${i + 1}. ${item.titulo} (${item.plataforma}) - Peso: ${item.peso} - Valor: $${Number(item.valor).toLocaleString()}\n`;
+        contenido += `${i + 1}. ${item.titulo} (${item.plataforma}) - $${Number(item.valor).toLocaleString()}\n`;
         total += item.valor;
       });
-      contenido += `\nTOTAL A PAGAR: $${Number(total).toLocaleString()}\n`;
-
+      contenido += `\nTOTAL: $${Number(total).toLocaleString()}\n`;
       const blob = new Blob([contenido], { type: 'text/plain;charset=utf-8' });
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
-      a.href = url;
-      a.download = 'juegos_seleccionados.txt';
-      a.click();
+      a.href = url; a.download = 'juegos.txt'; a.click();
       URL.revokeObjectURL(url);
-      mostrarToast("Listado descargado con éxito");
     }
 
     function enviarWhatsApp() {
-      if (carrito.length === 0) {
-        mostrarToast("El carrito está vacío", "error");
-        return;
-      }
-      let mensaje = "Hola, me interesan los siguientes juegos:%0A";
+      if (carrito.length === 0) return mostrarToast("Carrito vacío", "error");
+      let msg = "Hola, me interesan:%0A";
       let total = 0;
-      carrito.forEach((item) => {
-        mensaje += `%0A- ${item.titulo} (${item.plataforma}) [$${Number(item.valor).toLocaleString()}]`;
-        total += item.valor;
-      });
-      mensaje += `%0A%0A*Total:* $${Number(total).toLocaleString()}`;
-      window.open(`https://wa.me/?text=${mensaje}`, '_blank');
+      carrito.forEach(i => { msg += `%0A- ${i.titulo} (${i.plataforma}) [$${Number(i.valor).toLocaleString()}]`; total += i.valor; });
+      msg += `%0A%0A*Total:* $${Number(total).toLocaleString()}`;
+      window.open(`https://wa.me/?text=${msg}`, '_blank');
     }
 
     function simularPago() {
-      if (carrito.length === 0) {
-        mostrarToast("El carrito está vacío", "error");
-        return;
-      }
-      mostrarToast("¡Pago procesado con éxito!");
+      if (carrito.length === 0) return mostrarToast("Carrito vacío", "error");
+      mostrarToast("¡Pago simulado con éxito!");
       carrito = [];
       localStorage.removeItem('carrito_juegos_3d');
       actualizarContadorCarrito();
       cerrarCarrito();
     }
 
-    // ADMINISTRACIÓN DE JUEGOS
     function abrirAdmin() {
       modoAdmin = true;
       document.getElementById('labelModo').innerText = "Modo Administrador";
-      document.getElementById('textToggleModo').innerText = "Salir de Admin";
+      document.getElementById('textToggleModo').innerText = "Salir";
       renderizarTablaAdmin();
       document.getElementById('adminModal').classList.remove('hidden');
     }
@@ -654,35 +603,30 @@
     function renderizarTablaAdmin() {
       const tbody = document.getElementById('tablaJuegosBody');
       tbody.innerHTML = '';
-      
       if (juegos.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="6" class="p-4 text-center text-slate-500">No hay juegos registrados.</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="5" class="p-4 text-center text-slate-500">Sin juegos.</td></tr>`;
         return;
       }
-
-      juegos.forEach((juego, index) => {
-        const tr = document.createElement('tr');
-        tr.className = "hover:bg-slate-900/50";
-        tr.innerHTML = `
-          <td class="p-3"><img src="${juego.caratula}" class="w-10 h-14 object-cover rounded-lg border border-slate-700"></td>
-          <td class="p-3 font-bold text-white">${juego.titulo}</td>
-          <td class="p-3"><span class="bg-slate-800 text-blue-400 text-xs px-2.5 py-1 rounded-md border border-slate-700">${juego.plataforma}</span></td>
-          <td class="p-3 text-slate-300">${juego.peso}</td>
-          <td class="p-3 font-semibold text-emerald-400">$${Number(juego.valor).toLocaleString()}</td>
-          <td class="p-3 text-center space-x-3">
-            <button type="button" onclick="editarJuegoPorIndex(${index})" class="text-blue-400 hover:text-blue-300 cursor-pointer" title="Editar"><i class="fa-solid fa-pen-to-square"></i></button>
-            <button type="button" onclick="eliminarJuego(${index})" class="text-red-400 hover:text-red-300 cursor-pointer" title="Eliminar"><i class="fa-solid fa-trash"></i></button>
-          </td>
+      juegos.forEach((j, index) => {
+        tbody.innerHTML += `
+          <tr class="hover:bg-slate-900/50">
+            <td class="p-2 sm:p-3"><img src="${j.caratula}" class="w-8 h-12 object-cover rounded border border-slate-700"></td>
+            <td class="p-2 sm:p-3 font-bold text-white truncate max-w-[100px] sm:max-w-none">${j.titulo}</td>
+            <td class="p-2 sm:p-3"><span class="bg-slate-800 text-blue-400 text-[10px] px-2 py-0.5 rounded border border-slate-700">${j.plataforma}</span></td>
+            <td class="p-2 sm:p-3 font-semibold text-emerald-400">$${Number(j.valor).toLocaleString()}</td>
+            <td class="p-2 sm:p-3 text-center space-x-2">
+              <button onclick="editarJuego(${index})" class="text-blue-400 cursor-pointer"><i class="fa-solid fa-pen"></i></button>
+              <button onclick="eliminarJuego(${index})" class="text-red-400 cursor-pointer"><i class="fa-solid fa-trash"></i></button>
+            </td>
+          </tr>
         `;
-        tbody.appendChild(tr);
       });
     }
 
     function guardarJuegoForm(e) {
       e.preventDefault();
       const editIndex = parseInt(document.getElementById('editIndex').value);
-      
-      const nuevoJuego = {
+      const nuevo = {
         id: editIndex === -1 ? Date.now() : juegos[editIndex].id,
         titulo: document.getElementById('formTitulo').value.trim(),
         plataforma: document.getElementById('formPlataforma').value,
@@ -692,20 +636,19 @@
       };
 
       if (editIndex === -1) {
-        juegos.push(nuevoJuego);
-        mostrarToast("Juego agregado con éxito");
+        juegos.push(nuevo);
+        mostrarToast("Juego agregado");
       } else {
-        juegos[editIndex] = nuevoJuego;
-        mostrarToast("Juego actualizado con éxito");
+        juegos[editIndex] = nuevo;
+        mostrarToast("Juego actualizado");
         document.getElementById('editIndex').value = -1;
       }
-
       localStorage.setItem('catalogo_juegos_3d', JSON.stringify(juegos));
       document.getElementById('gameForm').reset();
       renderizarTablaAdmin();
     }
 
-    function editarJuegoPorIndex(index) {
+    function editarJuego(index) {
       const j = juegos[index];
       document.getElementById('editIndex').value = index;
       document.getElementById('formTitulo').value = j.titulo;
@@ -716,11 +659,11 @@
     }
 
     function eliminarJuego(index) {
-      if (confirm("¿Estás seguro de eliminar este juego?")) {
+      if (confirm("¿Eliminar juego?")) {
         juegos.splice(index, 1);
         localStorage.setItem('catalogo_juegos_3d', JSON.stringify(juegos));
         renderizarTablaAdmin();
-        mostrarToast("Juego eliminado", "info");
+        mostrarToast("Eliminado", "info");
       }
     }
 
