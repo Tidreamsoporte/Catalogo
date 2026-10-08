@@ -1878,5 +1878,85 @@
     "peso": "5.86 GB",
     "valor": 3000,
     "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/e5c7b2be66db3d19b8ed9f09a87b1edf37658c07/Alone%20In%20The%20Dark%20inferno.png"
+  },
+  {
+    "id": 237,
+    "titulo": "Binary Domain",
+    "plataforma": "PlayStation 3",
+    "peso": "11.4",
+    "valor": 4000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/BINARY%20DOMAIN8.png"
+  },
+  {
+    "id": 238,
+    "titulo": "Barbie Puppy Rescue",
+    "plataforma": "PlayStation 3",
+    "peso": "1.19 GB",
+    "valor": 2000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/Barbie%20Puppy%20Rescue.png"
+  },
+  {
+    "id": 239,
+    "titulo": "BlazBlue Calamity Trigger",
+    "plataforma": "PlayStation 3",
+    "peso": "4.26 GB",
+    "valor": 3000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/BlazBlue%20Calamity%20Trigger.png"
+  },
+  {
+    "id": 240,
+    "titulo": "Bleach Soul Resurreccion",
+    "plataforma": "PlayStation 3",
+    "peso": "3.89 GB",
+    "valor": 2000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/Bleach%20Soul%20Resurrecci%C3%B3n.png"
+  },
+  {
+    "id": 241,
+    "titulo": "Cars 2",
+    "plataforma": "PlayStation 3",
+    "peso": "4.04 GB",
+    "valor": 2000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/Cars%202.png"
+  },
+  {
+    "id": 242,
+    "titulo": "Cars 3 Driven to Win",
+    "plataforma": "PlayStation 3",
+    "peso": "4.99 GB",
+    "valor": 3000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/Cars%203%20Driven%20to%20Win.png"
+  },
+  {
+    "id": 243,
+    "titulo": "Cars Race-O-Rama",
+    "plataforma": "PlayStation 3",
+    "peso": "4.18 GB",
+    "valor": 2000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/Cars%20Race-O-Rama.png"
+  },
+  {
+    "id": 244,
+    "titulo": "Cartoon Network Punch Time Explosion XL",
+    "plataforma": "PlayStation 3",
+    "peso": "3.38 GB",
+    "valor": 2000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/Cartoon%20Network%20Punch%20Time%20Explosion%20XL.png"
+  },
+  {
+    "id": 245,
+    "titulo": "Castlevania Lords of Shadow",
+    "plataforma": "PlayStation 3",
+    "peso": "11.9 GB",
+    "valor": 4000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/Castlevania%20Lords%20of%20Shadow.png"
+  },
+  {
+    "id": 246,
+    "titulo": "Castlevania Lords of Shadow 2",
+    "plataforma": "PlayStation 3",
+    "peso": "4.23 GB",
+    "valor": 3000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/Castlevania%20Lords%20of%20Shadow%202.png"
   }
 ]
