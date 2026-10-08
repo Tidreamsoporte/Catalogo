@@ -1958,5 +1958,93 @@
     "peso": "4.23 GB",
     "valor": 3000,
     "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/Castlevania%20Lords%20of%20Shadow%202.png"
+  },
+  {
+    "id": 247,
+    "titulo": "Catherine",
+    "plataforma": "PlayStation 3",
+    "peso": "9.60 GB",
+    "valor": 4000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/42fc27041f2c8b5d10f022d0832fc193e5645b44/Catherine%20(USA).png"
+  },
+  {
+    "id": 248,
+    "titulo": "Cloudy with a Chance of Meatballs",
+    "plataforma": "PlayStation 3",
+    "peso": "3.23 GB",
+    "valor": 2000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/42fc27041f2c8b5d10f022d0832fc193e5645b44/Cloudy%20with%20a%20Chance%20of%20Meatballs.png"
+  },
+  {
+    "id": 249,
+    "titulo": "Condemned 2 Bloodshot",
+    "plataforma": "PlayStation 3",
+    "peso": "6.18 GB",
+    "valor": 3000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/42fc27041f2c8b5d10f022d0832fc193e5645b44/Condemned%202%20Bloodshot.png"
+  },
+  {
+    "id": 250,
+    "titulo": "Damnation",
+    "plataforma": "PlayStation 3",
+    "peso": "5.96 GB",
+    "valor": 3000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/9ff65baa0214a438f60084411cc5dd0c6c5a71e9/Damnation.png"
+  },
+  {
+    "id": 251,
+    "titulo": "Dead or Alive 5",
+    "plataforma": "PlayStation 3",
+    "peso": "5.77 GB",
+    "valor": 3000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/9ff65baa0214a438f60084411cc5dd0c6c5a71e9/Dead%20or%20Alive%205.png"
+  },
+  {
+    "id": 252,
+    "titulo": "Deadpool",
+    "plataforma": "PlayStation 3",
+    "peso": "5.58 GB",
+    "valor": 3000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/9ff65baa0214a438f60084411cc5dd0c6c5a71e9/Deadpool.png"
+  },
+  {
+    "id": 253,
+    "titulo": "Disney Bolt",
+    "plataforma": "PlayStation 3",
+    "peso": "7.66 GB",
+    "valor": 3000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/9ff65baa0214a438f60084411cc5dd0c6c5a71e9/Disney%20Bolt.png"
+  },
+  {
+    "id": 254,
+    "titulo": "DisneyPixar Brave",
+    "plataforma": "PlayStation 3",
+    "peso": "2.86 GB",
+    "valor": 2000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/9ff65baa0214a438f60084411cc5dd0c6c5a71e9/Disney%20Pixar%20Brave.png"
+  },
+  {
+    "id": 255,
+    "titulo": "Dragon Ball Super Extreme Blast",
+    "plataforma": "PlayStation 3",
+    "peso": "7.54",
+    "valor": 3000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/9ff65baa0214a438f60084411cc5dd0c6c5a71e9/Dragon%20Ball%20Super%20Extreme%20Blast.png"
+  },
+  {
+    "id": 256,
+    "titulo": "DRIVER San Francisco",
+    "plataforma": "PlayStation 3",
+    "peso": "9.05 GB",
+    "valor": 4000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/9ff65baa0214a438f60084411cc5dd0c6c5a71e9/Driver%20San%20Francisco.png"
+  },
+  {
+    "id": 257,
+    "titulo": "DuckTales Remastered",
+    "plataforma": "PlayStation 3",
+    "peso": "899 MB",
+    "valor": 2000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/9ff65baa0214a438f60084411cc5dd0c6c5a71e9/DuckTales%20Remastered.png"
   }
 ]
