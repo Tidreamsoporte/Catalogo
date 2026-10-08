@@ -1798,5 +1798,85 @@
     "peso": "11.29 GB",
     "valor": 3000,
     "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-82048.png"
+  },
+  {
+    "id": 227,
+    "titulo": "50 Cent Blood On The Sand",
+    "plataforma": "PlayStation 3",
+    "peso": "6.30 GB",
+    "valor": 3000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/ddbbb3a64a44b1bc90b1b2ade6aa509f50cf7297/50%20Cent%20Blood%20On%20The%20Sand.png"
+  },
+  {
+    "id": 228,
+    "titulo": "Afro Samurai",
+    "plataforma": "PlayStation 3",
+    "peso": "3.78 GB",
+    "valor": 2000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/ddbbb3a64a44b1bc90b1b2ade6aa509f50cf7297/AFRO%20SAMURAI.png"
+  },
+  {
+    "id": 229,
+    "titulo": "Asura's Wrath",
+    "plataforma": "PlayStation 3",
+    "peso": "6.72 GB",
+    "valor": 3000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/ddbbb3a64a44b1bc90b1b2ade6aa509f50cf7297/ASURA'S%20WRATH.png"
+  },
+  {
+    "id": 230,
+    "titulo": "Alice Madness Returns",
+    "plataforma": "PlayStation 3",
+    "peso": "4.70 GB",
+    "valor": 2000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/ddbbb3a64a44b1bc90b1b2ade6aa509f50cf7297/Alice%20Madness%20Returns.png"
+  },
+  {
+    "id": 231,
+    "titulo": "Army of TWO The 40th Day",
+    "plataforma": "PlayStation 3",
+    "peso": "4.63 GB",
+    "valor": 3000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/ddbbb3a64a44b1bc90b1b2ade6aa509f50cf7297/Army%20of%20Two%2040%20day.png"
+  },
+  {
+    "id": 232,
+    "titulo": "Army of TWO The Devil's Cartel",
+    "plataforma": "PlayStation 3",
+    "peso": "7.45 GB",
+    "valor": 3000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/ddbbb3a64a44b1bc90b1b2ade6aa509f50cf7297/Army%20of%20Two%20The%20Devil's%20Cartel.png"
+  },
+  {
+    "id": 233,
+    "titulo": "Army of Two (TM)",
+    "plataforma": "PlayStation 3",
+    "peso": "4.88 GB",
+    "valor": 3000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/ddbbb3a64a44b1bc90b1b2ade6aa509f50cf7297/Army%20of%20Two.png"
+  },
+  {
+    "id": 234,
+    "titulo": "Assassin's Creed Brotherhood",
+    "plataforma": "PlayStation 3",
+    "peso": "7.73 GB",
+    "valor": 3000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/ddbbb3a64a44b1bc90b1b2ade6aa509f50cf7297/Assassin's%20Creed%20Brotherhood.png"
+  },
+  {
+    "id": 235,
+    "titulo": "Assassin's Creed",
+    "plataforma": "PlayStation 3",
+    "peso": "7.87 GB",
+    "valor": 3000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/ddbbb3a64a44b1bc90b1b2ade6aa509f50cf7297/Assassin's%20Creed.png"
+  },
+  {
+    "id": 236,
+    "titulo": "Alone In The Dark Inferno",
+    "plataforma": "PlayStation 3",
+    "peso": "5.86 GB",
+    "valor": 3000,
+    "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/e5c7b2be66db3d19b8ed9f09a87b1edf37658c07/Alone%20In%20The%20Dark%20inferno.png"
   }
 ]
