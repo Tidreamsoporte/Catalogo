@@ -134,14 +134,23 @@
   <!-- ENCABEZADO RESPONSIVO -->
   <header class="bg-slate-900/90 backdrop-blur-md border-b border-slate-800 px-4 py-3 flex flex-wrap items-center justify-between gap-3 z-20">
     <div class="flex items-center gap-3">
-      <!-- Tu Logo aquí -->
       <img src="https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/logo%20tidreams.png" alt="Logo" class="h-10 w-auto object-contain">
+      <div>
         <h1 class="font-bold text-sm sm:text-base text-white leading-none">Zona Gamer</h1>
         <span id="labelModo" class="text-[10px] text-emerald-400 font-medium">Vista de Cliente</span>
       </div>
     </div>
 
     <div class="flex items-center gap-2 flex-wrap">
+      <!-- BUSCADOR DE JUEGOS -->
+      <div class="relative">
+        <span class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-400">
+          <i class="fa-solid fa-search text-xs"></i>
+        </span>
+        <input type="text" id="inputBuscador" oninput="filtrarPorTexto(this.value)" placeholder="Buscar juego..." class="bg-slate-800 text-xs text-slate-200 border border-slate-700 pl-8 pr-3 py-1.5 rounded-lg focus:outline-none focus:border-emerald-500 w-32 sm:w-48 transition">
+      </div>
+
+      <!-- SELECTOR DE PLATAFORMAS CON CONTADOR -->
       <select id="platformFilter" onchange="cambiarFiltroPlataforma(this.value)" class="bg-slate-800 text-xs text-slate-200 border border-slate-700 px-2.5 py-1.5 rounded-lg focus:outline-none cursor-pointer">
         <option value="ALL">Todas las Plataformas</option>
         <option value="Xbox 360">Xbox 360</option>
@@ -269,8 +278,8 @@
             <input type="number" step="1" id="formValor" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="Ej. 15000">
           </div>
           <div class="sm:col-span-2">
-            <label class="block text-xs font-bold text-slate-300 mb-1">Enlace Directo de la Carátula (Postimages i.postimg.cc)</label>
-            <input type="url" id="formCaratula" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="https://i.postimg.cc/xxxxxx/imagen.png">
+            <label class="block text-xs font-bold text-slate-300 mb-1">Enlace Directo de la Carátula</label>
+            <input type="url" id="formCaratula" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="https://...">
           </div>
           <div class="sm:col-span-2 flex items-center justify-between pt-2">
             <button type="button" onclick="exportarJuegosJSON()" class="bg-emerald-900/60 hover:bg-emerald-900 text-emerald-300 border border-emerald-700/50 font-bold px-3 py-2 rounded-xl text-xs transition cursor-pointer flex items-center gap-1.5">
@@ -343,6 +352,7 @@
     let carrito = JSON.parse(localStorage.getItem('carrito_juegos_3d')) || [];
     let indiceActual = 0;
     let filtroPlataforma = 'ALL';
+    let textoBusqueda = '';
     let modoAdmin = false;
 
     function mostrarToast(mensaje, tipo = 'success') {
@@ -357,10 +367,8 @@
       setTimeout(() => toast.remove(), 3000);
     }
 
-    // CARGAR CATÁLOGO FRESCO DESDE EL ARCHIVO JSON EN GITHUB (EVITA CACHÉ)
     async function cargarJuegosDesdeGitHub() {
       try {
-        // Añadimos ?t=Date.now() para forzar al navegador a descargar siempre la versión más reciente
         const respuesta = await fetch(`./juegos.json?t=${Date.now()}`);
         if (!respuesta.ok) throw new Error("No se pudo cargar el archivo");
         juegos = await respuesta.json();
@@ -370,13 +378,42 @@
           { id: 1, titulo: 'Tekken Tag Tournament', plataforma: 'PlayStation 2', peso: '3.2 GB', valor: 15000, caratula: 'https://i.postimg.cc/PrH4SHQm/SCES-50001.png' }
         ];
       }
+      actualizarContadoresPlataformas();
       renderizarCoverflow();
       actualizarDetalles();
     }
 
+    function actualizarContadoresPlataformas() {
+      const select = document.getElementById('platformFilter');
+      const opciones = select.options;
+      
+      for (let i = 0; i < opciones.length; i++) {
+        const opt = opciones[i];
+        const val = opt.value;
+        let count = 0;
+        
+        if (val === 'ALL') {
+          count = juegos.length;
+          opt.text = `Todas las Plataformas (${count})`;
+        } else {
+          count = juegos.filter(j => j.plataforma === val).length;
+          // Limpiamos texto previo y añadimos el contador
+          const nombreBase = val.replace(/ \(\d+\)$/, '');
+          opt.text = `${nombreBase} (${count})`;
+        }
+      }
+    }
+
     function obtenerJuegosFiltrados() {
-      if (filtroPlataforma === 'ALL') return juegos;
-      return juegos.filter(j => j.plataforma === filtroPlataforma);
+      let lista = juegos;
+      if (filtroPlataforma !== 'ALL') {
+        lista = lista.filter(j => j.plataforma === filtroPlataforma);
+      }
+      if (textoBusqueda.trim() !== '') {
+        const termino = textoBusqueda.toLowerCase().trim();
+        lista = lista.filter(j => j.titulo.toLowerCase().includes(termino));
+      }
+      return lista;
     }
 
     document.addEventListener('DOMContentLoaded', () => {
@@ -394,6 +431,18 @@
         if (touchEndX > touchStartX + 50) mover(-1);
       }, false);
     });
+
+    function filtrarPorTexto(texto) {
+      textoBusqueda = texto;
+      indiceActual = 0;
+      renderizarCoverflow();
+    }
+
+    function cambiarFiltroPlataforma(val) {
+      filtroPlataforma = val;
+      indiceActual = 0;
+      renderizarCoverflow();
+    }
 
     function toggleModoSistema() {
       if (!modoAdmin) {
@@ -431,7 +480,7 @@
       const listaActiva = obtenerJuegosFiltrados();
       
       if (listaActiva.length === 0) {
-        container.innerHTML = `<div class="text-slate-400 text-xs sm:text-sm font-semibold text-center px-4">No hay juegos para esta plataforma.</div>`;
+        container.innerHTML = `<div class="text-slate-400 text-xs sm:text-sm font-semibold text-center px-4">No se encontraron juegos.</div>`;
         actualizarDetalles();
         return;
       }
@@ -470,12 +519,11 @@
     }
 
     function seleccionar(i) { indiceActual = i; renderizarCoverflow(); }
-    function cambiarFiltroPlataforma(val) { filtroPlataforma = val; indiceActual = 0; renderizarCoverflow(); }
 
     function actualizarDetalles() {
       const listaActiva = obtenerJuegosFiltrados();
       if (listaActiva.length === 0) {
-        document.getElementById('juegoTitulo').innerText = "Sin juegos";
+        document.getElementById('juegoTitulo').innerText = "Sin resultados";
         document.getElementById('juegoPlataformaBadge').innerText = "---";
         document.getElementById('juegoPeso').innerHTML = `<i class="fa-solid fa-hard-drive mr-1"></i> 0 GB`;
         document.getElementById('juegoPrecio').innerText = "$0";
@@ -588,6 +636,7 @@
 
     function cerrarAdmin() {
       document.getElementById('adminModal').classList.add('hidden');
+      actualizarContadoresPlataformas();
       renderizarCoverflow();
     }
 
@@ -619,7 +668,6 @@
       e.preventDefault();
       const editIndex = parseInt(document.getElementById('editIndex').value);
       
-      // CREAR ID AUTOMÁTICO SECUENCIAL (1, 2, 3...)
       let nuevoId = 1;
       if (editIndex === -1 && juegos.length > 0) {
         const maxId = Math.max(...juegos.map(j => Number(j.id) || 0));
@@ -648,6 +696,7 @@
 
       document.getElementById('gameForm').reset();
       renderizarTablaAdmin();
+      actualizarContadoresPlataformas();
       renderizarCoverflow();
     }
 
@@ -665,6 +714,7 @@
       if (confirm("¿Eliminar juego?")) {
         juegos.splice(index, 1);
         renderizarTablaAdmin();
+        actualizarContadoresPlataformas();
         renderizarCoverflow();
         mostrarToast("Eliminado", "info");
       }
