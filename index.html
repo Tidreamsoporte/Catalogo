@@ -150,20 +150,9 @@
         <input type="text" id="inputBuscador" oninput="filtrarPorTexto(this.value)" placeholder="Buscar juego..." class="bg-slate-800 text-xs text-slate-200 border border-slate-700 pl-8 pr-3 py-1.5 rounded-lg focus:outline-none focus:border-emerald-500 w-32 sm:w-48 transition">
       </div>
 
-      <!-- SELECTOR DE PLATAFORMAS CON CONTADOR -->
+      <!-- SELECTOR DE PLATAFORMAS PRINCIPAL -->
       <select id="platformFilter" onchange="cambiarFiltroPlataforma(this.value)" class="bg-slate-800 text-xs text-slate-200 border border-slate-700 px-2.5 py-1.5 rounded-lg focus:outline-none cursor-pointer">
         <option value="ALL">Todas las Plataformas</option>
-        <option value="Xbox 360">Xbox 360</option>
-        <option value="Xbox One">Xbox One</option>
-        <option value="PlayStation 1">PlayStation 1</option>
-        <option value="PlayStation 2">PlayStation 2</option>
-        <option value="PlayStation 3">PlayStation 3</option>
-        <option value="PlayStation 4">PlayStation 4</option>
-        <option value="PlayStation 5">PlayStation 5</option>
-        <option value="Nintendo Switch">Nintendo Switch</option>
-        <option value="Nintendo Wii">Nintendo Wii</option>
-        <option value="Nintendo Gamecube">Nintendo Gamecube</option>
-        <option value="PC">PC / Steam</option>
       </select>
 
       <button onclick="abrirCarrito()" class="relative bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 px-3 py-1.5 rounded-lg text-xs font-semibold transition flex items-center gap-1.5 cursor-pointer">
@@ -247,6 +236,20 @@
       </div>
 
       <div class="p-4 sm:p-6 overflow-y-auto flex-1 space-y-6">
+        
+        <!-- GESTOR DE PLATAFORMAS -->
+        <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800 space-y-3">
+          <h4 class="text-xs font-bold text-blue-400 uppercase tracking-wider flex items-center gap-1.5">
+            <i class="fa-solid fa-gamepad"></i> Administrar Plataformas
+          </h4>
+          <div class="flex flex-wrap gap-2 items-center">
+            <input type="text" id="nuevaPlataformaInput" placeholder="Ej. Nintendo 64" class="bg-slate-900 border border-slate-700 rounded-xl px-3 py-1.5 text-xs text-white focus:outline-none focus:border-blue-500 flex-1 min-w-[180px]">
+            <button type="button" onclick="agregarPlataforma()" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-4 py-1.5 rounded-xl text-xs transition cursor-pointer">Añadir Plataforma</button>
+          </div>
+          <div id="listaPlataformasTags" class="flex flex-wrap gap-1.5 pt-1"></div>
+        </div>
+
+        <!-- FORMULARIO DE JUEGOS -->
         <form id="gameForm" onsubmit="guardarJuegoForm(event)" class="bg-slate-950/60 p-4 sm:p-5 rounded-xl border border-slate-800 grid grid-cols-1 sm:grid-cols-2 gap-3">
           <input type="hidden" id="editIndex" value="-1">
           <div>
@@ -255,19 +258,7 @@
           </div>
           <div>
             <label class="block text-xs font-bold text-slate-300 mb-1">Plataforma</label>
-            <select id="formPlataforma" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500">
-              <option value="Xbox 360">Xbox 360</option>
-              <option value="Xbox One">Xbox One</option>
-              <option value="PlayStation 1">PlayStation 1</option>
-              <option value="PlayStation 2">PlayStation 2</option>
-              <option value="PlayStation 3">PlayStation 3</option>
-              <option value="PlayStation 4">PlayStation 4</option>
-              <option value="PlayStation 5">PlayStation 5</option>
-              <option value="Nintendo Switch">Nintendo Switch</option>
-              <option value="Nintendo Wii">Nintendo Wii</option>
-              <option value="Nintendo Gamecube">Nintendo Gamecube</option>
-              <option value="PC">PC / Steam</option>
-            </select>
+            <select id="formPlataforma" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500"></select>
           </div>
           <div>
             <label class="block text-xs font-bold text-slate-300 mb-1">Peso (Ej. 8.5 GB)</label>
@@ -282,7 +273,7 @@
             <input type="url" id="formCaratula" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="https://...">
           </div>
           <div class="sm:col-span-2 flex items-center justify-between pt-2">
-            <button type="button" onclick="exportarJuegosJSON()" class="bg-emerald-900/60 hover:bg-emerald-900 text-emerald-300 border border-emerald-700/50 font-bold px-3 py-2 rounded-xl text-xs transition cursor-pointer flex items-center gap-1.5">
+            <button type="button" onclick="exportarTodoJSON()" class="bg-emerald-900/60 hover:bg-emerald-900 text-emerald-300 border border-emerald-700/50 font-bold px-3 py-2 rounded-xl text-xs transition cursor-pointer flex items-center gap-1.5">
               <i class="fa-solid fa-file-code"></i> Descargar juegos.json para GitHub
             </button>
             <div class="flex gap-2">
@@ -292,8 +283,18 @@
           </div>
         </form>
 
-        <div>
-          <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Listado Registrado</h4>
+        <!-- SECCIÓN DE LISTADO CON FILTRO POR PLATAFORMA -->
+        <div class="space-y-3">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider">Listado Registrado de Juegos</h4>
+            <div class="flex items-center gap-2">
+              <label class="text-xs text-slate-400">Filtrar tabla:</label>
+              <select id="adminPlatformFilter" onchange="renderizarTablaAdmin()" class="bg-slate-950 text-xs text-slate-200 border border-slate-700 px-2.5 py-1 rounded-lg focus:outline-none cursor-pointer">
+                <option value="ALL">Todas las Plataformas</option>
+              </select>
+            </div>
+          </div>
+
           <div class="overflow-x-auto">
             <table class="w-full text-left text-xs sm:text-sm text-slate-300">
               <thead class="bg-slate-950 text-slate-400 uppercase text-[10px] sm:text-[11px]">
@@ -310,6 +311,7 @@
             </table>
           </div>
         </div>
+
       </div>
     </div>
   </div>
@@ -348,6 +350,7 @@
 
   <script>
     const claveSeguraBase64 = "MTIzNA==";
+    let plataformas = ["PlayStation 2", "PlayStation 3", "PlayStation 4", "PlayStation 5", "Xbox 360", "Xbox One", "Nintendo Switch", "PC"];
     let juegos = [];
     let carrito = JSON.parse(localStorage.getItem('carrito_juegos_3d')) || [];
     let indiceActual = 0;
@@ -367,41 +370,96 @@
       setTimeout(() => toast.remove(), 3000);
     }
 
-    async function cargarJuegosDesdeGitHub() {
+    async function cargarDatosDesdeGitHub() {
       try {
         const respuesta = await fetch(`./juegos.json?t=${Date.now()}`);
-        if (!respuesta.ok) throw new Error("No se pudo cargar el archivo");
-        juegos = await respuesta.json();
+        if (!respuesta.ok) throw new Error("No se pudo cargar");
+        const data = await respuesta.json();
+        
+        // Soporta tanto si el json es un array simple de juegos o un objeto con { plataformas, juegos }
+        if (Array.isArray(data)) {
+          juegos = data;
+        } else {
+          juegos = data.juegos || [];
+          if (data.plataformas && Array.isArray(data.plataformas)) {
+            plataformas = data.plataformas;
+          }
+        }
       } catch (error) {
         console.warn("Usando datos predeterminados de respaldo:", error);
         juegos = [
           { id: 1, titulo: 'Tekken Tag Tournament', plataforma: 'PlayStation 2', peso: '3.2 GB', valor: 15000, caratula: 'https://i.postimg.cc/PrH4SHQm/SCES-50001.png' }
         ];
       }
-      actualizarContadoresPlataformas();
+      actualizarSelectoresPlataformas();
       renderizarCoverflow();
       actualizarDetalles();
     }
 
-    function actualizarContadoresPlataformas() {
-      const select = document.getElementById('platformFilter');
-      const opciones = select.options;
+    function actualizarSelectoresPlataformas() {
+      // 1. Selector Principal
+      const selectPrincipal = document.getElementById('platformFilter');
+      const valorActualPrincipal = selectPrincipal.value;
+      selectPrincipal.innerHTML = `<option value="ALL">Todas las Plataformas (${juegos.length})</option>`;
       
-      for (let i = 0; i < opciones.length; i++) {
-        const opt = opciones[i];
-        const val = opt.value;
-        let count = 0;
-        
-        if (val === 'ALL') {
-          count = juegos.length;
-          opt.text = `Todas las Plataformas (${count})`;
-        } else {
-          count = juegos.filter(j => j.plataforma === val).length;
-          // Limpiamos texto previo y añadimos el contador
-          const nombreBase = val.replace(/ \(\d+\)$/, '');
-          opt.text = `${nombreBase} (${count})`;
-        }
+      plataformas.forEach(plat => {
+        const count = juegos.filter(j => j.plataforma === plat).length;
+        selectPrincipal.innerHTML += `<option value="${plat}">${plat} (${count})</option>`;
+      });
+      selectPrincipal.value = valorActualPrincipal;
+
+      // 2. Selector del Formulario Admin
+      const selectForm = document.getElementById('formPlataforma');
+      selectForm.innerHTML = '';
+      plataformas.forEach(plat => {
+        selectForm.innerHTML += `<option value="${plat}">${plat}</option>`;
+      });
+
+      // 3. Selector de Filtro dentro de la tabla Admin
+      const selectAdminFiltro = document.getElementById('adminPlatformFilter');
+      const valorActualAdmin = selectAdminFiltro.value;
+      selectAdminFiltro.innerHTML = `<option value="ALL">Todas las Plataformas</option>`;
+      plataformas.forEach(plat => {
+        selectAdminFiltro.innerHTML += `<option value="${plat}">${plat}</option>`;
+      });
+      selectAdminFiltro.value = valorActualAdmin;
+
+      // 4. Tags de gestión de plataformas en admin
+      const tagsContainer = document.getElementById('listaPlataformasTags');
+      if (tagsContainer) {
+        tagsContainer.innerHTML = '';
+        plataformas.forEach((plat, idx) => {
+          tagsContainer.innerHTML += `
+            <span class="bg-slate-900 border border-slate-700 text-slate-200 px-2.5 py-1 rounded-lg text-xs flex items-center gap-2">
+              ${plat}
+              <button type="button" onclick="eliminarPlataforma(${idx})" class="text-red-400 hover:text-red-300 cursor-pointer"><i class="fa-solid fa-xmark"></i></button>
+            </span>
+          `;
+        });
       }
+    }
+
+    function agregarPlataforma() {
+      const input = document.getElementById('nuevaPlataformaInput');
+      const nueva = input.value.trim();
+      if (!nueva) return mostrarToast("Escribe un nombre de plataforma", "error");
+      if (plataformas.includes(nueva)) return mostrarToast("La plataforma ya existe", "error");
+      
+      plataformas.push(nueva);
+      input.value = '';
+      actualizarSelectoresPlataformas();
+      mostrarToast("Plataforma agregada");
+    }
+
+    function eliminarPlataforma(index) {
+      const platEliminar = plataformas[index];
+      const enUso = juegos.some(j => j.plataforma === platEliminar);
+      if (enUso) {
+        return mostrarToast("No se puede eliminar: hay juegos usando esta plataforma", "error");
+      }
+      plataformas.splice(index, 1);
+      actualizarSelectoresPlataformas();
+      mostrarToast("Plataforma eliminada", "info");
     }
 
     function obtenerJuegosFiltrados() {
@@ -417,7 +475,7 @@
     }
 
     document.addEventListener('DOMContentLoaded', () => {
-      cargarJuegosDesdeGitHub();
+      cargarDatosDesdeGitHub();
       actualizarContadorCarrito();
 
       let touchStartX = 0;
@@ -630,24 +688,35 @@
       modoAdmin = true;
       document.getElementById('labelModo').innerText = "Modo Administrador";
       document.getElementById('textToggleModo').innerText = "Salir";
+      actualizarSelectoresPlataformas();
       renderizarTablaAdmin();
       document.getElementById('adminModal').classList.remove('hidden');
     }
 
     function cerrarAdmin() {
       document.getElementById('adminModal').classList.add('hidden');
-      actualizarContadoresPlataformas();
+      actualizarSelectoresPlataformas();
       renderizarCoverflow();
     }
 
     function renderizarTablaAdmin() {
       const tbody = document.getElementById('tablaJuegosBody');
       tbody.innerHTML = '';
-      if (juegos.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="6" class="p-4 text-center text-slate-500">Sin juegos.</td></tr>`;
+      
+      const filtroAdminVal = document.getElementById('adminPlatformFilter').value;
+      let listaMostrar = juegos;
+      if (filtroAdminVal !== 'ALL') {
+        listaMostrar = juegos.filter(j => j.plataforma === filtroAdminVal);
+      }
+
+      if (listaMostrar.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="6" class="p-4 text-center text-slate-500">No hay juegos en esta vista.</td></tr>`;
         return;
       }
-      juegos.forEach((j, index) => {
+
+      listaMostrar.forEach((j) => {
+        // Encontramos el índice real en el array global 'juegos' para poder editar/eliminar bien
+        const indexReal = juegos.findIndex(item => item.id === j.id);
         tbody.innerHTML += `
           <tr class="hover:bg-slate-900/50">
             <td class="p-2 sm:p-3 font-mono text-emerald-400 font-bold">#${j.id}</td>
@@ -656,8 +725,8 @@
             <td class="p-2 sm:p-3"><span class="bg-slate-800 text-blue-400 text-[10px] px-2 py-0.5 rounded border border-slate-700">${j.plataforma}</span></td>
             <td class="p-2 sm:p-3 font-semibold text-emerald-400">$${Number(j.valor).toLocaleString()}</td>
             <td class="p-2 sm:p-3 text-center space-x-2">
-              <button onclick="editarJuego(${index})" class="text-blue-400 cursor-pointer"><i class="fa-solid fa-pen"></i></button>
-              <button onclick="eliminarJuego(${index})" class="text-red-400 cursor-pointer"><i class="fa-solid fa-trash"></i></button>
+              <button onclick="editarJuego(${indexReal})" class="text-blue-400 cursor-pointer"><i class="fa-solid fa-pen"></i></button>
+              <button onclick="eliminarJuego(${indexReal})" class="text-red-400 cursor-pointer"><i class="fa-solid fa-trash"></i></button>
             </td>
           </tr>
         `;
@@ -695,8 +764,8 @@
       }
 
       document.getElementById('gameForm').reset();
+      actualizarSelectoresPlataformas();
       renderizarTablaAdmin();
-      actualizarContadoresPlataformas();
       renderizarCoverflow();
     }
 
@@ -713,8 +782,8 @@
     function eliminarJuego(index) {
       if (confirm("¿Eliminar juego?")) {
         juegos.splice(index, 1);
+        actualizarSelectoresPlataformas();
         renderizarTablaAdmin();
-        actualizarContadoresPlataformas();
         renderizarCoverflow();
         mostrarToast("Eliminado", "info");
       }
@@ -725,8 +794,14 @@
       document.getElementById('editIndex').value = -1;
     }
 
-    function exportarJuegosJSON() {
-      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(juegos, null, 2));
+    function exportarTodoJSON() {
+      // Guardamos tanto las plataformas como los juegos estructurados en el JSON
+      const objetoCompleto = {
+        plataformas: plataformas,
+        juegos: juegos
+      };
+
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(objetoCompleto, null, 2));
       const downloadAnchor = document.createElement('a');
       downloadAnchor.setAttribute("href", dataStr);
       downloadAnchor.setAttribute("download", "juegos.json");
