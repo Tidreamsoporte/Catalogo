@@ -1,5 +1,6 @@
 {
   "plataformas": [
+    "Nintendo Game Cube",
     "Nintendo Wii",
     "PlayStation 2",
     "PlayStation 3"
@@ -4700,6 +4701,1502 @@
       "peso": "1 GB",
       "valor": 2000,
       "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/RG2PGT.png"
+    },
+    {
+      "id": 588,
+      "titulo": "007 Nightfire [GO7S69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GO7S69.png"
+    },
+    {
+      "id": 589,
+      "titulo": "007 Todo o Nada [GENS69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GENS69.png"
+    },
+    {
+      "id": 590,
+      "titulo": "18 Wheeler American Pro Trucker [GWEP8P]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GWEP8P.png"
+    },
+    {
+      "id": 591,
+      "titulo": "Animal Crossing [GAFP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GAFP01.png"
+    },
+    {
+      "id": 592,
+      "titulo": "Animaniacs The Great Edgar Hunt [GANP7U]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GANP7U.png"
+    },
+    {
+      "id": 593,
+      "titulo": "Asterix & Obelix XXL [GAGP70]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GAGP70.png"
+    },
+    {
+      "id": 594,
+      "titulo": "Bad Boys II [GOBP7N]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GOBP7N.png"
+    },
+    {
+      "id": 595,
+      "titulo": "Baten Kaitos Eternal Wings and the Lost Ocean [GKBPAF]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GKBPAF.png"
+    },
+    {
+      "id": 596,
+      "titulo": "Batman Begins [GINX69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GINX69.png"
+    },
+    {
+      "id": 597,
+      "titulo": "Batman Dark Tomorrow [GBMP7F]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GBMP7F.png"
+    },
+    {
+      "id": 598,
+      "titulo": "Batman Rise of Sin Tzu [GUZP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GUZP41.png"
+    },
+    {
+      "id": 599,
+      "titulo": "Batman Vengeance [GBVP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GBVP41.png"
+    },
+    {
+      "id": 600,
+      "titulo": "Battalion Wars [G8WP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/G8WP01.png"
+    },
+    {
+      "id": 601,
+      "titulo": "Beyond Good & Evil [GGEP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GGEP41.png"
+    },
+    {
+      "id": 602,
+      "titulo": "Big Mutha Truckers [GT8P7N]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GT8P7N.png"
+    },
+    {
+      "id": 603,
+      "titulo": "Billy Hatcher and the Giant Egg [GEZP8P]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GEZP8P.png"
+    },
+    {
+      "id": 604,
+      "titulo": "Bionicle [GVOP69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GVOP69.png"
+    },
+    {
+      "id": 605,
+      "titulo": "BloodRayne [GBDS7D]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GBDS7D.png"
+    },
+    {
+      "id": 606,
+      "titulo": "Bomberman Generation [GBGP7D]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GBGP7D.png"
+    },
+    {
+      "id": 607,
+      "titulo": "Burnout [GBOP51]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GBOP51.png"
+    },
+    {
+      "id": 608,
+      "titulo": "Burnout 2 Point of Impact [GB4P51]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GB4P51.png"
+    },
+    {
+      "id": 609,
+      "titulo": "Buscando a Nemo [GNES78]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GNES78.png"
+    },
+    {
+      "id": 610,
+      "titulo": "Butt-Ugly Martians Zoom or Doom! [GZMP7D]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GZMP7D.png"
+    },
+    {
+      "id": 611,
+      "titulo": "Call of Duty 2 Big Red One [GQCS52]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GQCS52.png"
+    },
+    {
+      "id": 612,
+      "titulo": "Carmen Sandiego The Secret of the Stolen Drums [G3DX6L]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/G3DX6L.png"
+    },
+    {
+      "id": 613,
+      "titulo": "Cars [GKJS78]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GKJS78.png"
+    },
+    {
+      "id": 614,
+      "titulo": "Casper Spirit Dimensions [GCPP6S]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GCPP6S.png"
+    },
+    {
+      "id": 615,
+      "titulo": "Castleween [GCWP6X]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GCWP6X.png"
+    },
+    {
+      "id": 616,
+      "titulo": "Catwoman [GCZP69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GCZP69.png"
+    },
+    {
+      "id": 617,
+      "titulo": "Charlie and the Chocolate Factory [G4CP54]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/G4CP54.png"
+    },
+    {
+      "id": 618,
+      "titulo": "Chibi-Robo! [GGTP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GGTP01.png"
+    },
+    {
+      "id": 619,
+      "titulo": "Cocoto Funfair [GOUPNK]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GOUPNK.png"
+    },
+    {
+      "id": 620,
+      "titulo": "Cocoto Kart Racer [GC5PNK]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GC5PNK.png"
+    },
+    {
+      "id": 621,
+      "titulo": "Cocoto Platform Jumper [GC7PNK]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GC7PNK.png"
+    },
+    {
+      "id": 622,
+      "titulo": "Conan [GC9P6S]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GC9P6S.png"
+    },
+    {
+      "id": 623,
+      "titulo": "Conflict Desert Storm [GCFP75]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GCFP75.png"
+    },
+    {
+      "id": 624,
+      "titulo": "Conflict Desert Storm II [GC2P75]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GC2P75.png"
+    },
+    {
+      "id": 625,
+      "titulo": "Crash Bandicoot The Wrath of Cortex [GCBP7D]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GCBP7D.png"
+    },
+    {
+      "id": 626,
+      "titulo": "Crazy Taxi [GCTP51]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GCTP51.png"
+    },
+    {
+      "id": 627,
+      "titulo": "Dakar 2 [GPDP51]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GPDP51.png"
+    },
+    {
+      "id": 628,
+      "titulo": "Dead to Rights [GDRP69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GDRP69.png"
+    },
+    {
+      "id": 629,
+      "titulo": "Die Hard Vendetta [GDIY7D]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GDIY7D.png"
+    },
+    {
+      "id": 630,
+      "titulo": "Disney's Magical Mirror starring Mickey Mouse [GDMP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GDMP01.png"
+    },
+    {
+      "id": 631,
+      "titulo": "Disney's Party [GMTP69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GMTP69.png"
+    },
+    {
+      "id": 632,
+      "titulo": "Donald Duck PK [GDOP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GDOP41.png"
+    },
+    {
+      "id": 633,
+      "titulo": "Donald Duck Quack Attack [GDDP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GDDP41.png"
+    },
+    {
+      "id": 634,
+      "titulo": "Donkey Kong Jungle Beat [GYBP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GYBP01.png"
+    },
+    {
+      "id": 635,
+      "titulo": "Doshin the Giant [GKDP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GKDP01.png"
+    },
+    {
+      "id": 636,
+      "titulo": "Driven [GDVP6L]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GDVP6L.png"
+    },
+    {
+      "id": 637,
+      "titulo": "Drome Racers [GD9P69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GD9P69.png"
+    },
+    {
+      "id": 638,
+      "titulo": "Enter the Matrix [GMXP70]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "2,72 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GMXP70.png"
+    },
+    {
+      "id": 639,
+      "titulo": "Eternal Darkness Sanity's Requiem [GEDP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GEDP01.png"
+    },
+    {
+      "id": 640,
+      "titulo": "Fantastic 4 [GF4S52]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GF4S52.png"
+    },
+    {
+      "id": 641,
+      "titulo": "Final Fantasy Crystal Chronicles [GCCP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GCCP01.png"
+    },
+    {
+      "id": 642,
+      "titulo": "Fire Emblem Path of Radiance [GFEP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GFEP01.png"
+    },
+    {
+      "id": 643,
+      "titulo": "Flushed Away [GLHPG9]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "0,01 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GLHPG9.png"
+    },
+    {
+      "id": 644,
+      "titulo": "Frogger Beyond [GFGPA4]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GFGPA4.png"
+    },
+    {
+      "id": 645,
+      "titulo": "Future Tactics The Uprising [GFUP6V]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GFUP6V.png"
+    },
+    {
+      "id": 646,
+      "titulo": "Gadget Racers [GROP7J]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GROP7J.png"
+    },
+    {
+      "id": 647,
+      "titulo": "Geist [GITP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GITP01.png"
+    },
+    {
+      "id": 648,
+      "titulo": "GoldenEye Agente Corrupto [GOYS69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "2,72 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GOYS69.png"
+    },
+    {
+      "id": 649,
+      "titulo": "Gun [GUMP52]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GUMP52.png"
+    },
+    {
+      "id": 650,
+      "titulo": "Hello Kitty Roller Rescue [GH6P7N]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GH6P7N.png"
+    },
+    {
+      "id": 651,
+      "titulo": "Hulk [GHKS7D]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GHKS7D.png"
+    },
+    {
+      "id": 652,
+      "titulo": "Kao the Kangaroo Round 2 [GKOP6V]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GKOP6V.png"
+    },
+    {
+      "id": 653,
+      "titulo": "King Arthur [GKHPA4]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GKHPA4.png"
+    },
+    {
+      "id": 654,
+      "titulo": "Kirby Air Ride [GKYP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GKYP01.png"
+    },
+    {
+      "id": 655,
+      "titulo": "Knights of the Temple Infernal Crusade [GTPP6S]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GTPP6S.png"
+    },
+    {
+      "id": 656,
+      "titulo": "Largo Winch Empire Under Threat [GLGP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GLGP41.png"
+    },
+    {
+      "id": 657,
+      "titulo": "Looney Tunes Back in Action [GLNP69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GLNP69.png"
+    },
+    {
+      "id": 658,
+      "titulo": "Luigi's Mansion [GLMP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GLMP01.png"
+    },
+    {
+      "id": 659,
+      "titulo": "Madagascar [GGZS52]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GGZS52.png"
+    },
+    {
+      "id": 660,
+      "titulo": "Mario Kart Double Dash!! [GM4P01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GM4P01.png"
+    },
+    {
+      "id": 661,
+      "titulo": "Mario Party 4 [GMPP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GMPP01.png"
+    },
+    {
+      "id": 662,
+      "titulo": "Mario Party 5 [GP5P01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GP5P01.png"
+    },
+    {
+      "id": 663,
+      "titulo": "Mario Party 6 [GP6P01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GP6P01.png"
+    },
+    {
+      "id": 664,
+      "titulo": "Mario Party 7 [GP7P01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GP7P01.png"
+    },
+    {
+      "id": 665,
+      "titulo": "Medal of Honor Frontline [GMFS69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GMFS69.png"
+    },
+    {
+      "id": 666,
+      "titulo": "Medal of Honor Rising Sun [GR8P69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GR8P69.png"
+    },
+    {
+      "id": 667,
+      "titulo": "Mega Man Anniversary Collection [G6QE08]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/G6QE08.png"
+    },
+    {
+      "id": 668,
+      "titulo": "Men in Black II Alien Escape [GMEP70]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GMEP70.png"
+    },
+    {
+      "id": 669,
+      "titulo": "Metal Gear Solid The Twin Snakes [GGSPA4]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GGSPA4.png"
+    },
+    {
+      "id": 670,
+      "titulo": "Micro Machines [GMOP70]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GMOP70.png"
+    },
+    {
+      "id": 671,
+      "titulo": "Mission Impossible Operation Surma [GMIP70]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GMIP70.png"
+    },
+    {
+      "id": 672,
+      "titulo": "Monster House [GK5X78]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GK5X78.png"
+    },
+    {
+      "id": 673,
+      "titulo": "Monsters, Inc. Scream Arena [GMNP78]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GMNP78.png"
+    },
+    {
+      "id": 674,
+      "titulo": "Namco Museum 50th Anniversary [G5NP69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/G5NP69.png"
+    },
+    {
+      "id": 675,
+      "titulo": "Neighbours from Hell [GFHP6V]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GFHP6V.png"
+    },
+    {
+      "id": 676,
+      "titulo": "Odama [GOOP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GOOP01.png"
+    },
+    {
+      "id": 677,
+      "titulo": "Open Season [GOSX41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GOSX41.png"
+    },
+    {
+      "id": 678,
+      "titulo": "P.N. 03 [GPNP08]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GPNP08.png"
+    },
+    {
+      "id": 679,
+      "titulo": "Pac-Man Vs. [PRJP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/PRJP01.png"
+    },
+    {
+      "id": 680,
+      "titulo": "Pac-Man World 2 [GP2P69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GP2P69.png"
+    },
+    {
+      "id": 681,
+      "titulo": "Pac-Man World 3 [GP8P69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GP8P69.png"
+    },
+    {
+      "id": 682,
+      "titulo": "Paper Mario The Thousand-Year Door [G8MP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/G8MP01.png"
+    },
+    {
+      "id": 683,
+      "titulo": "Party Blast [GNPP70]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GNPP70.png"
+    },
+    {
+      "id": 684,
+      "titulo": "Peter Jackson's King Kong The Official Game of the Movie [GWKP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GWKP41.png"
+    },
+    {
+      "id": 685,
+      "titulo": "Phantasy Star Online Episode I & II [GPOP8P]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GPOP8P.png"
+    },
+    {
+      "id": 686,
+      "titulo": "Phantasy Star Online Episode III C.A.R.D. Revolution [GPSP8P]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GPSP8P.png"
+    },
+    {
+      "id": 687,
+      "titulo": "Pikmin [GPIP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GPIP01.png"
+    },
+    {
+      "id": 688,
+      "titulo": "Pikmin 2 [GPVP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GPVP01.png"
+    },
+    {
+      "id": 689,
+      "titulo": "Pool Paradise [GPRP7U]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GPRP7U.png"
+    },
+    {
+      "id": 690,
+      "titulo": "Prince of Persia The Sands of Time [GPTP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GPTP41.png"
+    },
+    {
+      "id": 691,
+      "titulo": "Prince of Persia The Two Thrones [GKMP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GKMP41.png"
+    },
+    {
+      "id": 692,
+      "titulo": "Prince of Persia Warrior Within [G2OP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/G2OP41.png"
+    },
+    {
+      "id": 693,
+      "titulo": "Pro Rally 2002 [GRLP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GRLP41.png"
+    },
+    {
+      "id": 694,
+      "titulo": "Puyo Pop Fever [GPUP8P]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GPUP8P.png"
+    },
+    {
+      "id": 695,
+      "titulo": "R Racing [GRJP69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GRJP69.png"
+    },
+    {
+      "id": 696,
+      "titulo": "Rally Championship [GRAP75]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GRAP75.png"
+    },
+    {
+      "id": 697,
+      "titulo": "Rayman 3 Hoodlum Havoc [GRHP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GRHP41.png"
+    },
+    {
+      "id": 698,
+      "titulo": "Reign of Fire [GR9P6L]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GR9P6L.png"
+    },
+    {
+      "id": 699,
+      "titulo": "Resident Evil [GBIP08]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "2,72 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GBIP08.png"
+    },
+    {
+      "id": 700,
+      "titulo": "Resident Evil 2 [GHAP08]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GHAP08.png"
+    },
+    {
+      "id": 701,
+      "titulo": "Resident Evil 3 Nemesis [GLEP08]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GLEP08.png"
+    },
+    {
+      "id": 702,
+      "titulo": "Resident Evil 4 [G4BP08]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "2,72 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/G4BP08.png"
+    },
+    {
+      "id": 703,
+      "titulo": "Resident Evil Code Veronica X [GCDP08]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "2,72 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GCDP08.png"
+    },
+    {
+      "id": 704,
+      "titulo": "Resident Evil Zero [GBZP08]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "2,72 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GBZP08.png"
+    },
+    {
+      "id": 705,
+      "titulo": "Ribbit King [GKRPB2]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GKRPB2.png"
+    },
+    {
+      "id": 706,
+      "titulo": "Robotech Battlecry [GRBP6S]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GRBP6S.png"
+    },
+    {
+      "id": 707,
+      "titulo": "Robots [GZQP7D]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GZQP7D.png"
+    },
+    {
+      "id": 708,
+      "titulo": "Rogue Ops [GP9P7F]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GP9P7F.png"
+    },
+    {
+      "id": 709,
+      "titulo": "Samurai Jack The Shadow of Aku [GJCP8P]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GJCP8P.png"
+    },
+    {
+      "id": 710,
+      "titulo": "Shadow the Hedgehog [GUPP8P]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GUPP8P.png"
+    },
+    {
+      "id": 711,
+      "titulo": "Shrek Super Party [GSYP6S]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GSYP6S.png"
+    },
+    {
+      "id": 712,
+      "titulo": "Shrek SuperSlam [G3YX52]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/G3YX52.png"
+    },
+    {
+      "id": 713,
+      "titulo": "Skies of Arcadia Legends [GEAP8P]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GEAP8P.png"
+    },
+    {
+      "id": 714,
+      "titulo": "Sonic Adventure 2 Battle [GSNP8P]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GSNP8P.png"
+    },
+    {
+      "id": 715,
+      "titulo": "Sonic Adventure DX Director's Cut [GXSP8P]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GXSP8P.png"
+    },
+    {
+      "id": 716,
+      "titulo": "Sonic Gems Collection [G2XP8P]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/G2XP8P.png"
+    },
+    {
+      "id": 717,
+      "titulo": "Sonic Heroes [G9SP8P]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/G9SP8P.png"
+    },
+    {
+      "id": 718,
+      "titulo": "Sonic Mega Collection [GSOP8P]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GSOP8P.png"
+    },
+    {
+      "id": 719,
+      "titulo": "Sonic Riders [GXEP8P]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GXEP8P.png"
+    },
+    {
+      "id": 720,
+      "titulo": "Soulcalibur II [GRSPAF]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GRSPAF.png"
+    },
+    {
+      "id": 721,
+      "titulo": "Speed Kings [GDCP51]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GDCP51.png"
+    },
+    {
+      "id": 722,
+      "titulo": "Sphinx and the Cursed Mummy [GXPP78]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GXPP78.png"
+    },
+    {
+      "id": 723,
+      "titulo": "Sports Basketball [GDLPA4]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GDLPA4.png"
+    },
+    {
+      "id": 724,
+      "titulo": "Sports Skateboarding [GDXPA4]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GDXPA4.png"
+    },
+    {
+      "id": 725,
+      "titulo": "SpyHunter [GSHP5D]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GSHP5D.png"
+    },
+    {
+      "id": 726,
+      "titulo": "Spyro A Hero's Tail [G5SP7D]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/G5SP7D.png"
+    },
+    {
+      "id": 727,
+      "titulo": "Spyro Enter the Dragonfly [GS8P7D]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GS8P7D.png"
+    },
+    {
+      "id": 728,
+      "titulo": "SRS Street Racing Syndicate [GCSPAF]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GCSPAF.png"
+    },
+    {
+      "id": 729,
+      "titulo": "Starsky & Hutch [GT5P7N]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GT5P7N.png"
+    },
+    {
+      "id": 730,
+      "titulo": "Super Bust-A-Move All Stars [GVMP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GVMP41.png"
+    },
+    {
+      "id": 731,
+      "titulo": "Super Mario Sunshine [GMSP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GMSP01.png"
+    },
+    {
+      "id": 732,
+      "titulo": "Superman Shadow of Apokolips [GSUP70]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GSUP70.png"
+    },
+    {
+      "id": 733,
+      "titulo": "Tales of Symphonia [GQSSAF]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "2,72 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GQSSAF.png"
+    },
+    {
+      "id": 734,
+      "titulo": "Tarzan Freeride [GTZP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GTZP41.png"
+    },
+    {
+      "id": 735,
+      "titulo": "Taz Wanted [GTWP70]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GTWP70.png"
+    },
+    {
+      "id": 736,
+      "titulo": "Terminator 3 The Redemption [GT6P70]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GT6P70.png"
+    },
+    {
+      "id": 737,
+      "titulo": "The Incredible Hulk Ultimate Destruction [GHUP7D]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GHUP7D.png"
+    },
+    {
+      "id": 738,
+      "titulo": "The Italian Job [GIBP4F]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GIBP4F.png"
+    },
+    {
+      "id": 739,
+      "titulo": "The Polar Express [GP3P78]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GP3P78.png"
+    },
+    {
+      "id": 740,
+      "titulo": "The Powerpuff Girls Relish Rampage Pickled Edition [GPQP6L]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GPQP6L.png"
+    },
+    {
+      "id": 741,
+      "titulo": "The Simpsons Hit & Run [GHQP7D]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GHQP7D.png"
+    },
+    {
+      "id": 742,
+      "titulo": "The Simpsons Road Rage [GSPP69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GSPP69.png"
+    },
+    {
+      "id": 743,
+      "titulo": "The Sum of All Fears [G3MP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/G3MP41.png"
+    },
+    {
+      "id": 744,
+      "titulo": "TimeSplitters 2 [GTSP4F]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GTSP4F.png"
+    },
+    {
+      "id": 745,
+      "titulo": "TimeSplitters Futuro Perfecto [G3FS69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/G3FS69.png"
+    },
+    {
+      "id": 746,
+      "titulo": "TMNT [GYRP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GYRP41.png"
+    },
+    {
+      "id": 747,
+      "titulo": "Tom Clancy's Ghost Recon [GGRP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GGRP41.png"
+    },
+    {
+      "id": 748,
+      "titulo": "Tom Clancy's Ghost Recon 2 [GGYP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GGYP41.png"
+    },
+    {
+      "id": 749,
+      "titulo": "Tom Clancy's Rainbow Six Lockdown [GLQP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GLQP41.png"
+    },
+    {
+      "id": 750,
+      "titulo": "Tom Clancy's Splinter Cell [GCEP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GCEP41.png"
+    },
+    {
+      "id": 751,
+      "titulo": "Tom Clancy's Splinter Cell Chaos Theory [GCJP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GCJP41.png"
+    },
+    {
+      "id": 752,
+      "titulo": "Tom Clancy's Splinter Cell Double Agent [GWYX41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GWYX41.png"
+    },
+    {
+      "id": 753,
+      "titulo": "Tom Clancy's Splinter Cell Pandora Tomorrow [GT7X41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GT7X41.png"
+    },
+    {
+      "id": 754,
+      "titulo": "True Crime New York City [G2CX52]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/G2CX52.png"
+    },
+    {
+      "id": 755,
+      "titulo": "Turok Evolution [GTKP51]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GTKP51.png"
+    },
+    {
+      "id": 756,
+      "titulo": "Ty the Tasmanian Tiger [GTYP69]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GTYP69.png"
+    },
+    {
+      "id": 757,
+      "titulo": "Ultimate Spider-Man [GUTS52]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GUTS52.png"
+    },
+    {
+      "id": 758,
+      "titulo": "Una Serie de Catastroficas Desdichas de Lemony Snicket [GLCS52]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GLCS52.png"
+    },
+    {
+      "id": 759,
+      "titulo": "Vexx [GJXP51]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GJXP51.png"
+    },
+    {
+      "id": 760,
+      "titulo": "V-Rally 3 [GV3P70]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GV3P70.png"
+    },
+    {
+      "id": 761,
+      "titulo": "Wallace & Gromit in Project Zoo [GWLX6L]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GWLX6L.png"
+    },
+    {
+      "id": 762,
+      "titulo": "WarioWare, Inc. Mega Party Game$! [GZWP01]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GZWP01.png"
+    },
+    {
+      "id": 763,
+      "titulo": "Whirl Tour [GWUP7D]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GWUP7D.png"
+    },
+    {
+      "id": 764,
+      "titulo": "Winnie the Pooh's Rumbly Tumbly Adventure [GWHP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GWHP41.png"
+    },
+    {
+      "id": 765,
+      "titulo": "World Racing [GWDP6S]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GWDP6S.png"
+    },
+    {
+      "id": 766,
+      "titulo": "Worms 3D [GWMP8P]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GWMP8P.png"
+    },
+    {
+      "id": 767,
+      "titulo": "Worms Blast [GWBP41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GWBP41.png"
+    },
+    {
+      "id": 768,
+      "titulo": "XGIII Extreme G Racing [G3EP51]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/G3EP51.png"
+    },
+    {
+      "id": 769,
+      "titulo": "XGRA Extreme G Racing Association [GXAP51]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GXAP51.png"
+    },
+    {
+      "id": 770,
+      "titulo": "XIII [GX3X41]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GX3X41.png"
+    },
+    {
+      "id": 771,
+      "titulo": "X-Men 2 Wolverine's Revenge [GWVX52]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GWVX52.png"
+    },
+    {
+      "id": 772,
+      "titulo": "X-Men Legends II El Ascenso de Apocalipsis [GX2S52]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GX2S52.png"
+    },
+    {
+      "id": 773,
+      "titulo": "Zapper [GZPP70]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GZPP70.png"
+    },
+    {
+      "id": 774,
+      "titulo": "ZooCube [GZCP51]",
+      "plataforma": "Nintendo Game Cube",
+      "peso": "1,36 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/GZCP51.png"
     }
   ]
 }
