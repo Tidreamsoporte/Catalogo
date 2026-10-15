@@ -6,854 +6,1062 @@
   "juegos": [
     {
       "id": 1,
-      "titulo": "Tekken Tag Tournament",
-      "plataforma": "PlayStation 2",
-      "peso": "3.2 GB",
-      "valor": 1000,
-      "caratula": "https://i.postimg.cc/PrH4SHQm/SCES-50001.png"
+      "titulo": "50 Cent Blood On The Sand [BLES00472]",
+      "plataforma": "PlayStation 3",
+      "peso": "6.3 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/50%20Cent%20Blood%20On%20The%20Sand%20%5BBLES00472%5D.png"
     },
     {
       "id": 2,
-      "titulo": "Dark Cloud",
-      "plataforma": "PlayStation 2",
-      "peso": "1 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50295.png"
+      "titulo": "Assassin's Creed Brotherhood [BLES00909]",
+      "plataforma": "PlayStation 3",
+      "peso": "7.7 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Assassin%27s%20Creed%20Brotherhood%20%5BBLES00909%5D.png"
     },
     {
       "id": 3,
-      "titulo": "Twisted Metal Black",
-      "plataforma": "PlayStation 2",
-      "peso": "1.87 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50360.png"
+      "titulo": "Afro Samurai [BLES00516]",
+      "plataforma": "PlayStation 3",
+      "peso": "3.8 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Afro%20Samurai%20%5BBLES00516%5D.png"
     },
     {
       "id": 4,
-      "titulo": "Dead or Alive 2",
-      "plataforma": "PlayStation 2",
-      "peso": "4.35 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50003.png"
+      "titulo": "Alice Madness Returns [BLES01265]",
+      "plataforma": "PlayStation 3",
+      "peso": "4.7 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Alice%20Madness%20Returns%20%5BBLES01265%5D.png"
     },
     {
       "id": 5,
-      "titulo": "Time crisis 2",
-      "plataforma": "PlayStation 2",
-      "peso": "4.37 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50300.png"
+      "titulo": "Alone In The Dark [BLES00422]",
+      "plataforma": "PlayStation 3",
+      "peso": "5.9 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Alone%20In%20The%20Dark%20%5BBLES00422%5D.png"
     },
     {
       "id": 6,
-      "titulo": "Jak and Dexter the precursor legecy",
-      "plataforma": "PlayStation 2",
-      "peso": "1.35 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50361.png"
+      "titulo": "Army Of Two (Tm) [BLES00168]",
+      "plataforma": "PlayStation 3",
+      "peso": "4.9 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Army%20Of%20Two%20%28Tm%29%20%5BBLES00168%5D.png"
     },
     {
       "id": 7,
-      "titulo": "Virtua Fighter 4",
-      "plataforma": "PlayStation 2",
-      "peso": "659 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50759.png"
+      "titulo": "Army Of Two The 40Th Day [BLES00659]",
+      "plataforma": "PlayStation 3",
+      "peso": "4.6 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Army%20Of%20Two%20The%2040Th%20Day%20%5BBLES00659%5D.png"
     },
     {
       "id": 8,
-      "titulo": "Sly Raccoon",
-      "plataforma": "PlayStation 2",
-      "peso": "2.72 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50917.png"
+      "titulo": "Army Of Two The Devil's Cartel [BLES01763]",
+      "plataforma": "PlayStation 3",
+      "peso": "7.5 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Army%20Of%20Two%20The%20Devil%27s%20Cartel%20%5BBLES01763%5D.png"
     },
     {
       "id": 9,
-      "titulo": "Treasure Planet",
-      "plataforma": "PlayStation 2",
-      "peso": "2.45 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-51177.png"
+      "titulo": "Assassin's Creed [BLES00158]",
+      "plataforma": "PlayStation 3",
+      "peso": "7.9 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Assassin%27s%20Creed%20%5BBLES00158%5D.png"
     },
     {
       "id": 10,
-      "titulo": "Dark Chronicle",
-      "plataforma": "PlayStation 2",
-      "peso": "4.37 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-51190.png"
+      "titulo": "Asura's Wrath [BLES01227]",
+      "plataforma": "PlayStation 3",
+      "peso": "6.7 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Asura%27s%20Wrath%20%5BBLES01227%5D.png"
     },
     {
       "id": 11,
-      "titulo": "Ratchet & Clank 2",
-      "plataforma": "PlayStation 2",
-      "peso": "3.30 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-51607.png"
+      "titulo": "Barbie Puppy Rescue [BLES02189]",
+      "plataforma": "PlayStation 3",
+      "peso": "1.2 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Barbie%20Puppy%20Rescue%20%5BBLES02189%5D.png"
     },
     {
       "id": 12,
-      "titulo": "Jak II Renegade",
-      "plataforma": "PlayStation 2",
-      "peso": "4.10 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-51608.png"
+      "titulo": "Binary Domain [BLES01211]",
+      "plataforma": "PlayStation 3",
+      "peso": "11.4 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Binary%20Domain%20%5BBLES01211%5D.png"
     },
     {
       "id": 13,
-      "titulo": "Jackie Chan Adventures",
-      "plataforma": "PlayStation 2",
-      "peso": "1.37 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-52412.png"
+      "titulo": "Blazblue Calamity Trigger [BLES00820]",
+      "plataforma": "PlayStation 3",
+      "peso": "4.3 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Blazblue%20Calamity%20Trigger%20%5BBLES00820%5D.png"
     },
     {
       "id": 14,
-      "titulo": "Smash Court Tennis PT2",
-      "plataforma": "PlayStation 2",
-      "peso": "3.90 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-52423.png"
+      "titulo": "Bleach Soul Resurreccion [BLUS30769]",
+      "plataforma": "PlayStation 3",
+      "peso": "3.9 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Bleach%20Soul%20Resurreccion%20%5BBLUS30769%5D.png"
     },
     {
       "id": 15,
-      "titulo": "Ratchet and Clank 3",
-      "plataforma": "PlayStation 2",
-      "peso": "4.15 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-52456.png"
+      "titulo": "Cars 2 [BLES01242]",
+      "plataforma": "PlayStation 3",
+      "peso": "4 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Cars%202%20%5BBLES01242%5D.png"
     },
     {
       "id": 16,
-      "titulo": "Jak 3",
-      "plataforma": "PlayStation 2",
-      "peso": "4.18 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-52460.png"
+      "titulo": "Cars 3 Driven To Win [BLES02249]",
+      "plataforma": "PlayStation 3",
+      "peso": "5 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Cars%203%20Driven%20To%20Win%20%5BBLES02249%5D.png"
     },
     {
       "id": 17,
-      "titulo": "Sly 2 Band of Thieves",
-      "plataforma": "PlayStation 2",
-      "peso": "4.27 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-52529.png"
+      "titulo": "Cars Race-O-Rama [BLES00620]",
+      "plataforma": "PlayStation 3",
+      "peso": "4.2 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Cars%20Race-O-Rama%20%5BBLES00620%5D.png"
     },
     {
       "id": 18,
-      "titulo": "Death by Degrees",
-      "plataforma": "PlayStation 2",
-      "peso": "4.10 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-52586.png"
+      "titulo": "Cartoon Network Punch Time Explosion Xl [BLES01622]",
+      "plataforma": "PlayStation 3",
+      "peso": "3.4 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Cartoon%20Network%20Punch%20Time%20Explosion%20Xl%20%5BBLES01622%5D.png"
     },
     {
       "id": 19,
-      "titulo": "God of War",
-      "plataforma": "PlayStation 2",
-      "peso": "7.46 GB",
-      "valor": 2000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53133.png"
+      "titulo": "Castlevania Lords Of Shadow 2 [BLES01644]",
+      "plataforma": "PlayStation 3",
+      "peso": "4.2 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Castlevania%20Lords%20Of%20Shadow%202%20%5BBLES01644%5D.png"
     },
     {
       "id": 20,
-      "titulo": "Tekken 5",
-      "plataforma": "PlayStation 2",
-      "peso": "3.81 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53202.png"
+      "titulo": "Castlevania Lords Of Shadow [BLES01047]",
+      "plataforma": "PlayStation 3",
+      "peso": "12 GB",
+      "valor": 5000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Castlevania%20Lords%20Of%20Shadow%20%5BBLES01047%5D.png"
     },
     {
       "id": 21,
-      "titulo": "Jak X",
-      "plataforma": "PlayStation 2",
-      "peso": "4.34 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53286.png"
+      "titulo": "Catherine [BLES01459]",
+      "plataforma": "PlayStation 3",
+      "peso": "9.6 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Catherine%20%5BBLES01459%5D.png"
     },
     {
       "id": 22,
-      "titulo": "Shadow of the Colossus",
-      "plataforma": "PlayStation 2",
-      "peso": "4.31 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53326.png"
+      "titulo": "Cloudy With A Chance Of Meatballs [BLES00619]",
+      "plataforma": "PlayStation 3",
+      "peso": "3.2 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Cloudy%20With%20A%20Chance%20Of%20Meatballs%20%5BBLES00619%5D.png"
     },
     {
       "id": 23,
-      "titulo": "Sly 3",
-      "plataforma": "PlayStation 2",
-      "peso": "4.12 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53409.png"
+      "titulo": "Condemned 2 bloodshot[Bles00219]",
+      "plataforma": "PlayStation 3",
+      "peso": "6.2 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Condemned%202%20bloodshot%5BBles00219%5D.png"
     },
     {
       "id": 24,
-      "titulo": "Urban Reign",
-      "plataforma": "PlayStation 2",
-      "peso": "2.67 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53688.png"
+      "titulo": "Damnation [BLES00526]",
+      "plataforma": "PlayStation 3",
+      "peso": "6 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Damnation%20%5BBLES00526%5D.png"
     },
     {
       "id": 25,
-      "titulo": "Shinobido Way of the Ninja",
-      "plataforma": "PlayStation 2",
-      "peso": "3.64 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53931.png"
+      "titulo": "Dead Or Alive 5 [BLES01623]",
+      "plataforma": "PlayStation 3",
+      "peso": "5.8 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Dead%20Or%20Alive%205%20%5BBLES01623%5D.png"
     },
     {
       "id": 26,
-      "titulo": "God of War II",
-      "plataforma": "PlayStation 2",
-      "peso": "7.80 GB",
-      "valor": 2000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-54206.png"
+      "titulo": "Deadpool [BLES01789]",
+      "plataforma": "PlayStation 3",
+      "peso": "5.6 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Deadpool%20%5BBLES01789%5D.png"
     },
     {
       "id": 27,
-      "titulo": "Rogue Galaxy",
-      "plataforma": "PlayStation 2",
-      "peso": "4.24 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-54552.png"
+      "titulo": "Disney Bolt [BLES00414]",
+      "plataforma": "PlayStation 3",
+      "peso": "7.7 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Disney%20Bolt%20%5BBLES00414%5D.png"
     },
     {
       "id": 28,
-      "titulo": "Ratchet Clank Size Matters",
-      "plataforma": "PlayStation 2",
-      "peso": "1.84 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-55019.png"
+      "titulo": "Disney Infinity 2.0 [BLES02064]",
+      "plataforma": "PlayStation 3",
+      "peso": "9.8 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Disney%20Infinity%202.0%20%5BBLES02064%5D.png"
     },
     {
       "id": 29,
-      "titulo": "Jak and Daxter the Lost Frontier",
-      "plataforma": "PlayStation 2",
-      "peso": "3.42 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-55510.png"
+      "titulo": "Disney pixar Brave [BLUS30907]",
+      "plataforma": "PlayStation 3",
+      "peso": "2.9 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Disney%20pixar%20Brave%20%5BBLUS30907%5D.png"
     },
     {
       "id": 30,
-      "titulo": "Twisted Metal Extra",
-      "plataforma": "PlayStation 2",
-      "peso": "3.90 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCUS-97621.png"
+      "titulo": "Dragon Ball Super Extreme Blast [BLES00978]",
+      "plataforma": "PlayStation 3",
+      "peso": "7.5 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Dragon%20Ball%20Super%20Extreme%20Blast%20%5BBLES00978%5D.png"
     },
     {
       "id": 31,
-      "titulo": "Rayman Revolution",
-      "plataforma": "PlayStation 2",
-      "peso": "4.18 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50044.png"
+      "titulo": "Driver San Francisco [BLES00891]",
+      "plataforma": "PlayStation 3",
+      "peso": "9.1 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Driver%20San%20Francisco%20%5BBLES00891%5D.png"
     },
     {
       "id": 32,
-      "titulo": "Pato Donald Quack Attack",
-      "plataforma": "PlayStation 2",
-      "peso": "843 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50048.png"
+      "titulo": "Ducktales Remastered [BLES01969]",
+      "plataforma": "PlayStation 3",
+      "peso": "0.9 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Ducktales%20Remastered%20%5BBLES01969%5D.png"
     },
     {
       "id": 33,
-      "titulo": "Street Fighter EX3",
-      "plataforma": "PlayStation 2",
-      "peso": "582 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50072.png"
+      "titulo": "El Chavo Kart [BLUS31198]",
+      "plataforma": "PlayStation 3",
+      "peso": "2.1 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/El%20Chavo%20Kart%20%5BBLUS31198%5D.png"
     },
     {
       "id": 34,
-      "titulo": "Rumble Racing",
-      "plataforma": "PlayStation 2",
-      "peso": "579 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50120.png"
+      "titulo": "Fifa 19 [BLUS31616]",
+      "plataforma": "PlayStation 3",
+      "peso": "6.5 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Fifa%2019%20%5BBLUS31616%5D.png"
     },
     {
       "id": 35,
-      "titulo": "Army Men Green Rogue",
-      "plataforma": "PlayStation 2",
-      "peso": "1.51 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50191.png"
+      "titulo": "Formula One Championship Edition [BCES00005]",
+      "plataforma": "PlayStation 3",
+      "peso": "11.6 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Formula%20One%20Championship%20Edition%20%5BBCES00005%5D.png"
     },
     {
       "id": 36,
-      "titulo": "Bloody Roar 3",
-      "plataforma": "PlayStation 2",
-      "peso": "550 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50203.png"
+      "titulo": "G-Force [BLES00572]",
+      "plataforma": "PlayStation 3",
+      "peso": "4 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/G-Force%20%5BBLES00572%5D.png"
     },
     {
       "id": 37,
-      "titulo": "Crazy Taxi",
-      "plataforma": "PlayStation 2",
-      "peso": "622 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50215.png"
+      "titulo": "God Of War Ascension (Eu) [BCES01741]",
+      "plataforma": "PlayStation 3",
+      "peso": "35.1 GB",
+      "valor": 7000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/God%20Of%20War%20Ascension%20%28Eu%29%20%5BBCES01741%5D.png"
     },
     {
       "id": 38,
-      "titulo": "Army Men Air Attack Revenge",
-      "plataforma": "PlayStation 2",
-      "peso": "2.13 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50233.png"
+      "titulo": "God Of War Collection Volume I [BCES01277]",
+      "plataforma": "PlayStation 3",
+      "peso": "16.8 GB",
+      "valor": 5000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/God%20Of%20War%20Collection%20Volume%20I%20%5BBCES01277%5D.png"
     },
     {
       "id": 39,
-      "titulo": "Evil Code Veronica X",
-      "plataforma": "PlayStation 2",
-      "peso": "3.71 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50306.png"
+      "titulo": "God Of War III [BCES00510]",
+      "plataforma": "PlayStation 3",
+      "peso": "40.2 GB",
+      "valor": 7000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/God%20Of%20War%20III%20%5BBCES00510%5D.png"
     },
     {
       "id": 40,
-      "titulo": "Devil May Cry",
-      "plataforma": "PlayStation 2",
-      "peso": "4.37 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50358.png"
+      "titulo": "Gran Turismo 6 [BCUS99247]",
+      "plataforma": "PlayStation 3",
+      "peso": "14.4 GB",
+      "valor": 5000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Gran%20Turismo%206%20%5BBCUS99247%5D.png"
     },
     {
       "id": 41,
-      "titulo": "Silent Hill 2",
-      "plataforma": "PlayStation 2",
-      "peso": "3.37 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50382.png"
+      "titulo": "Grand Theft Auto Episodes From Liberty City [BLES00887]",
+      "plataforma": "PlayStation 3",
+      "peso": "8.1 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Grand%20Theft%20Auto%20Episodes%20From%20Liberty%20City%20%5BBLES00887%5D.png"
     },
     {
       "id": 42,
-      "titulo": "Metal Gear Solid 2",
-      "plataforma": "PlayStation 2",
-      "peso": "4.22 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50385.png"
+      "titulo": "Grand Theft Auto IV Complete Edition [BLES01128]",
+      "plataforma": "PlayStation 3",
+      "peso": "18.3 GB",
+      "valor": 5000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Grand%20Theft%20Auto%20IV%20Complete%20Edition%20%5BBLES01128%5D.png"
     },
     {
       "id": 43,
-      "titulo": "Crash Bandicoot Cortex",
-      "plataforma": "PlayStation 2",
-      "peso": "500 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50386.png"
+      "titulo": "Grand Theft Auto V [BLES01807]",
+      "plataforma": "PlayStation 3",
+      "peso": "17.5 GB",
+      "valor": 5000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Grand%20Theft%20Auto%20V%20%5BBLES01807%5D.png"
     },
     {
       "id": 44,
-      "titulo": "Lego Racers 2",
-      "plataforma": "PlayStation 2",
-      "peso": "532 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50443.png"
+      "titulo": "Grand Theft Auto San Andreas [BLES02219]",
+      "plataforma": "PlayStation 3",
+      "peso": "2.3 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Grand%20Theft%20Auto%20San%20Andreas%20%5BBLES02219%5D.png"
     },
     {
       "id": 45,
-      "titulo": "Burnout",
-      "plataforma": "PlayStation 2",
-      "peso": "3.85 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50445.png"
+      "titulo": "Guilty Gear Xrd -Revelator- [BLUS31588]",
+      "plataforma": "PlayStation 3",
+      "peso": "5.7 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Guilty%20Gear%20Xrd%20-Revelator-%20%5BBLUS31588%5D.png"
     },
     {
       "id": 46,
-      "titulo": "Burnout 2 - Point of Impact",
-      "plataforma": "PlayStation 2",
-      "peso": "3.84",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51044.png"
+      "titulo": "Hajime No Ippo [BLJS10295]",
+      "plataforma": "PlayStation 3",
+      "peso": "11 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Hajime%20No%20Ippo%20%5BBLJS10295%5D.png"
+    },
+    {
+      "id": 47,
+      "titulo": "Hellboy The Science Of Evil [BLES00090]",
+      "plataforma": "PlayStation 3",
+      "peso": "1.9 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Hellboy%20The%20Science%20Of%20Evil%20%5BBLES00090%5D.png"
     },
     {
       "id": 48,
-      "titulo": "Rayman M",
-      "plataforma": "PlayStation 2",
-      "peso": "908 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50457.png"
+      "titulo": "Hitman Hd Trilogy [BLES01517]",
+      "plataforma": "PlayStation 3",
+      "peso": "10.2 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Hitman%20Hd%20Trilogy%20%5BBLES01517%5D.png"
     },
     {
       "id": 49,
-      "titulo": "Half-Life",
-      "plataforma": "PlayStation 2",
-      "peso": "354 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50509.png"
+      "titulo": "Hot Wheels World's Best Driver [BLES01881]",
+      "plataforma": "PlayStation 3",
+      "peso": "3.6 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Hot%20Wheels%20World%27s%20Best%20Driver%20%5BBLES01881%5D.png"
     },
     {
       "id": 50,
-      "titulo": "The Simpsons The Road Rage",
-      "plataforma": "PlayStation 2",
-      "peso": "2.31",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50628.png"
+      "titulo": "J-Stars Victory Vs+ [BLES02136]",
+      "plataforma": "PlayStation 3",
+      "peso": "3.6 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/J-Stars%20Victory%20Vs%2B%20%5BBLES02136%5D.png"
     },
     {
       "id": 51,
-      "titulo": "The Simpsons Hit & Run",
-      "plataforma": "PlayStation 2",
-      "peso": "2.06 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLUS-20624.png"
+      "titulo": "James Cameron's Avatar The Game [BLES00753]",
+      "plataforma": "PlayStation 3",
+      "peso": "2.8 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/James%20Cameron%27s%20Avatar%20The%20Game%20%5BBLES00753%5D.png"
     },
     {
       "id": 52,
-      "titulo": "Maximo Ghosts to Glory",
-      "plataforma": "PlayStation 2",
-      "peso": "2.11 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50703.png"
+      "titulo": "Jojo's Bizarre Adventure All-Star Battle [BLUS31405]",
+      "plataforma": "PlayStation 3",
+      "peso": "2.6 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Jojo%27s%20Bizarre%20Adventure%20All-Star%20Battle%20%5BBLUS31405%5D.png"
     },
     {
       "id": 53,
-      "titulo": "Maximo vs Army of Zin",
-      "plataforma": "PlayStation 2",
-      "peso": "1.15 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51759.png"
+      "titulo": "Kung Fu Panda 2 [BLES01213]",
+      "plataforma": "PlayStation 3",
+      "peso": "2.8 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Kung%20Fu%20Panda%202%20%5BBLES01213%5D.png"
     },
     {
       "id": 54,
-      "titulo": "Herdy Gerdy",
-      "plataforma": "PlayStation 2",
-      "peso": "4.24 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50751.png"
+      "titulo": "Kung Fu Panda [BLES00243]",
+      "plataforma": "PlayStation 3",
+      "peso": "9.7 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Kung%20Fu%20Panda%20%5BBLES00243%5D.png"
     },
     {
       "id": 55,
-      "titulo": "Blood Omen 2 - The Legacy of Kain Series",
-      "plataforma": "PlayStation 2",
-      "peso": "3.29 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50772.png"
+      "titulo": "L.A. Noire Complete Edition [BLES01488]",
+      "plataforma": "PlayStation 3",
+      "peso": "34.5 GB",
+      "valor": 7000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/L.A.%20Noire%20Complete%20Edition%20%5BBLES01488%5D.png"
     },
     {
       "id": 56,
-      "titulo": "BMX XXX",
-      "plataforma": "PlayStation 1",
-      "peso": "1.39 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50880.png"
+      "titulo": "Little Big Planet Karting [BCUS98254]",
+      "plataforma": "PlayStation 3",
+      "peso": "6.7 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Little%20Big%20Planet%20Karting%20%5BBCUS98254%5D.png"
     },
     {
       "id": 57,
-      "titulo": "Lego Football Mania",
-      "plataforma": "PlayStation 2",
-      "peso": "353 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50937.png"
+      "titulo": "Lollipop Chainsaw [BLES01525]",
+      "plataforma": "PlayStation 3",
+      "peso": "5.1 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Lollipop%20Chainsaw%20%5BBLES01525%5D.png"
     },
     {
       "id": 58,
-      "titulo": "Spider-Man",
-      "plataforma": "PlayStation 1",
-      "peso": "2.87 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50965.png"
+      "titulo": "Madagascar 3 [BLES01624]",
+      "plataforma": "PlayStation 3",
+      "peso": "4.1 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Madagascar%203%20%5BBLES01624%5D.png"
     },
     {
       "id": 59,
-      "titulo": "Spider-Man 2",
-      "plataforma": "PlayStation 2",
-      "peso": "3.86 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52372.png"
+      "titulo": "Madagascar Kartz [BLES00735]",
+      "plataforma": "PlayStation 3",
+      "peso": "2.9 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Madagascar%20Kartz%20%5BBLES00735%5D.png"
     },
     {
       "id": 60,
-      "titulo": "Spider-Man 3",
-      "plataforma": "PlayStation 2",
-      "peso": "3.83 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54724.png"
+      "titulo": "Marvel Super Hero Squad Comic Combat [BLES01379]",
+      "plataforma": "PlayStation 3",
+      "peso": "2.2 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Marvel%20Super%20Hero%20Squad%20Comic%20Combat%20%5BBLES01379%5D.png"
     },
     {
       "id": 61,
-      "titulo": "Spider-Man Web of Shadows",
-      "plataforma": "PlayStation 2",
-      "peso": "1.62 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55372.png"
+      "titulo": "Marvel Super Hero Squad The Infinity Gauntlet [BLES00895]",
+      "plataforma": "PlayStation 3",
+      "peso": "5.2 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Marvel%20Super%20Hero%20Squad%20The%20Infinity%20Gauntlet%20%5BBLES00895%5D.png"
     },
     {
       "id": 62,
-      "titulo": "The Thing",
-      "plataforma": "PlayStation 2",
-      "peso": "1.43 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50975.png"
+      "titulo": "Marvel Ultimate Alliance 2 [BLES00546]",
+      "plataforma": "PlayStation 3",
+      "peso": "6.4 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Marvel%20Ultimate%20Alliance%202%20%5BBLES00546%5D.png"
     },
     {
       "id": 63,
-      "titulo": "Butt-Ugly Martians Zoom or Doom!",
-      "plataforma": "PlayStation 2",
-      "peso": "586 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51060.png"
+      "titulo": "Marvel Ultimate Alliance [BLES00013]",
+      "plataforma": "PlayStation 3",
+      "peso": "6.6 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Marvel%20Ultimate%20Alliance%20%5BBLES00013%5D.png"
     },
     {
       "id": 64,
-      "titulo": "Hitman 2 Silent Assassin",
-      "plataforma": "PlayStation 2",
-      "peso": "3.68 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51110.png"
+      "titulo": "Marvel Vs. Capcom 2 [NPUB30068]",
+      "plataforma": "PlayStation 3",
+      "peso": "0.2 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Marvel%20Vs.%20Capcom%202%20%5BNPUB30068%5D.png"
     },
     {
       "id": 65,
-      "titulo": "Hitman - Blood Money",
-      "plataforma": "PlayStation 2",
-      "peso": "3.63 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53032.png"
+      "titulo": "Marvel Vs. Capcom 3 [BLES01026]",
+      "plataforma": "PlayStation 3",
+      "peso": "2.9 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Marvel%20Vs.%20Capcom%203%20%5BBLES01026%5D.png"
     },
     {
       "id": 66,
-      "titulo": "Hitman Contracts",
-      "plataforma": "PlayStation 2",
-      "peso": "3.16 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52136.png"
+      "titulo": "Metal Gear Rising Revengeance [BLES01750]",
+      "plataforma": "PlayStation 3",
+      "peso": "23.2 GB",
+      "valor": 5000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Metal%20Gear%20Rising%20Revengeance%20%5BBLES01750%5D.png"
     },
     {
       "id": 67,
-      "titulo": "LEGO Island Xtreme Stunts",
-      "plataforma": "PlayStation 2",
-      "peso": "1.91 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51153.png"
+      "titulo": "Metro Last Light [BLES01867]",
+      "plataforma": "PlayStation 3",
+      "peso": "6.6 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Metro%20Last%20Light%20%5BBLES01867%5D.png"
     },
     {
       "id": 68,
-      "titulo": "LEGO Star Wars The Video Game",
-      "plataforma": "PlayStation 2",
-      "peso": "609 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53194.png"
+      "titulo": "Minecraft Playstation3 Edition [BLES01976]",
+      "plataforma": "PlayStation 3",
+      "peso": "0.4 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Minecraft%20Playstation3%20Edition%20%5BBLES01976%5D.png"
     },
     {
       "id": 69,
-      "titulo": "LEGO Batman Videogame",
-      "plataforma": "PlayStation 2",
-      "peso": "2.00 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55135.png"
+      "titulo": "Minecraft Story Mode [BLUS31606]",
+      "plataforma": "PlayStation 3",
+      "peso": "5.1 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Minecraft%20Story%20Mode%20%5BBLUS31606%5D.png"
     },
     {
       "id": 70,
-      "titulo": "Lego Indiana Jones The Original Adventure",
-      "plataforma": "PlayStation 2",
-      "peso": "4.05 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55133.png"
+      "titulo": "Mortal Kombat Komplete Edition [BLES01508]",
+      "plataforma": "PlayStation 3",
+      "peso": "9.5 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Mortal%20Kombat%20Komplete%20Edition%20%5BBLES01508%5D.png"
     },
     {
       "id": 71,
-      "titulo": "LEGO Star Wars II",
-      "plataforma": "PlayStation 2",
-      "peso": "4.30 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54221.png"
+      "titulo": "Mortal Kombat Vs. Dc Universe [BLES00441]",
+      "plataforma": "PlayStation 3",
+      "peso": "6.1 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Mortal%20Kombat%20Vs.%20Dc%20Universe%20%5BBLES00441%5D.png"
     },
     {
       "id": 72,
-      "titulo": "Rayman 3 - Hoodlum Havoc",
-      "plataforma": "PlayStation 2",
-      "peso": "2.78 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51222.png"
+      "titulo": "Motorstorm Apocalypse [BCES00484]",
+      "plataforma": "PlayStation 3",
+      "peso": "19.7 GB",
+      "valor": 5000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Motorstorm%20Apocalypse%20%5BBCES00484%5D.png"
     },
     {
       "id": 73,
-      "titulo": "Rayman Raving Rabbids",
-      "plataforma": "PlayStation 2",
-      "peso": "1.45 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54307.png"
+      "titulo": "Motorstorm [BCES00006]",
+      "plataforma": "PlayStation 3",
+      "peso": "16.3 GB",
+      "valor": 5000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Motorstorm%20%5BBCES00006%5D.png"
     },
     {
       "id": 74,
-      "titulo": "Tomb Raider Underworld",
-      "plataforma": "PlayStation 2",
-      "peso": "2.96 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51227.png"
+      "titulo": "Naruto Shippuden Ultimate Ninja Storm Generations [BLUS30792]",
+      "plataforma": "PlayStation 3",
+      "peso": "6 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Naruto%20Shippuden%20Ultimate%20Ninja%20Storm%20Generations%20%5BBLUS30792%5D.png"
     },
     {
       "id": 75,
-      "titulo": "Virtua Tennis 2",
-      "plataforma": "PlayStation 2",
-      "peso": "369 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51232.png"
+      "titulo": "Ninja Gaiden 3 [BLES01524]",
+      "plataforma": "PlayStation 3",
+      "peso": "2.9 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Ninja%20Gaiden%203%20%5BBLES01524%5D.png"
     },
     {
       "id": 76,
-      "titulo": "Tenchu La Ira del Cielo",
-      "plataforma": "PlayStation 2",
-      "peso": "3.56 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51400.png"
+      "titulo": "One Piece Pirate Warriors 2 [BLES01913]",
+      "plataforma": "PlayStation 3",
+      "peso": "8.1 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/One%20Piece%20Pirate%20Warriors%202%20%5BBLES01913%5D.png"
     },
     {
       "id": 77,
-      "titulo": "Tenchu Fatal Shadows",
-      "plataforma": "PlayStation 2",
-      "peso": "3.58 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53016.png"
+      "titulo": "One Piece Pirate Warriors 3 [BLES02140]",
+      "plataforma": "PlayStation 3",
+      "peso": "14.3 GB",
+      "valor": 5000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/One%20Piece%20Pirate%20Warriors%203%20%5BBLES02140%5D.png"
     },
     {
       "id": 78,
-      "titulo": "Resident Evil Dead Aim",
-      "plataforma": "PlayStation 2",
-      "peso": "4.20 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51448.png"
+      "titulo": "One Piece Pirate Warriors [BLES01672]",
+      "plataforma": "PlayStation 3",
+      "peso": "11 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/One%20Piece%20Pirate%20Warriors%20%5BBLES01672%5D.png"
     },
     {
       "id": 79,
-      "titulo": "Futurama",
-      "plataforma": "PlayStation 2",
-      "peso": "3.10 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51507.png"
+      "titulo": "One Piece Unlimited World Red [BLES02020]",
+      "plataforma": "PlayStation 3",
+      "peso": "4.8 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/One%20Piece%20Unlimited%20World%20Red%20%5BBLES02020%5D.png"
     },
     {
       "id": 80,
-      "titulo": "Crash Nitro Kart",
-      "plataforma": "PlayStation 2",
-      "peso": "2.94 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51511.png"
+      "titulo": "Planet 51 The Game [BLES00584]",
+      "plataforma": "PlayStation 3",
+      "peso": "3.3 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Planet%2051%20The%20Game%20%5BBLES00584%5D.png"
     },
     {
       "id": 81,
-      "titulo": "Dead to Rights",
-      "plataforma": "PlayStation 2",
-      "peso": "1.72 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51581.png"
+      "titulo": "Prince Of Persia Trilogy 3D [BLES01092]",
+      "plataforma": "PlayStation 3",
+      "peso": "9.3 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Prince%20Of%20Persia%20Trilogy%203D%20%5BBLES01092%5D.png"
     },
     {
       "id": 82,
-      "titulo": "Resident Evil Outbreak",
-      "plataforma": "PlayStation 2",
-      "peso": "4.37 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51589.png"
+      "titulo": "Prison Break [BLES00765]",
+      "plataforma": "PlayStation 3",
+      "peso": "3.3 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Prison%20Break%20%5BBLES00765%5D.png"
     },
     {
       "id": 83,
-      "titulo": "Mace Griffin",
-      "plataforma": "PlayStation 2",
-      "peso": "2.07 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51653.png"
+      "titulo": "Prototype 2 [BLES01533]",
+      "plataforma": "PlayStation 3",
+      "peso": "12.4 GB",
+      "valor": 5000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Prototype%202%20%5BBLES01533%5D.png"
     },
     {
       "id": 84,
-      "titulo": "DisneySkate Adventure",
-      "plataforma": "PlayStation 2",
-      "peso": "2.92 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51721.png"
+      "titulo": "Prototype™ [BLES00269]",
+      "plataforma": "PlayStation 3",
+      "peso": "12.1 GB",
+      "valor": 5000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Prototype%E2%84%A2%20%5BBLES00269%5D.png"
     },
     {
       "id": 85,
-      "titulo": "Buscando a nemo",
-      "plataforma": "PlayStation 2",
-      "peso": "3.10 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51870.png"
+      "titulo": "Puppeteer [BCES00935]",
+      "plataforma": "PlayStation 3",
+      "peso": "10.6 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Puppeteer%20%5BBCES00935%5D.png"
     },
     {
       "id": 86,
-      "titulo": "Bloody Roar 4",
-      "plataforma": "PlayStation 2",
-      "peso": "1.20 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51877.png"
+      "titulo": "Racedriver Grid  [BLES00256]",
+      "plataforma": "PlayStation 3",
+      "peso": "15.9 GB",
+      "valor": 5000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Racedriver%20Grid%20%20%5BBLES00256%5D.png"
     },
     {
       "id": 87,
-      "titulo": "Buffy The Vampire Slayer Chaos Bleeds",
-      "plataforma": "PlayStation 2",
-      "peso": "3.60 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51890.png"
+      "titulo": "Rage [BLES01378]",
+      "plataforma": "PlayStation 3",
+      "peso": "20.7 GB",
+      "valor": 6000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Rage%20%5BBLES01378%5D.png"
     },
     {
       "id": 88,
-      "titulo": "Prince of Persia The Sands",
-      "plataforma": "PlayStation 2",
-      "peso": "3.55 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51918.png"
+      "titulo": "Red Dead Redemption Game Of The Year Edition [BLES01294]",
+      "plataforma": "PlayStation 3",
+      "peso": "9.3 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Red%20Dead%20Redemption%20Game%20Of%20The%20Year%20Edition%20%5BBLES01294%5D.png"
     },
     {
       "id": 89,
-      "titulo": "Prince of Persia - Warrior Within",
-      "plataforma": "PlayStation 2",
-      "peso": "3.81 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52822.png"
+      "titulo": "Resident Evil  Operation Raccoon City [BLES01288]",
+      "plataforma": "PlayStation 3",
+      "peso": "4.6 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Resident%20Evil%20%20Operation%20Raccoon%20City%20%5BBLES01288%5D.png"
     },
     {
       "id": 90,
-      "titulo": "Sonic Heroes",
-      "plataforma": "PlayStation 2",
-      "peso": "4.37 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51950.png"
+      "titulo": "Resident Evil 4 [NPEB00342]",
+      "plataforma": "PlayStation 3",
+      "peso": "3.5 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Resident%20Evil%204%20%5BNPEB00342%5D.png"
     },
     {
       "id": 91,
-      "titulo": "Sonic Riders",
-      "plataforma": "PlayStation 2",
-      "peso": "1.77 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53560.png"
+      "titulo": "Rio [BLUS30614]",
+      "plataforma": "PlayStation 3",
+      "peso": "1.6 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Rio%20%5BBLUS30614%5D.png"
     },
     {
       "id": 92,
-      "titulo": "Sonic Gems Collection",
-      "plataforma": "PlayStation 2",
-      "peso": "1.68 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53350.png"
+      "titulo": "Rise Of The Guardians [BLES01760]",
+      "plataforma": "PlayStation 3",
+      "peso": "3.4 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Rise%20Of%20The%20Guardians%20%5BBLES01760%5D.png"
     },
     {
       "id": 93,
-      "titulo": "Sonic Unleashed",
-      "plataforma": "PlayStation 2",
-      "peso": "4.35 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55380.png"
+      "titulo": "Saint Seiya Brave Soldiers [BLES01936]",
+      "plataforma": "PlayStation 3",
+      "peso": "3.3 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Saint%20Seiya%20Brave%20Soldiers%20%5BBLES01936%5D.png"
     },
     {
       "id": 94,
-      "titulo": "Sonic Riders ZG",
-      "plataforma": "PlayStation 2",
-      "peso": "4.37 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54915.png"
+      "titulo": "Saint Seiya Sanctuary Battle [BLES01421]",
+      "plataforma": "PlayStation 3",
+      "peso": "7.6 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Saint%20Seiya%20Sanctuary%20Battle%20%5BBLES01421%5D.png"
     },
     {
       "id": 95,
-      "titulo": "Whiplash",
-      "plataforma": "PlayStation 2",
-      "peso": "4.01 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51958.png"
+      "titulo": "Saint Seiya Soldiers' Soul [BLES02181]",
+      "plataforma": "PlayStation 3",
+      "peso": "5.7 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Saint%20Seiya%20Soldiers%27%20Soul%20%5BBLES02181%5D.png"
     },
     {
       "id": 96,
-      "titulo": "Need For Speed Underground",
-      "plataforma": "PlayStation 2",
-      "peso": "2.53 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51967.png"
+      "titulo": "Shrek Forever After [BLES00837]",
+      "plataforma": "PlayStation 3",
+      "peso": "7.1 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Shrek%20Forever%20After%20%5BBLES00837%5D.png"
     },
     {
       "id": 97,
-      "titulo": "Need for Speed Underground 2",
-      "plataforma": "PlayStation 2",
-      "peso": "3.81 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52725.png"
+      "titulo": "Sleeping Dogs [BLES01662]",
+      "plataforma": "PlayStation 3",
+      "peso": "7 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Sleeping%20Dogs%20%5BBLES01662%5D.png"
     },
     {
       "id": 98,
-      "titulo": "Need For Speed Undercover",
-      "plataforma": "PlayStation 2",
-      "peso": "3.44 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55351.png"
+      "titulo": "Sniper Elite 3 [BLES01981]",
+      "plataforma": "PlayStation 3",
+      "peso": "5 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Sniper%20Elite%203%20%5BBLES01981%5D.png"
     },
     {
       "id": 99,
-      "titulo": "Need for Speed Most Wanted",
-      "plataforma": "PlayStation 2",
-      "peso": "3.81 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53559.png"
+      "titulo": "Sonic & All-Stars Racing Transformed [BLES01646]",
+      "plataforma": "PlayStation 3",
+      "peso": "5.6 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Sonic%20%26%20All-Stars%20Racing%20Transformed%20%5BBLES01646%5D.png"
     },
     {
       "id": 100,
-      "titulo": "Need for Speed ProStreet",
-      "plataforma": "PlayStation 2",
-      "peso": "3.61 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55004.png"
+      "titulo": "Splinter Cell Double Agent [BLES00024]",
+      "plataforma": "PlayStation 3",
+      "peso": "6.2 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Splinter%20Cell%20Double%20Agent%20%5BBLES00024%5D.png"
     },
     {
       "id": 101,
-      "titulo": "Need For Speed Carbon",
-      "plataforma": "PlayStation 2",
-      "peso": "3.51 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54323.png"
+      "titulo": "Splitsecond [BLES00780]",
+      "plataforma": "PlayStation 3",
+      "peso": "6.5 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Splitsecond%20%5BBLES00780%5D.png"
     },
     {
       "id": 102,
-      "titulo": "Need for Speed Hot Pursuit 2",
-      "plataforma": "PlayStation 2",
-      "peso": "2.90 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50731.png"
+      "titulo": "Spongebob Squarepants Planktons Robotic Revenge [BLES01911]",
+      "plataforma": "PlayStation 3",
+      "peso": "1.6 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Spongebob%20Squarepants%20Planktons%20Robotic%20Revenge%20%5BBLES01911%5D.png"
     },
     {
       "id": 103,
-      "titulo": "Manhunt",
-      "plataforma": "PlayStation 2",
-      "peso": "4.37 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52023.png"
+      "titulo": "Street Fighter X Tekken [BLES01252]",
+      "plataforma": "PlayStation 3",
+      "peso": "12.7 GB",
+      "valor": 5000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Street%20Fighter%20X%20Tekken%20%5BBLES01252%5D.png"
     },
     {
       "id": 104,
-      "titulo": "Manhunt 2",
-      "plataforma": "PlayStation 2",
-      "peso": "2.47 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54819.png"
+      "titulo": "The Amazing Spider-Man 2 [BLES01989]",
+      "plataforma": "PlayStation 3",
+      "peso": "8.1 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/The%20Amazing%20Spider-Man%202%20%5BBLES01989%5D.png"
     },
     {
       "id": 105,
-      "titulo": "Hugo - Bukkazoom",
-      "plataforma": "PlayStation 2",
-      "peso": "555 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52102.png"
+      "titulo": "The Amazing Spider-Man [BLES01547]",
+      "plataforma": "PlayStation 3",
+      "peso": "8.8 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/The%20Amazing%20Spider-Man%20%5BBLES01547%5D.png"
     },
     {
       "id": 106,
-      "titulo": "Hugo - CannonCruise",
-      "plataforma": "PlayStation 2",
-      "peso": "380 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52767.png"
+      "titulo": "The Godfather II [BLES00477]",
+      "plataforma": "PlayStation 3",
+      "peso": "10 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/The%20Godfather%20II%20%5BBLES00477%5D.png"
     },
     {
       "id": 107,
-      "titulo": "Underworld The Eternal War",
-      "plataforma": "PlayStation 2",
-      "peso": "4.08 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52109.png"
+      "titulo": "The Godfather The Don's Edition [BLES00047]",
+      "plataforma": "PlayStation 3",
+      "peso": "8.9 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/The%20Godfather%20The%20Don%27s%20Edition%20%5BBLES00047%5D.png"
     },
     {
       "id": 108,
+      "titulo": "The Jak And Daxter Trilogy [BCES01325]",
+      "plataforma": "PlayStation 3",
+      "peso": "7.9 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/The%20Jak%20And%20Daxter%20Trilogy%20%5BBCES01325%5D.png"
+    },
+    {
+      "id": 109,
+      "titulo": "The King Of Fighters XII [BLES00610]",
+      "plataforma": "PlayStation 3",
+      "peso": "1 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/The%20King%20Of%20Fighters%20XII%20%5BBLES00610%5D.png"
+    },
+    {
+      "id": 110,
+      "titulo": "The King Of Fighters XIII [BLES01409]",
+      "plataforma": "PlayStation 3",
+      "peso": "2.4 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/The%20King%20Of%20Fighters%20XIII%20%5BBLES01409%5D.png"
+    },
+    {
+      "id": 111,
+      "titulo": "The Legend Of Spyro Dawn Of The Dragon [BLES00382]",
+      "plataforma": "PlayStation 3",
+      "peso": "8.8 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/The%20Legend%20Of%20Spyro%20Dawn%20Of%20The%20Dragon%20%5BBLES00382%5D.png"
+    },
+    {
+      "id": 112,
+      "titulo": "The Lego Movie - Videogame [BLES01964]",
+      "plataforma": "PlayStation 3",
+      "peso": "6.2 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/The%20Lego%20Movie%20-%20Videogame%20%5BBLES01964%5D.png"
+    },
+    {
+      "id": 113,
+      "titulo": "The Penguins Of Madagascar [BLES01219]",
+      "plataforma": "PlayStation 3",
+      "peso": "2.7 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/The%20Penguins%20Of%20Madagascar%20%5BBLES01219%5D.png"
+    },
+    {
+      "id": 114,
+      "titulo": "The Ratchet & Clank Trilogy [BCES01503]",
+      "plataforma": "PlayStation 3",
+      "peso": "10.1 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/The%20Ratchet%20%26%20Clank%20Trilogy%20%5BBCES01503%5D.png"
+    },
+    {
+      "id": 115,
+      "titulo": "The Simpsons Game [BLES00142]",
+      "plataforma": "PlayStation 3",
+      "peso": "11 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/The%20Simpsons%20Game%20%5BBLES00142%5D.png"
+    },
+    {
+      "id": 116,
+      "titulo": "The Sims 3 [BLES01016]",
+      "plataforma": "PlayStation 3",
+      "peso": "6.2 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/The%20Sims%203%20%5BBLES01016%5D.png"
+    },
+    {
+      "id": 117,
+      "titulo": "The Sly Trilogy [BCES00968]",
+      "plataforma": "PlayStation 3",
+      "peso": "22.9 GB",
+      "valor": 5000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/The%20Sly%20Trilogy%20%5BBCES00968%5D.png"
+    },
+    {
+      "id": 118,
+      "titulo": "The Tomb Raider Trilogy [BLES01195]",
+      "plataforma": "PlayStation 3",
+      "peso": "22.7 GB",
+      "valor": 5000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/The%20Tomb%20Raider%20Trilogy%20%5BBLES01195%5D.png"
+    },
+    {
+      "id": 119,
+      "titulo": "Tom Clancy's Splinter Cell Trilogy Hd [BLES01146]",
+      "plataforma": "PlayStation 3",
+      "peso": "10.6 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Tom%20Clancy%27s%20Splinter%20Cell%20Trilogy%20Hd%20%5BBLES01146%5D.png"
+    },
+    {
+      "id": 120,
+      "titulo": "Transformers Dark Of The Moon [BLES01169]",
+      "plataforma": "PlayStation 3",
+      "peso": "5.4 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Transformers%20Dark%20Of%20The%20Moon%20%5BBLES01169%5D.png"
+    },
+    {
+      "id": 121,
+      "titulo": "Transformers Devastation [BLES02200]",
+      "plataforma": "PlayStation 3",
+      "peso": "5 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Transformers%20Devastation%20%5BBLES02200%5D.png"
+    },
+    {
+      "id": 122,
+      "titulo": "Transformers Fall Of Cybertron [BLES01153]",
+      "plataforma": "PlayStation 3",
+      "peso": "8.7 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Transformers%20Fall%20Of%20Cybertron%20%5BBLES01153%5D.png"
+    },
+    {
+      "id": 123,
+      "titulo": "Turbo Super Stunt Squad [BLES01849]",
+      "plataforma": "PlayStation 3",
+      "peso": "1.5 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Turbo%20Super%20Stunt%20Squad%20%5BBLES01849%5D.png"
+    },
+    {
+      "id": 124,
+      "titulo": "Ultra Street Fighter IV [BLES01900]",
+      "plataforma": "PlayStation 3",
+      "peso": "18.1 GB",
+      "valor": 5000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Ultra%20Street%20Fighter%20IV%20%5BBLES01900%5D.png"
+    },
+    {
+      "id": 125,
+      "titulo": "Uncharted 3 Drake's Deception game Of The Year [BCES01670]",
+      "plataforma": "PlayStation 3",
+      "peso": "45.5 GB",
+      "valor": 7000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Uncharted%203%20Drake%27s%20Deception%20game%20Of%20The%20Year%20%5BBCES01670%5D.png"
+    },
+    {
+      "id": 126,
+      "titulo": "Up [BLES00542]",
+      "plataforma": "PlayStation 3",
+      "peso": "4 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Up%20%5BBLES00542%5D.png"
+    },
+    {
+      "id": 127,
+      "titulo": "Virtua Fighter 5 [BLES00029]",
+      "plataforma": "PlayStation 3",
+      "peso": "4 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Virtua%20Fighter%205%20%5BBLES00029%5D.png"
+    },
+    {
+      "id": 128,
+      "titulo": "Watch_Dogs [BLES01854]",
+      "plataforma": "PlayStation 3",
+      "peso": "15 GB",
+      "valor": 5000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/Watch_Dogs%20%5BBLES01854%5D.png"
+    },
+    {
+      "id": 129,
+      "titulo": "WWE 2K17 [BLES02239]",
+      "plataforma": "PlayStation 3",
+      "peso": "8.6 GB",
+      "valor": 4000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/WWE%202K17%20%5BBLES02239%5D.png"
+    },
+    {
+      "id": 130,
+      "titulo": "X-Men Origins Wolverine [BLES00150]",
+      "plataforma": "PlayStation 3",
+      "peso": "6.6 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/X-Men%20Origins%20Wolverine%20%5BBLES00150%5D.png"
+    },
+    {
+      "id": 131,
+      "titulo": "10000 Bullets",
+      "plataforma": "PlayStation 2",
+      "peso": "2.08 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53481.png"
+    },
+    {
+      "id": 132,
+      "titulo": "4 Fantasticos Rise of the Silver Surfer",
+      "plataforma": "PlayStation 2",
+      "peso": "4.06 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54616.png"
+    },
+    {
+      "id": 133,
       "titulo": "Agassi Tennis Generation",
       "plataforma": "PlayStation 2",
       "peso": "265 MB",
@@ -861,479 +1069,295 @@
       "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52125.png"
     },
     {
-      "id": 109,
-      "titulo": "Baldurs Gate Alliance II",
-      "plataforma": "PlayStation 2",
-      "peso": "3.44 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52188.png"
-    },
-    {
-      "id": 110,
-      "titulo": "Downhill Domination",
-      "plataforma": "PlayStation 2",
-      "peso": "2.58 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52202.png"
-    },
-    {
-      "id": 111,
-      "titulo": "Mafia",
-      "plataforma": "PlayStation 2",
-      "peso": "3.78 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52282.png"
-    },
-    {
-      "id": 112,
-      "titulo": "Spawn Armageddon",
-      "plataforma": "PlayStation 2",
-      "peso": "2.06 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52326.png"
-    },
-    {
-      "id": 113,
-      "titulo": "Shrek 2",
-      "plataforma": "PlayStation 2",
-      "peso": "1.20 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52382.png"
-    },
-    {
-      "id": 114,
-      "titulo": "Shrek Tercero",
-      "plataforma": "PlayStation 2",
-      "peso": "1.74 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54771.png"
-    },
-    {
-      "id": 115,
-      "titulo": "Shrek SuperSlam",
-      "plataforma": "PlayStation 2",
-      "peso": "1.61 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53752.png"
-    },
-    {
-      "id": 116,
-      "titulo": "Shrek Smash n Crash Racing",
-      "plataforma": "PlayStation 2",
-      "peso": "4.24 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54553.png"
-    },
-    {
-      "id": 117,
-      "titulo": "Silent Hill 4 The Room",
-      "plataforma": "PlayStation 2",
-      "peso": "3.51 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52445.png"
-    },
-    {
-      "id": 118,
-      "titulo": "Silent Hill 3",
-      "plataforma": "PlayStation 2",
-      "peso": "3.25 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLUS-20622.png"
-    },
-    {
-      "id": 119,
-      "titulo": "Silent Hill Origins",
-      "plataforma": "PlayStation 2",
-      "peso": "2.83 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55147.png"
-    },
-    {
-      "id": 120,
-      "titulo": "Red Dead Revolver",
-      "plataforma": "PlayStation 2",
-      "peso": "2.43 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52478.png"
-    },
-    {
-      "id": 121,
-      "titulo": "ObsCure",
-      "plataforma": "PlayStation 2",
-      "peso": "2.57 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52508.png"
-    },
-    {
-      "id": 122,
-      "titulo": "ObsCure II",
-      "plataforma": "PlayStation 2",
-      "peso": "1.90 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54782.png"
-    },
-    {
-      "id": 123,
-      "titulo": "Rumble Roses Plus",
-      "plataforma": "PlayStation 2",
-      "peso": "3.56 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52535.png"
-    },
-    {
-      "id": 124,
-      "titulo": "Catwoman",
-      "plataforma": "PlayStation 2",
-      "peso": "1.34 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52567.png"
-    },
-    {
-      "id": 125,
-      "titulo": "Area 51",
-      "plataforma": "PlayStation 2",
-      "peso": "3.26 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52570.png"
-    },
-    {
-      "id": 126,
-      "titulo": "Army Men Sarges War",
-      "plataforma": "PlayStation 2",
-      "peso": "3.19 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52587.png"
-    },
-    {
-      "id": 127,
-      "titulo": "Army Men Sarges Heroes 2",
-      "plataforma": "PlayStation 2",
-      "peso": "2.21 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50192.png"
-    },
-    {
-      "id": 128,
-      "titulo": "Digimon Rumble Arena 2",
-      "plataforma": "PlayStation 2",
-      "peso": "1.24 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52631.png"
-    },
-    {
-      "id": 129,
-      "titulo": "Future Tactics",
-      "plataforma": "PlayStation 2",
-      "peso": "337 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52701.png"
-    },
-    {
-      "id": 130,
-      "titulo": "NBA Live 2005",
-      "plataforma": "PlayStation 2",
-      "peso": "2.07 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52727.png"
-    },
-    {
-      "id": 131,
-      "titulo": "Animaniacs",
-      "plataforma": "PlayStation 2",
-      "peso": "2.44 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52729.png"
-    },
-    {
-      "id": 132,
-      "titulo": "Commandos Strike Force",
-      "plataforma": "PlayStation 2",
-      "peso": "2.10 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52768.png"
-    },
-    {
-      "id": 133,
-      "titulo": "Los Increibles",
-      "plataforma": "PlayStation 2",
-      "peso": "1.20 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52816.png"
-    },
-    {
       "id": 134,
-      "titulo": "The Mummy",
+      "titulo": "Alone in the Dark",
       "plataforma": "PlayStation 2",
-      "peso": "343 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52835.png"
+      "peso": "3.21 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55207.png"
     },
     {
       "id": 135,
-      "titulo": "Constantine",
-      "plataforma": "PlayStation 2",
-      "peso": "4.27 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52872.png"
-    },
-    {
-      "id": 136,
-      "titulo": "Dark Wind",
-      "plataforma": "PlayStation 2",
-      "peso": "500 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52874.png"
-    },
-    {
-      "id": 137,
-      "titulo": "Haunting Ground",
-      "plataforma": "PlayStation 2",
-      "peso": "4.26 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52877.png"
-    },
-    {
-      "id": 138,
-      "titulo": "Shadow of Rome",
-      "plataforma": "PlayStation 2",
-      "peso": "4.37 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52950.png"
-    },
-    {
-      "id": 139,
       "titulo": "Altered Beast",
       "plataforma": "PlayStation 2",
       "peso": "1.98 GB",
-      "valor": 1000,
+      "valor": 2000,
       "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53024.png"
     },
     {
-      "id": 140,
-      "titulo": "He-Man Defender of Grayskull",
+      "id": 136,
+      "titulo": "Animaniacs",
       "plataforma": "PlayStation 2",
-      "peso": "612 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53035.png"
+      "peso": "2.44 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52729.png"
+    },
+    {
+      "id": 137,
+      "titulo": "Area 51",
+      "plataforma": "PlayStation 2",
+      "peso": "3.26 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52570.png"
+    },
+    {
+      "id": 138,
+      "titulo": "Army Men Air Attack Revenge",
+      "plataforma": "PlayStation 2",
+      "peso": "2.13 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50233.png"
+    },
+    {
+      "id": 139,
+      "titulo": "Army Men Green Rogue",
+      "plataforma": "PlayStation 2",
+      "peso": "1.51 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50191.png"
+    },
+    {
+      "id": 140,
+      "titulo": "Army Men Sarges Heroes 2",
+      "plataforma": "PlayStation 2",
+      "peso": "2.21 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50192.png"
     },
     {
       "id": 141,
-      "titulo": "Devil May Cry 3 - Dante's Awakening",
+      "titulo": "Army Men Sarges War",
       "plataforma": "PlayStation 2",
-      "peso": "3.60 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53038.png"
+      "peso": "3.19 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52587.png"
     },
     {
       "id": 142,
-      "titulo": "Devil May Cry 2",
+      "titulo": "Baldurs Gate Alliance II",
       "plataforma": "PlayStation 2",
-      "peso": "4.37 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50358.png"
+      "peso": "3.44 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52188.png"
     },
     {
       "id": 143,
-      "titulo": "FIFA Street",
+      "titulo": "Bee Movie Game",
       "plataforma": "PlayStation 2",
-      "peso": "4.37 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53064.png"
+      "peso": "2.33 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55016.png"
     },
     {
       "id": 144,
-      "titulo": "FIFA Street 2",
+      "titulo": "Ben 10 AF",
       "plataforma": "PlayStation 2",
-      "peso": "4.37 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53797.png"
+      "peso": "2.19 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55440.png"
     },
     {
       "id": 145,
-      "titulo": "SNK vs Capcom SVC",
+      "titulo": "Ben 10 Alien Force Vilgax Attacks",
       "plataforma": "PlayStation 2",
-      "peso": "390 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53065.png"
+      "peso": "4.37 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55592.png"
     },
     {
       "id": 146,
-      "titulo": "Scooby Doo Unmasked",
+      "titulo": "Ben 10 Ultimate Alien Cosmic Destruction",
       "plataforma": "PlayStation 2",
-      "peso": "1.22 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53100.png"
+      "peso": "4.30 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55639.png"
     },
     {
       "id": 147,
-      "titulo": "Project - Snowblind",
+      "titulo": "Biker Mice from Mars",
       "plataforma": "PlayStation 2",
-      "peso": "3.10 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53124.png"
+      "peso": "1.89 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54319.png"
     },
     {
       "id": 148,
-      "titulo": "Teenage Mutant Ninja Turtles Mutant Melee",
+      "titulo": "Bionicle Heroes",
       "plataforma": "PlayStation 2",
-      "peso": "3.14 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53127.png"
+      "peso": "2.56 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54150.png"
     },
     {
       "id": 149,
-      "titulo": "Teenage Mutant Ninja Turtles Smash-Up",
+      "titulo": "Black",
       "plataforma": "PlayStation 2",
-      "peso": "1.49 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLUS-21904.png"
+      "peso": "3.64 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53886.png"
     },
     {
       "id": 150,
-      "titulo": "Fantastic 4",
+      "titulo": "Blood Omen 2 - The Legacy of Kain Series",
       "plataforma": "PlayStation 2",
-      "peso": "4.37 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53147.png"
+      "peso": "3.29 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50772.png"
     },
     {
       "id": 151,
-      "titulo": "Cold Fear",
+      "titulo": "Bloody Roar 3",
       "plataforma": "PlayStation 2",
-      "peso": "3.33 GB",
+      "peso": "550 MB",
       "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53158.png"
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50203.png"
     },
     {
       "id": 152,
-      "titulo": "Madagascar",
+      "titulo": "Bloody Roar 4",
       "plataforma": "PlayStation 2",
-      "peso": "509 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53246.png"
+      "peso": "1.20 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51877.png"
     },
     {
       "id": 153,
-      "titulo": "Madagascar Escape 2 Africa",
+      "titulo": "BMX XXX",
       "plataforma": "PlayStation 2",
-      "peso": "2.72 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55374.png"
+      "peso": "1.39 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50880.png"
     },
     {
       "id": 154,
-      "titulo": "Dead to Rights",
+      "titulo": "Buffy The Vampire Slayer Chaos Bleeds",
       "plataforma": "PlayStation 2",
-      "peso": "1.72 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53424.png"
+      "peso": "3.60 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51890.png"
     },
     {
       "id": 155,
-      "titulo": "The Warriors",
-      "plataforma": "PlayStation 2",
-      "peso": "3.97 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53443.png"
-    },
-    {
-      "id": 156,
-      "titulo": "10000 Bullets",
-      "plataforma": "PlayStation 2",
-      "peso": "2.08 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53481.png"
-    },
-    {
-      "id": 157,
-      "titulo": "Total Overdose",
-      "plataforma": "PlayStation 2",
-      "peso": "4.37 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53492.png"
-    },
-    {
-      "id": 158,
-      "titulo": "Gun",
-      "plataforma": "PlayStation 2",
-      "peso": "2.81 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53523.png"
-    },
-    {
-      "id": 159,
-      "titulo": "Suffering Ties That Bind",
-      "plataforma": "PlayStation 2",
-      "peso": "3.68 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53527.png"
-    },
-    {
-      "id": 160,
-      "titulo": "Shadow The Hedgehog",
-      "plataforma": "PlayStation 2",
-      "peso": "2.01 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53542.png"
-    },
-    {
-      "id": 161,
       "titulo": "Bully Canis Canem Edit",
       "plataforma": "PlayStation 2",
       "peso": "4.31 GB",
-      "valor": 1000,
+      "valor": 2000,
       "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53561.png"
     },
     {
+      "id": 156,
+      "titulo": "Burnout",
+      "plataforma": "PlayStation 2",
+      "peso": "3.85 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50445.png"
+    },
+    {
+      "id": 157,
+      "titulo": "Burnout 2 - Point of Impact",
+      "plataforma": "PlayStation 2",
+      "peso": "3.84 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51044.png"
+    },
+    {
+      "id": 158,
+      "titulo": "Buscando a nemo",
+      "plataforma": "PlayStation 2",
+      "peso": "3.10 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51870.png"
+    },
+    {
+      "id": 159,
+      "titulo": "Butt-Ugly Martians Zoom or Doom!",
+      "plataforma": "PlayStation 2",
+      "peso": "586 MB",
+      "valor": 1000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51060.png"
+    },
+    {
+      "id": 160,
+      "titulo": "Cars",
+      "plataforma": "PlayStation 2",
+      "peso": "2.84 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54007.png"
+    },
+    {
+      "id": 161,
+      "titulo": "Cartoon Network Racing",
+      "plataforma": "PlayStation 2",
+      "peso": "3.41 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54306.png"
+    },
+    {
       "id": 162,
-      "titulo": "True Crime New York City",
-      "plataforma": "PlayStation 2",
-      "peso": "2.94 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53618.png"
-    },
-    {
-      "id": 163,
-      "titulo": "Resident Evil 4",
-      "plataforma": "PlayStation 2",
-      "peso": "4.25 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53702.png"
-    },
-    {
-      "id": 164,
-      "titulo": "Midnight Club 3 DUB Edition Remix",
-      "plataforma": "PlayStation 2",
-      "peso": "4.39 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53717.png"
-    },
-    {
-      "id": 165,
       "titulo": "Castlevania Curse of Darkness",
       "plataforma": "PlayStation 2",
       "peso": "3.57 GB",
-      "valor": 1000,
+      "valor": 2000,
       "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53755.png"
     },
     {
-      "id": 166,
-      "titulo": "TMNT 3 Mutant Nightmare",
+      "id": 163,
+      "titulo": "Catwoman",
       "plataforma": "PlayStation 2",
-      "peso": "2.28 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53850.png"
+      "peso": "1.34 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52567.png"
+    },
+    {
+      "id": 164,
+      "titulo": "Chicken Little As en Action",
+      "plataforma": "PlayStation 2",
+      "peso": "2.53 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54452.png"
+    },
+    {
+      "id": 165,
+      "titulo": "Cold Fear",
+      "plataforma": "PlayStation 2",
+      "peso": "3.33 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53158.png"
+    },
+    {
+      "id": 166,
+      "titulo": "Commandos Strike Force",
+      "plataforma": "PlayStation 2",
+      "peso": "2.10 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52768.png"
     },
     {
       "id": 167,
-      "titulo": "Final Fight - Streetwise",
+      "titulo": "Constantine",
       "plataforma": "PlayStation 2",
-      "peso": "3.05 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53853.png"
+      "peso": "4.27 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52872.png"
     },
     {
       "id": 168,
+      "titulo": "Crash Bandicoot Cortex",
+      "plataforma": "PlayStation 2",
+      "peso": "500 MB",
+      "valor": 1000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50386.png"
+    },
+    {
+      "id": 169,
+      "titulo": "Crash Nitro Kart",
+      "plataforma": "PlayStation 2",
+      "peso": "2.94 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51511.png"
+    },
+    {
+      "id": 170,
       "titulo": "Crazy Frog Racer",
       "plataforma": "PlayStation 2",
       "peso": "365 MB",
@@ -1341,279 +1365,223 @@
       "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53869.png"
     },
     {
-      "id": 169,
-      "titulo": "Black",
-      "plataforma": "PlayStation 2",
-      "peso": "3.64 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53886.png"
-    },
-    {
-      "id": 170,
-      "titulo": "Lara Croft Tom Raider Legend",
-      "plataforma": "PlayStation 2",
-      "peso": "3.97 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53908.png"
-    },
-    {
       "id": 171,
-      "titulo": "El padrino",
+      "titulo": "Crazy Taxi",
       "plataforma": "PlayStation 2",
-      "peso": "3.63 GB",
+      "peso": "622 MB",
       "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53971.png"
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50215.png"
     },
     {
       "id": 172,
-      "titulo": "Torrente III",
+      "titulo": "Dark Chronicle",
       "plataforma": "PlayStation 2",
-      "peso": "3.95 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53979.png"
+      "peso": "4.37 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-51190.png"
     },
     {
       "id": 173,
-      "titulo": "La era de Hielo 2 el Deshielo",
+      "titulo": "Dark Cloud",
       "plataforma": "PlayStation 2",
-      "peso": "3.25 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53984.png"
+      "peso": "1 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50295.png"
     },
     {
       "id": 174,
-      "titulo": "Cars",
+      "titulo": "Dark Wind",
       "plataforma": "PlayStation 2",
-      "peso": "2.84 GB",
+      "peso": "500 MB",
       "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54007.png"
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52874.png"
     },
     {
       "id": 175,
-      "titulo": "Family Guy Video Game",
+      "titulo": "Dead or Alive 2",
       "plataforma": "PlayStation 2",
-      "peso": "2.94 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54126.png"
+      "peso": "4.35 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50003.png"
     },
     {
       "id": 176,
-      "titulo": "Grand Theft Auto - Liberty City Stories",
+      "titulo": "Dead to Rights",
       "plataforma": "PlayStation 2",
-      "peso": "3.73 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54135.png"
+      "peso": "1.72 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51581.png"
     },
     {
       "id": 177,
-      "titulo": "Grand Theft Auto San Andreas",
+      "titulo": "Dead to Rights",
       "plataforma": "PlayStation 2",
-      "peso": "4.20 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLUS-20946.png"
+      "peso": "1.72 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53424.png"
     },
     {
       "id": 178,
-      "titulo": "Earache Extreme Metal Racing",
+      "titulo": "Death by Degrees",
       "plataforma": "PlayStation 2",
-      "peso": "2.15 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54139.png"
+      "peso": "4.10 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-52586.png"
     },
     {
       "id": 179,
-      "titulo": "Bionicle Heroes",
+      "titulo": "Devil May Cry",
       "plataforma": "PlayStation 2",
-      "peso": "2.56 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54150.png"
+      "peso": "4.37 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50358.png"
     },
     {
       "id": 180,
-      "titulo": "Saint Seiya - The Hades",
+      "titulo": "Devil May Cry 2",
       "plataforma": "PlayStation 2",
-      "peso": "3.71 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54162.png"
+      "peso": "4.37 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50358.png"
     },
     {
       "id": 181,
-      "titulo": "Naruto Ultimate Ninja",
+      "titulo": "Devil May Cry 3 - Dante's Awakening",
       "plataforma": "PlayStation 2",
-      "peso": "4.02 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54163.png"
+      "peso": "3.60 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53038.png"
     },
     {
       "id": 182,
-      "titulo": "Naruto Ultimate Ninja 2",
+      "titulo": "Digimon Rumble Arena 2",
       "plataforma": "PlayStation 2",
-      "peso": "3.82 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54878.png"
+      "peso": "1.24 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52631.png"
     },
     {
       "id": 183,
-      "titulo": "Naruto Ultimate Ninja 3",
+      "titulo": "Disney Bolt",
       "plataforma": "PlayStation 2",
-      "peso": "2.24 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLUS-21727.png"
+      "peso": "4.31 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55429.png"
     },
     {
       "id": 184,
-      "titulo": "Naruto Ultimate Ninja 4",
+      "titulo": "Disney Princesas Viaje Encantado",
       "plataforma": "PlayStation 2",
-      "peso": "4.08 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55482.png"
+      "peso": "3.90 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54837.png"
     },
     {
       "id": 185,
-      "titulo": "Naruto Shippuden Ultimate Ninja 5",
+      "titulo": "DisneySkate Adventure",
       "plataforma": "PlayStation 2",
-      "peso": "1.79 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55605.png"
+      "peso": "2.92 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51721.png"
     },
     {
       "id": 186,
-      "titulo": "Naruto Uzumaki Chronicles",
+      "titulo": "Downhill Domination",
       "plataforma": "PlayStation 2",
-      "peso": "2.15 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54727.png"
+      "peso": "2.58 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52202.png"
     },
     {
       "id": 187,
-      "titulo": "Naruto Uzumaki Chronicles 2",
+      "titulo": "Dragon Ball Z Budokai Tenkaichi 3",
       "plataforma": "PlayStation 2",
-      "peso": "4.04 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55090.png"
+      "peso": "4.02 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54945.png"
     },
     {
       "id": 188,
-      "titulo": "Scarface",
+      "titulo": "Earache Extreme Metal Racing",
       "plataforma": "PlayStation 2",
-      "peso": "3.40 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54182.png"
+      "peso": "2.15 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54139.png"
     },
     {
       "id": 189,
-      "titulo": "The Legend of Jack Sparrow",
+      "titulo": "El padrino",
       "plataforma": "PlayStation 2",
-      "peso": "4.35 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54237.png"
+      "peso": "3.63 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53971.png"
     },
     {
       "id": 190,
-      "titulo": "Cartoon Network Racing",
+      "titulo": "Evil Code Veronica X",
       "plataforma": "PlayStation 2",
-      "peso": "3.41 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54306.png"
+      "peso": "3.71 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50306.png"
     },
     {
       "id": 191,
-      "titulo": "Ghost Rider",
+      "titulo": "Family Guy Video Game",
       "plataforma": "PlayStation 2",
-      "peso": "2.46 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54317.png"
+      "peso": "2.94 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54126.png"
     },
     {
       "id": 192,
-      "titulo": "Biker Mice from Mars",
+      "titulo": "Fantastic 4",
       "plataforma": "PlayStation 2",
-      "peso": "1.89 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54319.png"
+      "peso": "4.37 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53147.png"
     },
     {
       "id": 193,
-      "titulo": "PES 6",
+      "titulo": "FIFA Street",
       "plataforma": "PlayStation 2",
-      "peso": "2.95 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54362.png"
+      "peso": "4.37 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53064.png"
     },
     {
       "id": 194,
-      "titulo": "Happy Feet",
+      "titulo": "FIFA Street 2",
       "plataforma": "PlayStation 2",
-      "peso": "1.78 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54421.png"
+      "peso": "4.37 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53797.png"
     },
     {
       "id": 195,
-      "titulo": "Justice League Heroes",
+      "titulo": "Final Fight - Streetwise",
       "plataforma": "PlayStation 2",
-      "peso": "2.70 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54423.png"
+      "peso": "3.05 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53853.png"
     },
     {
       "id": 196,
-      "titulo": "Okami",
+      "titulo": "Futurama",
       "plataforma": "PlayStation 2",
-      "peso": "3.15 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54439.png"
+      "peso": "3.10 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51507.png"
     },
     {
       "id": 197,
-      "titulo": "Chicken Little As en Action",
+      "titulo": "Future Tactics",
       "plataforma": "PlayStation 2",
-      "peso": "2.53 GB",
+      "peso": "337 MB",
       "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54452.png"
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52701.png"
     },
     {
       "id": 198,
-      "titulo": "Home Alone",
-      "plataforma": "PlayStation 2",
-      "peso": "62 MB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54469.png"
-    },
-    {
-      "id": 199,
-      "titulo": "God Hand",
-      "plataforma": "PlayStation 2",
-      "peso": "1.91 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54490.png"
-    },
-    {
-      "id": 200,
-      "titulo": "Meet the Robinsons",
-      "plataforma": "PlayStation 2",
-      "peso": "3.92 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54510.png"
-    },
-    {
-      "id": 201,
-      "titulo": "4 Fantasticos Rise of the Silver Surfer",
-      "plataforma": "PlayStation 2",
-      "peso": "4.06 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54616.png"
-    },
-    {
-      "id": 202,
-      "titulo": "Medal of Honor Vanguard",
-      "plataforma": "PlayStation 2",
-      "peso": "4.13 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54683.png"
-    },
-    {
-      "id": 203,
       "titulo": "Garfield Lasagna World Tour",
       "plataforma": "PlayStation 2",
       "peso": "410 MB",
@@ -1621,183 +1589,415 @@
       "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54817.png"
     },
     {
-      "id": 204,
-      "titulo": "Disney Princesas Viaje Encantado",
-      "plataforma": "PlayStation 2",
-      "peso": "3.90 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54837.png"
-    },
-    {
-      "id": 205,
-      "titulo": "Dragon Ball Z Budokai Tenkaichi 3",
-      "plataforma": "PlayStation 2",
-      "peso": "4.02 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54945.png"
-    },
-    {
-      "id": 206,
-      "titulo": "Bee Movie Game",
-      "plataforma": "PlayStation 2",
-      "peso": "2.33 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55016.png"
-    },
-    {
-      "id": 207,
-      "titulo": "La Copa Internacional de Mate",
-      "plataforma": "PlayStation 2",
-      "peso": "2.84 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55029.png"
-    },
-    {
-      "id": 208,
-      "titulo": "Monster Jam",
-      "plataforma": "PlayStation 2",
-      "peso": "3.40 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55134.png"
-    },
-    {
-      "id": 209,
-      "titulo": "The Mummy Tomb of the Dragon Emperor",
-      "plataforma": "PlayStation 2",
-      "peso": "1.98 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55165.png"
-    },
-    {
-      "id": 210,
-      "titulo": "WALL-E",
-      "plataforma": "PlayStation 2",
-      "peso": "3.02 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55186.png"
-    },
-    {
-      "id": 211,
-      "titulo": "Alone in the Dark",
-      "plataforma": "PlayStation 2",
-      "peso": "3.21 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55207.png"
-    },
-    {
-      "id": 212,
-      "titulo": "Kung Fu Panda",
-      "plataforma": "PlayStation 2",
-      "peso": "3.90 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55236.png"
-    },
-    {
-      "id": 213,
-      "titulo": "Monster Jam Urban Assault",
-      "plataforma": "PlayStation 2",
-      "peso": "3.83 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55332.png"
-    },
-    {
-      "id": 214,
-      "titulo": "Disney Bolt",
-      "plataforma": "PlayStation 2",
-      "peso": "4.31 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55429.png"
-    },
-    {
-      "id": 215,
-      "titulo": "Ben 10 AF",
-      "plataforma": "PlayStation 2",
-      "peso": "2.19 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55440.png"
-    },
-    {
-      "id": 216,
-      "titulo": "Ben 10 Alien Force Vilgax Attacks",
-      "plataforma": "PlayStation 2",
-      "peso": "4.37 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55592.png"
-    },
-    {
-      "id": 217,
-      "titulo": "Ben 10 Ultimate Alien Cosmic Destruction",
-      "plataforma": "PlayStation 2",
-      "peso": "4.30 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55639.png"
-    },
-    {
-      "id": 218,
-      "titulo": "La Era del Hielo 3",
-      "plataforma": "PlayStation 2",
-      "peso": "4.32 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55487.png"
-    },
-    {
-      "id": 219,
+      "id": 199,
       "titulo": "G-Force",
       "plataforma": "PlayStation 2",
       "peso": "4.00 GB",
-      "valor": 1000,
+      "valor": 2000,
       "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55499.png"
     },
     {
-      "id": 220,
-      "titulo": "Sengoku Anthology",
+      "id": 200,
+      "titulo": "Ghost Rider",
       "plataforma": "PlayStation 2",
-      "peso": "1.38 GB",
+      "peso": "2.46 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54317.png"
+    },
+    {
+      "id": 201,
+      "titulo": "God Hand",
+      "plataforma": "PlayStation 2",
+      "peso": "1.91 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54490.png"
+    },
+    {
+      "id": 202,
+      "titulo": "God of War",
+      "plataforma": "PlayStation 2",
+      "peso": "7.46 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53133.png"
+    },
+    {
+      "id": 203,
+      "titulo": "God of War II",
+      "plataforma": "PlayStation 2",
+      "peso": "7.80 GB",
+      "valor": 3000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-54206.png"
+    },
+    {
+      "id": 204,
+      "titulo": "Grand Theft Auto - Liberty City Stories",
+      "plataforma": "PlayStation 2",
+      "peso": "3.73 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54135.png"
+    },
+    {
+      "id": 205,
+      "titulo": "Grand Theft Auto San Andreas",
+      "plataforma": "PlayStation 2",
+      "peso": "4.20 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLUS-20946.png"
+    },
+    {
+      "id": 206,
+      "titulo": "Gun",
+      "plataforma": "PlayStation 2",
+      "peso": "2.81 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53523.png"
+    },
+    {
+      "id": 207,
+      "titulo": "Half-Life",
+      "plataforma": "PlayStation 2",
+      "peso": "354 MB",
       "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55512.png"
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50509.png"
+    },
+    {
+      "id": 208,
+      "titulo": "Happy Feet",
+      "plataforma": "PlayStation 2",
+      "peso": "1.78 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54421.png"
+    },
+    {
+      "id": 209,
+      "titulo": "Haunting Ground",
+      "plataforma": "PlayStation 2",
+      "peso": "4.26 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52877.png"
+    },
+    {
+      "id": 210,
+      "titulo": "He-Man Defender of Grayskull",
+      "plataforma": "PlayStation 2",
+      "peso": "612 MB",
+      "valor": 1000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53035.png"
+    },
+    {
+      "id": 211,
+      "titulo": "Herdy Gerdy",
+      "plataforma": "PlayStation 2",
+      "peso": "4.24 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50751.png"
+    },
+    {
+      "id": 212,
+      "titulo": "Hitman - Blood Money",
+      "plataforma": "PlayStation 2",
+      "peso": "3.63 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53032.png"
+    },
+    {
+      "id": 213,
+      "titulo": "Hitman 2 Silent Assassin",
+      "plataforma": "PlayStation 2",
+      "peso": "3.68 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51110.png"
+    },
+    {
+      "id": 214,
+      "titulo": "Hitman Contracts",
+      "plataforma": "PlayStation 2",
+      "peso": "3.16 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52136.png"
+    },
+    {
+      "id": 215,
+      "titulo": "Home Alone",
+      "plataforma": "PlayStation 2",
+      "peso": "62 MB",
+      "valor": 1000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54469.png"
+    },
+    {
+      "id": 216,
+      "titulo": "Hugo - Bukkazoom",
+      "plataforma": "PlayStation 2",
+      "peso": "555 MB",
+      "valor": 1000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52102.png"
+    },
+    {
+      "id": 217,
+      "titulo": "Hugo - CannonCruise",
+      "plataforma": "PlayStation 2",
+      "peso": "380 MB",
+      "valor": 1000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52767.png"
+    },
+    {
+      "id": 218,
+      "titulo": "Jackie Chan Adventures",
+      "plataforma": "PlayStation 2",
+      "peso": "1.37 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-52412.png"
+    },
+    {
+      "id": 219,
+      "titulo": "Jak 3",
+      "plataforma": "PlayStation 2",
+      "peso": "4.18 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-52460.png"
+    },
+    {
+      "id": 220,
+      "titulo": "Jak and Daxter the Lost Frontier",
+      "plataforma": "PlayStation 2",
+      "peso": "3.42 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-55510.png"
     },
     {
       "id": 221,
-      "titulo": "Up",
+      "titulo": "Jak and Dexter the precursor legecy",
       "plataforma": "PlayStation 2",
-      "peso": "1.26 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55523.png"
+      "peso": "1.35 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50361.png"
     },
     {
       "id": 222,
-      "titulo": "Silent Hill Shattered Memories",
+      "titulo": "Jak II Renegade",
       "plataforma": "PlayStation 2",
-      "peso": "1.31 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55569.png"
+      "peso": "4.10 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-51608.png"
     },
     {
       "id": 223,
-      "titulo": "Marvel Super Hero Squad",
+      "titulo": "Jak X",
       "plataforma": "PlayStation 2",
-      "peso": "4.35 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55572.png"
+      "peso": "4.34 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53286.png"
     },
     {
       "id": 224,
-      "titulo": "Toy Story 3",
+      "titulo": "Justice League Heroes",
       "plataforma": "PlayStation 2",
-      "peso": "1.48 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55622.png"
+      "peso": "2.70 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54423.png"
     },
     {
       "id": 225,
-      "titulo": "NBA 2K12",
+      "titulo": "Kung Fu Panda",
       "plataforma": "PlayStation 2",
-      "peso": "3.04 GB",
-      "valor": 1000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55659.png"
+      "peso": "3.90 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55236.png"
     },
     {
       "id": 226,
+      "titulo": "La Copa Internacional de Mate",
+      "plataforma": "PlayStation 2",
+      "peso": "2.84 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55029.png"
+    },
+    {
+      "id": 227,
+      "titulo": "La era de Hielo 2 el Deshielo",
+      "plataforma": "PlayStation 2",
+      "peso": "3.25 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53984.png"
+    },
+    {
+      "id": 228,
+      "titulo": "La Era del Hielo 3",
+      "plataforma": "PlayStation 2",
+      "peso": "4.32 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55487.png"
+    },
+    {
+      "id": 229,
+      "titulo": "Lara Croft Tom Raider Legend",
+      "plataforma": "PlayStation 2",
+      "peso": "3.97 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53908.png"
+    },
+    {
+      "id": 230,
+      "titulo": "Lego Batman Videogame",
+      "plataforma": "PlayStation 2",
+      "peso": "2.00 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55135.png"
+    },
+    {
+      "id": 231,
+      "titulo": "Lego Football Mania",
+      "plataforma": "PlayStation 2",
+      "peso": "353 MB",
+      "valor": 1000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50937.png"
+    },
+    {
+      "id": 232,
+      "titulo": "Lego Indiana Jones The Original Adventure",
+      "plataforma": "PlayStation 2",
+      "peso": "4.05 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55133.png"
+    },
+    {
+      "id": 233,
+      "titulo": "Lego Island Xtreme Stunts",
+      "plataforma": "PlayStation 2",
+      "peso": "1.91 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51153.png"
+    },
+    {
+      "id": 234,
+      "titulo": "Lego Racers 2",
+      "plataforma": "PlayStation 2",
+      "peso": "532 MB",
+      "valor": 1000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50443.png"
+    },
+    {
+      "id": 235,
+      "titulo": "Lego Star Wars II",
+      "plataforma": "PlayStation 2",
+      "peso": "4.30 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54221.png"
+    },
+    {
+      "id": 236,
+      "titulo": "Lego Star Wars The Video Game",
+      "plataforma": "PlayStation 2",
+      "peso": "609 MB",
+      "valor": 1000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53194.png"
+    },
+    {
+      "id": 237,
+      "titulo": "Los Increibles",
+      "plataforma": "PlayStation 2",
+      "peso": "1.20 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52816.png"
+    },
+    {
+      "id": 238,
+      "titulo": "Mace Griffin",
+      "plataforma": "PlayStation 2",
+      "peso": "2.07 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51653.png"
+    },
+    {
+      "id": 239,
+      "titulo": "Madagascar",
+      "plataforma": "PlayStation 2",
+      "peso": "509 MB",
+      "valor": 1000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53246.png"
+    },
+    {
+      "id": 240,
+      "titulo": "Madagascar Escape 2 Africa",
+      "plataforma": "PlayStation 2",
+      "peso": "2.72 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55374.png"
+    },
+    {
+      "id": 241,
+      "titulo": "Mafia",
+      "plataforma": "PlayStation 2",
+      "peso": "3.78 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52282.png"
+    },
+    {
+      "id": 242,
+      "titulo": "Manhunt",
+      "plataforma": "PlayStation 2",
+      "peso": "4.37 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52023.png"
+    },
+    {
+      "id": 243,
+      "titulo": "Manhunt 2",
+      "plataforma": "PlayStation 2",
+      "peso": "2.47 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54819.png"
+    },
+    {
+      "id": 244,
+      "titulo": "Marvel Super Hero Squad",
+      "plataforma": "PlayStation 2",
+      "peso": "4.35 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55572.png"
+    },
+    {
+      "id": 245,
+      "titulo": "Maximo Ghosts to Glory",
+      "plataforma": "PlayStation 2",
+      "peso": "2.11 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50703.png"
+    },
+    {
+      "id": 246,
+      "titulo": "Maximo vs Army of Zin",
+      "plataforma": "PlayStation 2",
+      "peso": "1.15 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51759.png"
+    },
+    {
+      "id": 247,
+      "titulo": "Medal of Honor Vanguard",
+      "plataforma": "PlayStation 2",
+      "peso": "4.13 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54683.png"
+    },
+    {
+      "id": 248,
+      "titulo": "Meet the Robinsons",
+      "plataforma": "PlayStation 2",
+      "peso": "3.92 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54510.png"
+    },
+    {
+      "id": 249,
+      "titulo": "Metal Gear Solid 2",
+      "plataforma": "PlayStation 2",
+      "peso": "4.22 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50385.png"
+    },
+    {
+      "id": 250,
       "titulo": "Metal Gear Solid 3 Subsistence / 3 Discos",
       "plataforma": "PlayStation 2",
       "peso": "11.29 GB",
@@ -1805,252 +2005,844 @@
       "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-82048.png"
     },
     {
-      "id": 227,
-      "titulo": "50 Cent Blood On The Sand",
-      "plataforma": "PlayStation 3",
-      "peso": "6.30 GB",
-      "valor": 3000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/ddbbb3a64a44b1bc90b1b2ade6aa509f50cf7297/50%20Cent%20Blood%20On%20The%20Sand.png"
-    },
-    {
-      "id": 228,
-      "titulo": "Afro Samurai",
-      "plataforma": "PlayStation 3",
-      "peso": "3.78 GB",
-      "valor": 2000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/ddbbb3a64a44b1bc90b1b2ade6aa509f50cf7297/AFRO%20SAMURAI.png"
-    },
-    {
-      "id": 229,
-      "titulo": "Asura's Wrath",
-      "plataforma": "PlayStation 3",
-      "peso": "6.72 GB",
-      "valor": 3000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/ddbbb3a64a44b1bc90b1b2ade6aa509f50cf7297/ASURA'S%20WRATH.png"
-    },
-    {
-      "id": 230,
-      "titulo": "Alice Madness Returns",
-      "plataforma": "PlayStation 3",
-      "peso": "4.70 GB",
-      "valor": 2000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/ddbbb3a64a44b1bc90b1b2ade6aa509f50cf7297/Alice%20Madness%20Returns.png"
-    },
-    {
-      "id": 231,
-      "titulo": "Army of TWO The 40th Day",
-      "plataforma": "PlayStation 3",
-      "peso": "4.63 GB",
-      "valor": 3000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/ddbbb3a64a44b1bc90b1b2ade6aa509f50cf7297/Army%20of%20Two%2040%20day.png"
-    },
-    {
-      "id": 232,
-      "titulo": "Army of TWO The Devil's Cartel",
-      "plataforma": "PlayStation 3",
-      "peso": "7.45 GB",
-      "valor": 3000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/ddbbb3a64a44b1bc90b1b2ade6aa509f50cf7297/Army%20of%20Two%20The%20Devil's%20Cartel.png"
-    },
-    {
-      "id": 233,
-      "titulo": "Army of Two (TM)",
-      "plataforma": "PlayStation 3",
-      "peso": "4.88 GB",
-      "valor": 3000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/ddbbb3a64a44b1bc90b1b2ade6aa509f50cf7297/Army%20of%20Two.png"
-    },
-    {
-      "id": 234,
-      "titulo": "Assassin's Creed Brotherhood",
-      "plataforma": "PlayStation 3",
-      "peso": "7.73 GB",
-      "valor": 3000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/ddbbb3a64a44b1bc90b1b2ade6aa509f50cf7297/Assassin's%20Creed%20Brotherhood.png"
-    },
-    {
-      "id": 235,
-      "titulo": "Assassin's Creed",
-      "plataforma": "PlayStation 3",
-      "peso": "7.87 GB",
-      "valor": 3000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/ddbbb3a64a44b1bc90b1b2ade6aa509f50cf7297/Assassin's%20Creed.png"
-    },
-    {
-      "id": 236,
-      "titulo": "Alone In The Dark Inferno",
-      "plataforma": "PlayStation 3",
-      "peso": "5.86 GB",
-      "valor": 3000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/e5c7b2be66db3d19b8ed9f09a87b1edf37658c07/Alone%20In%20The%20Dark%20inferno.png"
-    },
-    {
-      "id": 237,
-      "titulo": "Binary Domain",
-      "plataforma": "PlayStation 3",
-      "peso": "11.4",
-      "valor": 4000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/BINARY%20DOMAIN8.png"
-    },
-    {
-      "id": 238,
-      "titulo": "Barbie Puppy Rescue",
-      "plataforma": "PlayStation 3",
-      "peso": "1.19 GB",
-      "valor": 2000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/Barbie%20Puppy%20Rescue.png"
-    },
-    {
-      "id": 239,
-      "titulo": "BlazBlue Calamity Trigger",
-      "plataforma": "PlayStation 3",
-      "peso": "4.26 GB",
-      "valor": 3000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/BlazBlue%20Calamity%20Trigger.png"
-    },
-    {
-      "id": 240,
-      "titulo": "Bleach Soul Resurreccion",
-      "plataforma": "PlayStation 3",
-      "peso": "3.89 GB",
-      "valor": 2000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/Bleach%20Soul%20Resurrecci%C3%B3n.png"
-    },
-    {
-      "id": 241,
-      "titulo": "Cars 2",
-      "plataforma": "PlayStation 3",
-      "peso": "4.04 GB",
-      "valor": 2000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/Cars%202.png"
-    },
-    {
-      "id": 242,
-      "titulo": "Cars 3 Driven to Win",
-      "plataforma": "PlayStation 3",
-      "peso": "4.99 GB",
-      "valor": 3000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/Cars%203%20Driven%20to%20Win.png"
-    },
-    {
-      "id": 243,
-      "titulo": "Cars Race-O-Rama",
-      "plataforma": "PlayStation 3",
-      "peso": "4.18 GB",
-      "valor": 2000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/Cars%20Race-O-Rama.png"
-    },
-    {
-      "id": 244,
-      "titulo": "Cartoon Network Punch Time Explosion XL",
-      "plataforma": "PlayStation 3",
-      "peso": "3.38 GB",
-      "valor": 2000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/Cartoon%20Network%20Punch%20Time%20Explosion%20XL.png"
-    },
-    {
-      "id": 245,
-      "titulo": "Castlevania Lords of Shadow",
-      "plataforma": "PlayStation 3",
-      "peso": "11.9 GB",
-      "valor": 4000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/Castlevania%20Lords%20of%20Shadow.png"
-    },
-    {
-      "id": 246,
-      "titulo": "Castlevania Lords of Shadow 2",
-      "plataforma": "PlayStation 3",
-      "peso": "4.23 GB",
-      "valor": 3000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/2d3a8e41e6f51696e138802205eb5dc76f419caa/Castlevania%20Lords%20of%20Shadow%202.png"
-    },
-    {
-      "id": 247,
-      "titulo": "Catherine",
-      "plataforma": "PlayStation 3",
-      "peso": "9.60 GB",
-      "valor": 4000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/42fc27041f2c8b5d10f022d0832fc193e5645b44/Catherine%20(USA).png"
-    },
-    {
-      "id": 248,
-      "titulo": "Cloudy with a Chance of Meatballs",
-      "plataforma": "PlayStation 3",
-      "peso": "3.23 GB",
-      "valor": 2000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/42fc27041f2c8b5d10f022d0832fc193e5645b44/Cloudy%20with%20a%20Chance%20of%20Meatballs.png"
-    },
-    {
-      "id": 249,
-      "titulo": "Condemned 2 Bloodshot",
-      "plataforma": "PlayStation 3",
-      "peso": "6.18 GB",
-      "valor": 3000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/42fc27041f2c8b5d10f022d0832fc193e5645b44/Condemned%202%20Bloodshot.png"
-    },
-    {
-      "id": 250,
-      "titulo": "Damnation",
-      "plataforma": "PlayStation 3",
-      "peso": "5.96 GB",
-      "valor": 3000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/9ff65baa0214a438f60084411cc5dd0c6c5a71e9/Damnation.png"
-    },
-    {
       "id": 251,
-      "titulo": "Dead or Alive 5",
-      "plataforma": "PlayStation 3",
-      "peso": "5.77 GB",
-      "valor": 3000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/9ff65baa0214a438f60084411cc5dd0c6c5a71e9/Dead%20or%20Alive%205.png"
+      "titulo": "Midnight Club 3 DUB Edition Remix",
+      "plataforma": "PlayStation 2",
+      "peso": "4.39 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53717.png"
     },
     {
       "id": 252,
-      "titulo": "Deadpool",
-      "plataforma": "PlayStation 3",
-      "peso": "5.58 GB",
-      "valor": 3000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/9ff65baa0214a438f60084411cc5dd0c6c5a71e9/Deadpool.png"
+      "titulo": "Monster Jam",
+      "plataforma": "PlayStation 2",
+      "peso": "3.40 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55134.png"
     },
     {
       "id": 253,
-      "titulo": "Disney Bolt",
-      "plataforma": "PlayStation 3",
-      "peso": "7.66 GB",
-      "valor": 3000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/9ff65baa0214a438f60084411cc5dd0c6c5a71e9/Disney%20Bolt.png"
+      "titulo": "Monster Jam Urban Assault",
+      "plataforma": "PlayStation 2",
+      "peso": "3.83 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55332.png"
     },
     {
       "id": 254,
-      "titulo": "DisneyPixar Brave",
-      "plataforma": "PlayStation 3",
-      "peso": "2.86 GB",
+      "titulo": "Naruto Shippuden Ultimate Ninja 5",
+      "plataforma": "PlayStation 2",
+      "peso": "1.79 GB",
       "valor": 2000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/9ff65baa0214a438f60084411cc5dd0c6c5a71e9/Disney%20Pixar%20Brave.png"
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55605.png"
     },
     {
       "id": 255,
-      "titulo": "Dragon Ball Super Extreme Blast",
-      "plataforma": "PlayStation 3",
-      "peso": "7.54",
-      "valor": 3000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/9ff65baa0214a438f60084411cc5dd0c6c5a71e9/Dragon%20Ball%20Super%20Extreme%20Blast.png"
+      "titulo": "Naruto Ultimate Ninja",
+      "plataforma": "PlayStation 2",
+      "peso": "4.02 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54163.png"
     },
     {
       "id": 256,
-      "titulo": "Driver San Francisco",
-      "plataforma": "PlayStation 3",
-      "peso": "9.05 GB",
-      "valor": 4000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/9ff65baa0214a438f60084411cc5dd0c6c5a71e9/Driver%20San%20Francisco.png"
+      "titulo": "Naruto Ultimate Ninja 2",
+      "plataforma": "PlayStation 2",
+      "peso": "3.82 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54878.png"
     },
     {
       "id": 257,
-      "titulo": "DuckTales Remastered",
-      "plataforma": "PlayStation 3",
-      "peso": "899 MB",
+      "titulo": "Naruto Ultimate Ninja 3",
+      "plataforma": "PlayStation 2",
+      "peso": "2.24 GB",
       "valor": 2000,
-      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/9ff65baa0214a438f60084411cc5dd0c6c5a71e9/DuckTales%20Remastered.png"
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLUS-21727.png"
+    },
+    {
+      "id": 258,
+      "titulo": "Naruto Ultimate Ninja 4",
+      "plataforma": "PlayStation 2",
+      "peso": "4.08 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55482.png"
+    },
+    {
+      "id": 259,
+      "titulo": "Naruto Uzumaki Chronicles",
+      "plataforma": "PlayStation 2",
+      "peso": "2.15 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54727.png"
+    },
+    {
+      "id": 260,
+      "titulo": "Naruto Uzumaki Chronicles 2",
+      "plataforma": "PlayStation 2",
+      "peso": "4.04 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55090.png"
+    },
+    {
+      "id": 261,
+      "titulo": "NBA 2K12",
+      "plataforma": "PlayStation 2",
+      "peso": "3.04 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55659.png"
+    },
+    {
+      "id": 262,
+      "titulo": "NBA Live 2005",
+      "plataforma": "PlayStation 2",
+      "peso": "2.07 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52727.png"
+    },
+    {
+      "id": 263,
+      "titulo": "Need For Speed Carbon",
+      "plataforma": "PlayStation 2",
+      "peso": "3.51 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54323.png"
+    },
+    {
+      "id": 264,
+      "titulo": "Need for Speed Hot Pursuit 2",
+      "plataforma": "PlayStation 2",
+      "peso": "2.90 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50731.png"
+    },
+    {
+      "id": 265,
+      "titulo": "Need for Speed Most Wanted",
+      "plataforma": "PlayStation 2",
+      "peso": "3.81 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53559.png"
+    },
+    {
+      "id": 266,
+      "titulo": "Need for Speed ProStreet",
+      "plataforma": "PlayStation 2",
+      "peso": "3.61 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55004.png"
+    },
+    {
+      "id": 267,
+      "titulo": "Need For Speed Undercover",
+      "plataforma": "PlayStation 2",
+      "peso": "3.44 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55351.png"
+    },
+    {
+      "id": 268,
+      "titulo": "Need For Speed Underground",
+      "plataforma": "PlayStation 2",
+      "peso": "2.53 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51967.png"
+    },
+    {
+      "id": 269,
+      "titulo": "Need for Speed Underground 2",
+      "plataforma": "PlayStation 2",
+      "peso": "3.81 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52725.png"
+    },
+    {
+      "id": 270,
+      "titulo": "ObsCure",
+      "plataforma": "PlayStation 2",
+      "peso": "2.57 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52508.png"
+    },
+    {
+      "id": 271,
+      "titulo": "ObsCure II",
+      "plataforma": "PlayStation 2",
+      "peso": "1.90 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54782.png"
+    },
+    {
+      "id": 272,
+      "titulo": "Okami",
+      "plataforma": "PlayStation 2",
+      "peso": "3.15 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54439.png"
+    },
+    {
+      "id": 273,
+      "titulo": "Pato Donald Quack Attack",
+      "plataforma": "PlayStation 2",
+      "peso": "843 MB",
+      "valor": 1000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50048.png"
+    },
+    {
+      "id": 274,
+      "titulo": "PES 6",
+      "plataforma": "PlayStation 2",
+      "peso": "2.95 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54362.png"
+    },
+    {
+      "id": 275,
+      "titulo": "Prince of Persia - Warrior Within",
+      "plataforma": "PlayStation 2",
+      "peso": "3.81 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52822.png"
+    },
+    {
+      "id": 276,
+      "titulo": "Prince of Persia The Sands",
+      "plataforma": "PlayStation 2",
+      "peso": "3.55 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51918.png"
+    },
+    {
+      "id": 277,
+      "titulo": "Project - Snowblind",
+      "plataforma": "PlayStation 2",
+      "peso": "3.10 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53124.png"
+    },
+    {
+      "id": 278,
+      "titulo": "Ratchet & Clank 2",
+      "plataforma": "PlayStation 2",
+      "peso": "3.30 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-51607.png"
+    },
+    {
+      "id": 279,
+      "titulo": "Ratchet and Clank 3",
+      "plataforma": "PlayStation 2",
+      "peso": "4.15 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-52456.png"
+    },
+    {
+      "id": 280,
+      "titulo": "Ratchet Clank Size Matters",
+      "plataforma": "PlayStation 2",
+      "peso": "1.84 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-55019.png"
+    },
+    {
+      "id": 281,
+      "titulo": "Rayman 3 - Hoodlum Havoc",
+      "plataforma": "PlayStation 2",
+      "peso": "2.78 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51222.png"
+    },
+    {
+      "id": 282,
+      "titulo": "Rayman M",
+      "plataforma": "PlayStation 2",
+      "peso": "908 MB",
+      "valor": 1000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50457.png"
+    },
+    {
+      "id": 283,
+      "titulo": "Rayman Raving Rabbids",
+      "plataforma": "PlayStation 2",
+      "peso": "1.45 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54307.png"
+    },
+    {
+      "id": 284,
+      "titulo": "Rayman Revolution",
+      "plataforma": "PlayStation 2",
+      "peso": "4.18 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50044.png"
+    },
+    {
+      "id": 285,
+      "titulo": "Red Dead Revolver",
+      "plataforma": "PlayStation 2",
+      "peso": "2.43 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52478.png"
+    },
+    {
+      "id": 286,
+      "titulo": "Resident Evil 4",
+      "plataforma": "PlayStation 2",
+      "peso": "4.25 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53702.png"
+    },
+    {
+      "id": 287,
+      "titulo": "Resident Evil Dead Aim",
+      "plataforma": "PlayStation 2",
+      "peso": "4.20 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51448.png"
+    },
+    {
+      "id": 288,
+      "titulo": "Resident Evil Outbreak",
+      "plataforma": "PlayStation 2",
+      "peso": "4.37 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51589.png"
+    },
+    {
+      "id": 289,
+      "titulo": "Rogue Galaxy",
+      "plataforma": "PlayStation 2",
+      "peso": "4.24 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-54552.png"
+    },
+    {
+      "id": 290,
+      "titulo": "Rumble Racing",
+      "plataforma": "PlayStation 2",
+      "peso": "579 MB",
+      "valor": 1000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50120.png"
+    },
+    {
+      "id": 291,
+      "titulo": "Rumble Roses Plus",
+      "plataforma": "PlayStation 2",
+      "peso": "3.56 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52535.png"
+    },
+    {
+      "id": 292,
+      "titulo": "Saint Seiya - The Hades",
+      "plataforma": "PlayStation 2",
+      "peso": "3.71 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54162.png"
+    },
+    {
+      "id": 293,
+      "titulo": "Scarface",
+      "plataforma": "PlayStation 2",
+      "peso": "3.40 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54182.png"
+    },
+    {
+      "id": 294,
+      "titulo": "Scooby Doo Unmasked",
+      "plataforma": "PlayStation 2",
+      "peso": "1.22 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53100.png"
+    },
+    {
+      "id": 295,
+      "titulo": "Sengoku Anthology",
+      "plataforma": "PlayStation 2",
+      "peso": "1.38 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55512.png"
+    },
+    {
+      "id": 296,
+      "titulo": "Shadow of Rome",
+      "plataforma": "PlayStation 2",
+      "peso": "4.37 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52950.png"
+    },
+    {
+      "id": 297,
+      "titulo": "Shadow of the Colossus",
+      "plataforma": "PlayStation 2",
+      "peso": "4.31 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53326.png"
+    },
+    {
+      "id": 298,
+      "titulo": "Shadow The Hedgehog",
+      "plataforma": "PlayStation 2",
+      "peso": "2.01 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53542.png"
+    },
+    {
+      "id": 299,
+      "titulo": "Shinobido Way of the Ninja",
+      "plataforma": "PlayStation 2",
+      "peso": "3.64 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53931.png"
+    },
+    {
+      "id": 300,
+      "titulo": "Shrek 2",
+      "plataforma": "PlayStation 2",
+      "peso": "1.20 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52382.png"
+    },
+    {
+      "id": 301,
+      "titulo": "Shrek Smash n Crash Racing",
+      "plataforma": "PlayStation 2",
+      "peso": "4.24 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54553.png"
+    },
+    {
+      "id": 302,
+      "titulo": "Shrek SuperSlam",
+      "plataforma": "PlayStation 2",
+      "peso": "1.61 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53752.png"
+    },
+    {
+      "id": 303,
+      "titulo": "Shrek Tercero",
+      "plataforma": "PlayStation 2",
+      "peso": "1.74 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54771.png"
+    },
+    {
+      "id": 304,
+      "titulo": "Silent Hill 2",
+      "plataforma": "PlayStation 2",
+      "peso": "3.37 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50382.png"
+    },
+    {
+      "id": 305,
+      "titulo": "Silent Hill 3",
+      "plataforma": "PlayStation 2",
+      "peso": "3.25 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLUS-20622.png"
+    },
+    {
+      "id": 306,
+      "titulo": "Silent Hill 4 The Room",
+      "plataforma": "PlayStation 2",
+      "peso": "3.51 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52445.png"
+    },
+    {
+      "id": 307,
+      "titulo": "Silent Hill Origins",
+      "plataforma": "PlayStation 2",
+      "peso": "2.83 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55147.png"
+    },
+    {
+      "id": 308,
+      "titulo": "Silent Hill Shattered Memories",
+      "plataforma": "PlayStation 2",
+      "peso": "1.31 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55569.png"
+    },
+    {
+      "id": 309,
+      "titulo": "Sly 2 Band of Thieves",
+      "plataforma": "PlayStation 2",
+      "peso": "4.27 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-52529.png"
+    },
+    {
+      "id": 310,
+      "titulo": "Sly 3",
+      "plataforma": "PlayStation 2",
+      "peso": "4.12 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53409.png"
+    },
+    {
+      "id": 311,
+      "titulo": "Sly Raccoon",
+      "plataforma": "PlayStation 2",
+      "peso": "2.72 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50917.png"
+    },
+    {
+      "id": 312,
+      "titulo": "Smash Court Tennis PT2",
+      "plataforma": "PlayStation 2",
+      "peso": "3.90 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-52423.png"
+    },
+    {
+      "id": 313,
+      "titulo": "SNK vs Capcom SVC",
+      "plataforma": "PlayStation 2",
+      "peso": "390 MB",
+      "valor": 1000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53065.png"
+    },
+    {
+      "id": 314,
+      "titulo": "Sonic Gems Collection",
+      "plataforma": "PlayStation 2",
+      "peso": "1.68 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53350.png"
+    },
+    {
+      "id": 315,
+      "titulo": "Sonic Heroes",
+      "plataforma": "PlayStation 2",
+      "peso": "4.37 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51950.png"
+    },
+    {
+      "id": 316,
+      "titulo": "Sonic Riders",
+      "plataforma": "PlayStation 2",
+      "peso": "1.77 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53560.png"
+    },
+    {
+      "id": 317,
+      "titulo": "Sonic Riders ZG",
+      "plataforma": "PlayStation 2",
+      "peso": "4.37 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54915.png"
+    },
+    {
+      "id": 318,
+      "titulo": "Sonic Unleashed",
+      "plataforma": "PlayStation 2",
+      "peso": "4.35 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55380.png"
+    },
+    {
+      "id": 319,
+      "titulo": "Spawn Armageddon",
+      "plataforma": "PlayStation 2",
+      "peso": "2.06 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52326.png"
+    },
+    {
+      "id": 320,
+      "titulo": "Spider-Man",
+      "plataforma": "PlayStation 2",
+      "peso": "2.87 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50965.png"
+    },
+    {
+      "id": 321,
+      "titulo": "Spider-Man 2",
+      "plataforma": "PlayStation 2",
+      "peso": "3.86 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52372.png"
+    },
+    {
+      "id": 322,
+      "titulo": "Spider-Man 3",
+      "plataforma": "PlayStation 2",
+      "peso": "3.83 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54724.png"
+    },
+    {
+      "id": 323,
+      "titulo": "Spider-Man Web of Shadows",
+      "plataforma": "PlayStation 2",
+      "peso": "1.62 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55372.png"
+    },
+    {
+      "id": 324,
+      "titulo": "Street Fighter EX3",
+      "plataforma": "PlayStation 2",
+      "peso": "582 MB",
+      "valor": 1000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50072.png"
+    },
+    {
+      "id": 325,
+      "titulo": "Suffering Ties That Bind",
+      "plataforma": "PlayStation 2",
+      "peso": "3.68 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53527.png"
+    },
+    {
+      "id": 326,
+      "titulo": "Teenage Mutant Ninja Turtles Mutant Melee",
+      "plataforma": "PlayStation 2",
+      "peso": "3.14 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53127.png"
+    },
+    {
+      "id": 327,
+      "titulo": "Teenage Mutant Ninja Turtles Smash-Up",
+      "plataforma": "PlayStation 2",
+      "peso": "1.49 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLUS-21904.png"
+    },
+    {
+      "id": 328,
+      "titulo": "Tekken 5",
+      "plataforma": "PlayStation 2",
+      "peso": "3.81 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53202.png"
+    },
+    {
+      "id": 329,
+      "titulo": "Tekken Tag Tournament",
+      "plataforma": "PlayStation 2",
+      "peso": "3.2 GB",
+      "valor": 2000,
+      "caratula": "https://i.postimg.cc/PrH4SHQm/SCES-50001.png"
+    },
+    {
+      "id": 330,
+      "titulo": "Tenchu Fatal Shadows",
+      "plataforma": "PlayStation 2",
+      "peso": "3.58 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53016.png"
+    },
+    {
+      "id": 331,
+      "titulo": "Tenchu La Ira del Cielo",
+      "plataforma": "PlayStation 2",
+      "peso": "3.56 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51400.png"
+    },
+    {
+      "id": 332,
+      "titulo": "The Legend of Jack Sparrow",
+      "plataforma": "PlayStation 2",
+      "peso": "4.35 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-54237.png"
+    },
+    {
+      "id": 333,
+      "titulo": "The Mummy",
+      "plataforma": "PlayStation 2",
+      "peso": "343 MB",
+      "valor": 1000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52835.png"
+    },
+    {
+      "id": 334,
+      "titulo": "The Mummy Tomb of the Dragon Emperor",
+      "plataforma": "PlayStation 2",
+      "peso": "1.98 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55165.png"
+    },
+    {
+      "id": 335,
+      "titulo": "The Simpsons Hit & Run",
+      "plataforma": "PlayStation 2",
+      "peso": "2.06 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLUS-20624.png"
+    },
+    {
+      "id": 336,
+      "titulo": "The Simpsons The Road Rage",
+      "plataforma": "PlayStation 2",
+      "peso": "2.31 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50628.png"
+    },
+    {
+      "id": 337,
+      "titulo": "The Thing",
+      "plataforma": "PlayStation 2",
+      "peso": "1.43 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-50975.png"
+    },
+    {
+      "id": 338,
+      "titulo": "The Warriors",
+      "plataforma": "PlayStation 2",
+      "peso": "3.97 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53443.png"
+    },
+    {
+      "id": 339,
+      "titulo": "Time crisis 2",
+      "plataforma": "PlayStation 2",
+      "peso": "4.37 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50300.png"
+    },
+    {
+      "id": 340,
+      "titulo": "TMNT 3 Mutant Nightmare",
+      "plataforma": "PlayStation 2",
+      "peso": "2.28 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53850.png"
+    },
+    {
+      "id": 341,
+      "titulo": "Tomb Raider Underworld",
+      "plataforma": "PlayStation 2",
+      "peso": "2.96 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51227.png"
+    },
+    {
+      "id": 342,
+      "titulo": "Torrente III",
+      "plataforma": "PlayStation 2",
+      "peso": "3.95 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53979.png"
+    },
+    {
+      "id": 343,
+      "titulo": "Total Overdose",
+      "plataforma": "PlayStation 2",
+      "peso": "4.37 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53492.png"
+    },
+    {
+      "id": 344,
+      "titulo": "Toy Story 3",
+      "plataforma": "PlayStation 2",
+      "peso": "1.48 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55622.png"
+    },
+    {
+      "id": 345,
+      "titulo": "Treasure Planet",
+      "plataforma": "PlayStation 2",
+      "peso": "2.45 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-51177.png"
+    },
+    {
+      "id": 346,
+      "titulo": "True Crime New York City",
+      "plataforma": "PlayStation 2",
+      "peso": "2.94 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-53618.png"
+    },
+    {
+      "id": 347,
+      "titulo": "Twisted Metal Black",
+      "plataforma": "PlayStation 2",
+      "peso": "1.87 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50360.png"
+    },
+    {
+      "id": 348,
+      "titulo": "Twisted Metal Extra",
+      "plataforma": "PlayStation 2",
+      "peso": "3.90 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCUS-97621.png"
+    },
+    {
+      "id": 349,
+      "titulo": "Underworld The Eternal War",
+      "plataforma": "PlayStation 2",
+      "peso": "4.08 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-52109.png"
+    },
+    {
+      "id": 350,
+      "titulo": "Up",
+      "plataforma": "PlayStation 2",
+      "peso": "1.26 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55523.png"
+    },
+    {
+      "id": 351,
+      "titulo": "Urban Reign",
+      "plataforma": "PlayStation 2",
+      "peso": "2.67 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-53688.png"
+    },
+    {
+      "id": 352,
+      "titulo": "Virtua Fighter 4",
+      "plataforma": "PlayStation 2",
+      "peso": "659 MB",
+      "valor": 1000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SCES-50759.png"
+    },
+    {
+      "id": 353,
+      "titulo": "Virtua Tennis 2",
+      "plataforma": "PlayStation 2",
+      "peso": "369 MB",
+      "valor": 1000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51232.png"
+    },
+    {
+      "id": 354,
+      "titulo": "Wall-E",
+      "plataforma": "PlayStation 2",
+      "peso": "3.02 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-55186.png"
+    },
+    {
+      "id": 355,
+      "titulo": "Whiplash",
+      "plataforma": "PlayStation 2",
+      "peso": "4.01 GB",
+      "valor": 2000,
+      "caratula": "https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/SLES-51958.png"
     }
   ]
 }
