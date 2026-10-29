@@ -1,815 +1,505 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Catálogo Digital 3D - Zona Gamer</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <style>
-    body { background-color: #090d16; color: #f8fafc; font-family: 'Segoe UI', system-ui, sans-serif; overflow-x: hidden; }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#05060f">
+<title>Zona Gamer · Catálogo Digital</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+*{box-sizing:border-box;margin:0}
+:root{--ac:#a855f7;--fg:#fff;--h:230px;--ease:cubic-bezier(.22,1,.36,1)}
+@media(min-width:768px){:root{--h:340px}}
+html,body{height:100%}
+body{background:#05060f;color:#f1f5f9;font:600 15px/1.3 Rajdhani,'Segoe UI',system-ui,sans-serif;display:flex;flex-direction:column;overflow:hidden;user-select:none;-webkit-tap-highlight-color:transparent}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer;background:none;border:0}
+select option{background:#0b1020}
+:focus-visible{outline:2px solid var(--ac);outline-offset:2px}
+.hidden{display:none!important}
+small{font-size:11px;letter-spacing:.12em;text-transform:uppercase;opacity:.75}
 
-    /* CONTENEDOR COVER FLOW 3D ADAPTADO A MÓVILES */
-    .coverflow-viewport {
-      perspective: 1200px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 380px;
-      position: relative;
-      width: 100%;
-    }
+/* CABECERA */
+header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;padding:10px 16px;background:rgba(5,8,18,.82);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.08);z-index:30}
+.brand{display:flex;align-items:center;gap:10px}
+.brand img{height:38px;width:auto}
+.brand h1{font:900 15px Orbitron,sans-serif;letter-spacing:.12em;line-height:1}
+#labelModo{font-size:11px;color:var(--ac);letter-spacing:.08em}
+.tools{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.ctl{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:10px;padding:6px 12px;font-size:14px;transition:.2s;display:flex;align-items:center;gap:7px}
+.ctl:hover,.ctl:focus-within{border-color:var(--ac);background:rgba(255,255,255,.12)}
+.ctl input,.ctl select{background:none;border:0;outline:0;width:130px}
+.ctl select{width:auto;cursor:pointer}
+@media(min-width:640px){.ctl input{width:190px}}
+#cartCount{position:absolute;top:-7px;right:-7px;min-width:18px;height:18px;border-radius:9px;background:var(--ac);color:var(--fg);font-size:11px;font-weight:700;display:grid;place-items:center;padding:0 4px}
+.rel{position:relative}
 
-    @media (min-width: 768px) {
-      .coverflow-viewport { height: 460px; }
-    }
+/* ESCENARIO */
+#stage{flex:1;min-height:0;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+#stage:after{content:"";position:absolute;inset:0;pointer-events:none;z-index:4;background:radial-gradient(ellipse at 50% 50%,transparent 35%,rgba(0,0,0,.7)),linear-gradient(transparent 62%,rgba(0,0,0,.6))}
+.theme{position:absolute;inset:0;opacity:0;transition:opacity .9s;overflow:hidden;pointer-events:none}
+.theme.on{opacity:1}
+.corner{position:absolute;top:12px;z-index:6;font-size:16px;letter-spacing:.1em;text-shadow:0 2px 8px #000;display:flex;align-items:center;gap:8px}
+.corner.l{left:18px}.corner.r{right:18px;color:var(--ac)}
+#flow{position:relative;width:100%;height:calc(var(--h)*1.3);perspective:1400px;z-index:5;touch-action:pan-y;margin-top:-4vh}
+.gc{position:absolute;left:50%;top:0;width:calc(var(--h)*.74);height:var(--h);padding:0;transition:transform .65s var(--ease),opacity .45s,filter .45s;will-change:transform}
+.gc.off{opacity:0!important;pointer-events:none}
+.gc img{width:100%;height:100%;object-fit:contain;object-position:50% 100%;display:block;border-radius:6px;box-shadow:0 18px 30px rgba(0,0,0,.6);background:rgba(0,0,0,.25);-webkit-box-reflect:below 3px linear-gradient(transparent 68%,rgba(255,255,255,.28))}
+.gc.on img{filter:drop-shadow(0 0 22px color-mix(in srgb,var(--ac) 75%,transparent))}
+.nav{position:absolute;top:50%;z-index:40;width:46px;height:46px;border-radius:50%;background:rgba(0,0,0,.45);border:1px solid rgba(255,255,255,.25);backdrop-filter:blur(8px);display:grid;place-items:center;transition:.2s;transform:translateY(-60%)}
+.nav:hover{background:var(--ac);color:var(--fg);box-shadow:0 0 20px var(--ac)}
+.nav:active{transform:translateY(-60%) scale(.92)}
+.nav.l{left:10px}.nav.r{right:10px}
+#vacio{position:absolute;z-index:6;text-align:center;font-size:18px}
 
-    .coverflow-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      transform-style: preserve-3d;
-      transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
-    }
+/* BARRA INFERIOR ESTILO CONSOLA */
+#bar{display:grid;grid-template-areas:"c c" "l r";grid-template-columns:1fr auto;gap:6px 14px;align-items:center;padding:10px 16px calc(10px + env(safe-area-inset-bottom));color:var(--fg);background:linear-gradient(rgba(255,255,255,.2),rgba(0,0,0,.28)) ,var(--ac);background-color:var(--ac);transition:background-color .7s;z-index:30;box-shadow:0 -6px 30px rgba(0,0,0,.5)}
+@media(min-width:768px){#bar{grid-template-areas:"l c r";grid-template-columns:1fr auto 1fr}}
+.bc{grid-area:c;text-align:center;min-width:0}.bl{grid-area:l;display:flex;align-items:center;gap:10px;flex-wrap:wrap}.br{grid-area:r;display:flex;align-items:center;gap:14px;justify-content:flex-end}
+#titulo{font:700 22px/1.1 Rajdhani;text-shadow:0 1px 4px rgba(0,0,0,.35);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.badge{background:rgba(0,0,0,.3);border:1px solid rgba(255,255,255,.35);border-radius:99px;padding:2px 11px;font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+.pr{text-align:right;line-height:1}.pr b{font:900 20px Orbitron,sans-serif}
+.btn{background:#fff;color:#0b1020;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:14px;padding:9px 16px;border-radius:10px;display:flex;align-items:center;gap:8px;transition:.15s;box-shadow:0 4px 14px rgba(0,0,0,.35)}
+.btn:hover{transform:translateY(-2px)}.btn:active{transform:scale(.95)}
+.btn.sec{background:rgba(255,255,255,.1);color:#e2e8f0;box-shadow:none}.btn.sec:hover{background:rgba(255,255,255,.18)}
+.btn.pri{background:#2563eb;color:#fff}.btn.ok{background:#059669;color:#fff}
 
-    /* CARÁTULAS DE JUEGOS - PROPORCIÓN NATURAL */
-    .game-card {
-      position: absolute;
-      width: 150px;
-      max-height: 250px;
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8);
-      transition: all 0.45s cubic-bezier(0.25, 1, 0.5, 1);
-      cursor: pointer;
-      user-select: none;
-      border: none;
-      background-color: transparent;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+/* MOTIVOS DE FONDO POR PLATAFORMA */
+.sym{position:absolute;bottom:-100px;font-style:normal;font-weight:900;opacity:.17;text-shadow:0 0 18px currentColor;animation:up linear infinite}
+.dot{position:absolute;bottom:-24px;border-radius:50%;background:currentColor;opacity:.35;filter:blur(1px);animation:up linear infinite}
+.orb{position:absolute;width:60vmax;height:60vmax;border-radius:50%;background:radial-gradient(circle,var(--ac),transparent 62%);opacity:.3;left:-12vmax;top:-22vmax;animation:drift 18s ease-in-out infinite alternate}
+.orb.b{left:auto;right:-16vmax;top:auto;bottom:-28vmax;opacity:.2;animation-duration:25s}
+.bigx{position:absolute;right:-5vmax;top:50%;width:70vmax;max-width:none;color:#fff;opacity:.08;transform:translateY(-50%);animation:breathe 9s ease-in-out infinite alternate}
+.jc{position:absolute;top:-10%;bottom:-10%;width:55%;transform:skewX(-8deg)}
+.jc.l{left:-8%;background:linear-gradient(90deg,transparent,rgba(255,60,74,.32))}.jc.r{right:-8%;background:linear-gradient(270deg,transparent,rgba(0,195,227,.32))}
+.grid{position:absolute;left:-50%;right:-50%;bottom:0;height:60%;opacity:.25;background:linear-gradient(var(--ac) 1px,transparent 1px) 0 0/100% 48px,linear-gradient(90deg,var(--ac) 1px,transparent 1px) 0 0/60px 100%;transform:perspective(420px) rotateX(64deg);transform-origin:bottom;animation:gm 2.5s linear infinite}
+.bin{position:absolute;top:-30%;white-space:pre;font:700 14px/1.25 monospace;color:var(--ac);opacity:.28;animation:rain linear infinite}
+@keyframes up{to{transform:translateY(-120vh) rotate(360deg)}}
+@keyframes rain{to{transform:translateY(150vh)}}
+@keyframes drift{to{transform:translate(8vmax,6vmax) scale(1.15)}}
+@keyframes breathe{to{transform:translateY(-50%) scale(1.08);opacity:.13}}
+@keyframes gm{to{background-position:0 48px,0 0}}
 
-    @media (min-width: 768px) {
-      .game-card {
-        width: 210px;
-        max-height: 340px;
-        border-radius: 10px;
-      }
-    }
+/* MODALES */
+.modal{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.78);backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:center;padding:12px}
+.panel{background:#0d1222;border:1px solid #243049;border-radius:16px;width:100%;max-height:90vh;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 30px 70px rgba(0,0,0,.7)}
+.ph,.pf{background:#080c19;padding:12px 18px;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.ph{border-bottom:1px solid #1d2740;font-size:17px}.pf{border-top:1px solid #1d2740;flex-wrap:wrap}
+.pb{padding:16px;overflow-y:auto;flex:1;display:flex;flex-direction:column;gap:12px}
+.box{background:rgba(2,6,16,.6);border:1px solid #1d2740;border-radius:12px;padding:14px}
+.in{width:100%;background:#0a0f1e;border:1px solid #2a3652;border-radius:10px;padding:8px 12px;font-size:15px;outline:0}
+.in:focus{border-color:#3b82f6}
+label{font-size:13px;color:#cbd5e1;display:block;margin-bottom:3px}
+.fg{display:grid;gap:10px}@media(min-width:640px){.fg{grid-template-columns:1fr 1fr}.fg .full{grid-column:1/-1}}
+.row{display:flex;align-items:center;justify-content:space-between;gap:10px;background:#050914;border:1px solid #1d2740;border-radius:12px;padding:8px 10px}
+.row img{width:40px;height:56px;object-fit:contain;background:#000;border-radius:6px;flex-shrink:0}
+.row .t{min-width:0;flex:1}.row .t b,.row .t span{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mono{font-family:Orbitron,monospace;font-size:14px;color:#34d399}
+table{width:100%;border-collapse:collapse;text-align:left}
+th{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;padding:8px;background:#080c19}
+td{padding:8px;border-top:1px solid #1d2740}
+.tag{display:inline-flex;align-items:center;gap:8px;background:#0a0f1e;border:1px solid #2a3652;border-radius:8px;padding:3px 10px;font-size:14px}
+.ic{padding:4px 7px;border-radius:6px}.ic:hover{background:rgba(255,255,255,.1)}
 
-    .game-card img {
-      width: 100%;
-      height: auto;
-      max-height: 100%;
-      object-fit: contain;
-      border-radius: 8px;
-      filter: drop-shadow(0 10px 15px rgba(0,0,0,0.5));
-    }
-
-    /* ESTADOS 3D RESPONSIVOS */
-    .game-card.active {
-      transform: translateX(0) translateZ(140px) rotateY(0deg);
-      z-index: 30;
-      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.95);
-      filter: brightness(1.1);
-    }
-    @media (min-width: 768px) {
-      .game-card.active { transform: translateX(0) translateZ(180px) rotateY(0deg); }
-    }
-
-    .game-card.left-1 { transform: translateX(-110px) translateZ(0px) rotateY(30deg); z-index: 20; opacity: 0.75; filter: brightness(0.6); }
-    .game-card.left-2 { transform: translateX(-190px) translateZ(-80px) rotateY(40deg); z-index: 10; opacity: 0.4; filter: brightness(0.3); }
-    .game-card.right-1 { transform: translateX(110px) translateZ(0px) rotateY(-30deg); z-index: 20; opacity: 0.75; filter: brightness(0.6); }
-    .game-card.right-2 { transform: translateX(190px) translateZ(-80px) rotateY(-40deg); z-index: 10; opacity: 0.4; filter: brightness(0.3); }
-    
-    @media (min-width: 768px) {
-      .game-card.left-1 { transform: translateX(-170px) translateZ(0px) rotateY(35deg); }
-      .game-card.left-2 { transform: translateX(-300px) translateZ(-100px) rotateY(45deg); }
-      .game-card.right-1 { transform: translateX(170px) translateZ(0px) rotateY(-35deg); }
-      .game-card.right-2 { transform: translateX(300px) translateZ(-100px) rotateY(-45deg); }
-    }
-
-    .game-card.far-left, .game-card.far-right { opacity: 0; pointer-events: none; }
-
-    /* TOAST NOTIFICACIONES */
-    #toastContainer {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      z-index: 9999;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      pointer-events: none;
-    }
-    .toast {
-      background: rgba(15, 23, 42, 0.95);
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      color: #fff;
-      padding: 10px 16px;
-      border-radius: 10px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
-      backdrop-filter: blur(10px);
-      font-size: 12px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      pointer-events: auto;
-      animation: slideIn 0.3s ease forwards, fadeOut 0.3s ease 2.7s forwards;
-    }
-    @keyframes slideIn { from { transform: translateY(100%); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
-    @keyframes fadeOut { from { opacity: 1; } to { opacity: 0; transform: translateY(10px); } }
-
-    ::-webkit-scrollbar { width: 5px; height: 5px; }
-    ::-webkit-scrollbar-track { background: #090d16; }
-    ::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
-  </style>
+/* AVISOS */
+#toastContainer{position:fixed;bottom:84px;right:16px;z-index:9999;display:flex;flex-direction:column;gap:8px;pointer-events:none}
+.toast{background:rgba(10,15,30,.96);border:1px solid rgba(255,255,255,.16);border-radius:10px;padding:9px 14px;display:flex;align-items:center;gap:8px;font-size:14px;box-shadow:0 10px 25px rgba(0,0,0,.5);animation:ti .3s forwards,to .3s 2.7s forwards}
+@keyframes ti{from{transform:translateY(100%);opacity:0}}
+@keyframes to{to{opacity:0;transform:translateY(10px)}}
+::-webkit-scrollbar{width:6px;height:6px}::-webkit-scrollbar-thumb{background:#334155;border-radius:3px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition-duration:.01ms!important}}
+</style>
 </head>
-<body class="min-h-screen flex flex-col justify-between select-none">
+<body>
+<div id="toastContainer" role="status" aria-live="polite"></div>
 
-  <div id="toastContainer"></div>
+<header>
+  <div class="brand">
+    <img src="https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/logo%20tidreams.png" alt="Logo">
+    <div><h1>ZONA GAMER</h1><span id="labelModo">Vista de Cliente</span></div>
+  </div>
+  <div class="tools">
+    <label class="ctl" style="margin:0"><i class="fa-solid fa-search" style="opacity:.6"></i>
+      <input id="inputBuscador" type="search" placeholder="Buscar juego…  ( / )" oninput="buscar(this.value)" autocomplete="off"></label>
+    <label class="ctl" style="margin:0"><select id="platformFilter" onchange="cambiarFiltro(this.value)" aria-label="Plataforma"><option value="ALL">Todas las plataformas</option></select></label>
+    <button class="ctl rel" onclick="abrirCarrito()" aria-label="Carrito"><i class="fa-solid fa-cart-shopping" style="color:var(--ac)"></i><span class="hidden-sm">Carrito</span><span id="cartCount">0</span></button>
+    <button class="ctl" id="btnToggleModo" onclick="toggleModoSistema()"><i class="fa-solid fa-user-shield" style="color:#60a5fa"></i><span id="textToggleModo">Admin</span></button>
+  </div>
+</header>
 
-  <!-- ENCABEZADO RESPONSIVO -->
-  <header class="bg-slate-900/90 backdrop-blur-md border-b border-slate-800 px-4 py-3 flex flex-wrap items-center justify-between gap-3 z-20">
-    <div class="flex items-center gap-3">
-      <img src="https://raw.githubusercontent.com/Tidreamsoporte/Catalogo/refs/heads/main/logo%20tidreams.png" alt="Logo" class="h-10 w-auto object-contain">
-      <div>
-        <h1 class="font-bold text-sm sm:text-base text-white leading-none">Zona Gamer</h1>
-        <span id="labelModo" class="text-[10px] text-emerald-400 font-medium">Vista de Cliente</span>
+<main id="stage" tabindex="-1">
+  <div id="temas"></div>
+  <div class="corner l"><i class="fa-solid fa-compact-disc"></i><span id="lblCuenta">0 juegos</span></div>
+  <div class="corner r"><span id="lblPlat">—</span></div>
+  <button class="nav l" onclick="mover(-1)" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+  <div id="flow" role="listbox" aria-label="Catálogo de juegos"></div>
+  <button class="nav r" onclick="mover(1)" aria-label="Siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+  <div id="vacio" class="hidden"><i class="fa-solid fa-ghost" style="font-size:40px;opacity:.6"></i><p>No se encontraron juegos.</p></div>
+</main>
+
+<footer id="bar">
+  <div class="bl"><span id="juegoPlataformaBadge" class="badge">Plataforma</span><span id="juegoPeso"><i class="fa-solid fa-hard-drive"></i> 0 GB</span></div>
+  <div class="bc"><h2 id="juegoTitulo" aria-live="polite">Cargando catálogo…</h2><small id="contador"></small></div>
+  <div class="br">
+    <div class="pr"><small>Valor</small><br><b id="juegoPrecio">$0</b></div>
+    <button class="btn" onclick="agregarAlCarrito()"><i class="fa-solid fa-cart-plus"></i> Agregar</button>
+  </div>
+</footer>
+
+<!-- CONTRASEÑA ADMIN -->
+<div id="passwordModal" class="modal hidden">
+  <form class="panel" style="max-width:360px;padding:24px;gap:14px;text-align:center" onsubmit="verificarPasswordAdmin(event)">
+    <i class="fa-solid fa-lock" style="font-size:28px;color:#60a5fa"></i>
+    <h3>Acceso restringido</h3><p style="font-size:14px;color:#94a3b8">Ingrese la contraseña de administrador</p>
+    <input class="in" style="text-align:center;letter-spacing:.3em" type="password" id="inputAdminPass" required placeholder="••••" autocomplete="current-password">
+    <div style="display:flex;gap:8px"><button type="button" class="btn sec" style="flex:1;justify-content:center" onclick="cerrar('passwordModal')">Cancelar</button><button class="btn pri" style="flex:1;justify-content:center">Ingresar</button></div>
+  </form>
+</div>
+
+<!-- ADMIN -->
+<div id="adminModal" class="modal hidden">
+  <div class="panel" style="max-width:900px">
+    <div class="ph"><b><i class="fa-solid fa-gear" style="color:#60a5fa"></i> Panel de administración</b><button class="ic" onclick="cerrarAdmin()" aria-label="Cerrar"><i class="fa-solid fa-xmark"></i></button></div>
+    <div class="pb">
+      <div class="box" style="display:grid;gap:10px">
+        <small><i class="fa-solid fa-gamepad"></i> Plataformas</small>
+        <div style="display:flex;gap:8px;flex-wrap:wrap"><input class="in" style="flex:1;min-width:180px" id="nuevaPlataformaInput" placeholder="Ej. Nintendo 64"><button type="button" class="btn pri" onclick="agregarPlataforma()">Añadir</button></div>
+        <div id="listaPlataformasTags" style="display:flex;flex-wrap:wrap;gap:6px"></div>
       </div>
-    </div>
-
-    <div class="flex items-center gap-2 flex-wrap">
-      <!-- BUSCADOR DE JUEGOS -->
-      <div class="relative">
-        <span class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-400">
-          <i class="fa-solid fa-search text-xs"></i>
-        </span>
-        <input type="text" id="inputBuscador" oninput="filtrarPorTexto(this.value)" placeholder="Buscar juego..." class="bg-slate-800 text-xs text-slate-200 border border-slate-700 pl-8 pr-3 py-1.5 rounded-lg focus:outline-none focus:border-emerald-500 w-32 sm:w-48 transition">
-      </div>
-
-      <!-- SELECTOR DE PLATAFORMAS PRINCIPAL -->
-      <select id="platformFilter" onchange="cambiarFiltroPlataforma(this.value)" class="bg-slate-800 text-xs text-slate-200 border border-slate-700 px-2.5 py-1.5 rounded-lg focus:outline-none cursor-pointer">
-        <option value="ALL">Todas las Plataformas</option>
-      </select>
-
-      <button onclick="abrirCarrito()" class="relative bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 px-3 py-1.5 rounded-lg text-xs font-semibold transition flex items-center gap-1.5 cursor-pointer">
-        <i class="fa-solid fa-cart-shopping text-emerald-400"></i> <span class="hidden sm:inline">Carrito</span>
-        <span id="cartCount" class="absolute -top-1.5 -right-1.5 bg-emerald-500 text-slate-950 font-bold text-[9px] w-4 h-4 rounded-full flex items-center justify-center shadow">0</span>
-      </button>
-
-      <button id="btnToggleModo" onclick="toggleModoSistema()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 px-3 py-1.5 rounded-lg text-xs font-semibold transition flex items-center gap-1.5 cursor-pointer">
-        <i class="fa-solid fa-user-shield text-blue-400"></i> <span id="textToggleModo" class="hidden sm:inline">Admin</span>
-      </button>
-    </div>
-  </header>
-
-  <!-- SECCIÓN CENTRAL COVER FLOW -->
-  <main class="flex-1 flex flex-col items-center justify-center my-2 relative px-2">
-    <button onclick="mover(-1)" class="absolute left-2 sm:left-6 z-40 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-slate-900/80 border border-slate-700 hover:border-emerald-500 text-white hover:text-emerald-400 flex items-center justify-center text-sm sm:text-base backdrop-blur-md transition shadow-lg active:scale-95 cursor-pointer">
-      <i class="fa-solid fa-chevron-left"></i>
-    </button>
-
-    <div class="coverflow-viewport w-full">
-      <div id="coverflowContainer" class="coverflow-container"></div>
-    </div>
-
-    <button onclick="mover(1)" class="absolute right-2 sm:right-6 z-40 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-slate-900/80 border border-slate-700 hover:border-emerald-500 text-white hover:text-emerald-400 flex items-center justify-center text-sm sm:text-base backdrop-blur-md transition shadow-lg active:scale-95 cursor-pointer">
-      <i class="fa-solid fa-chevron-right"></i>
-    </button>
-  </main>
-
-  <!-- FICHA INFERIOR ADAPTABLE -->
-  <footer class="bg-slate-900/95 border-t border-slate-800 p-4 sm:p-5 backdrop-blur-xl z-20">
-    <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-      <div class="text-center sm:text-left space-y-1 w-full sm:w-auto">
-        <div class="flex items-center justify-center sm:justify-start gap-2">
-          <span id="juegoPlataformaBadge" class="bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider">Plataforma</span>
-          <span id="juegoPeso" class="text-slate-400 font-mono text-xs"><i class="fa-solid fa-hard-drive mr-1"></i> 0 GB</span>
-        </div>
-        <h2 id="juegoTitulo" class="text-lg sm:text-xl font-black text-white tracking-wide truncate max-w-xs sm:max-w-md mx-auto sm:mx-0">Cargando catálogo...</h2>
-      </div>
-
-      <div class="flex items-center justify-between sm:justify-end gap-4 w-full sm:w-auto bg-slate-950/60 border border-slate-800/80 px-4 py-2.5 rounded-xl">
-        <div class="text-left sm:text-right">
-          <span class="text-[9px] text-slate-400 uppercase font-bold block">Valor</span>
-          <span id="juegoPrecio" class="text-xl font-black text-emerald-400 font-mono">$0</span>
-        </div>
-
-        <button id="btnAgregarCarrito" onclick="agregarAlCarrito()" class="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold px-4 py-2.5 rounded-lg shadow-lg shadow-emerald-500/20 text-xs transition uppercase tracking-wider flex items-center gap-2 active:scale-95 cursor-pointer">
-          <i class="fa-solid fa-cart-plus text-sm"></i> Agregar
-        </button>
-      </div>
-    </div>
-  </footer>
-
-  <!-- MODAL CONTRASEÑA ADMIN -->
-  <div id="passwordModal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex items-center justify-center p-4">
-    <div class="bg-slate-900 border border-slate-700 w-full max-w-sm rounded-2xl overflow-hidden shadow-2xl p-6 space-y-4">
-      <div class="text-center space-y-1">
-        <div class="w-12 h-12 bg-blue-500/10 border border-blue-500/30 rounded-full flex items-center justify-center mx-auto text-blue-400 text-xl mb-2">
-          <i class="fa-solid fa-lock"></i>
-        </div>
-        <h3 class="text-base font-bold text-white">Acceso Restringido</h3>
-        <p class="text-xs text-slate-400">Ingrese la contraseña de administrador</p>
-      </div>
-      <form onsubmit="verificarPasswordAdmin(event)" class="space-y-3">
-        <input type="password" id="inputAdminPass" required autofocus class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2.5 text-sm text-white text-center tracking-widest focus:outline-none focus:border-blue-500" placeholder="••••">
-        <div class="flex gap-2 pt-1">
-          <button type="button" onclick="cerrarPasswordModal()" class="flex-1 bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold py-2.5 rounded-xl text-xs transition cursor-pointer">Cancelar</button>
-          <button type="submit" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white font-extrabold py-2.5 rounded-xl text-xs transition cursor-pointer">Ingresar</button>
+      <form id="gameForm" class="box fg" onsubmit="guardarJuegoForm(event)">
+        <input type="hidden" id="editIndex" value="-1">
+        <div><label for="formTitulo">Título del juego</label><input class="in" id="formTitulo" required placeholder="Ej. Halo 3"></div>
+        <div><label for="formPlataforma">Plataforma</label><select class="in" id="formPlataforma" required></select></div>
+        <div><label for="formPeso">Peso</label><input class="in" id="formPeso" required placeholder="Ej. 12.0 GB"></div>
+        <div><label for="formValor">Valor ($)</label><input class="in" type="number" min="0" step="1" id="formValor" required placeholder="Ej. 15000"></div>
+        <div class="full"><label for="formCaratula">Enlace directo de la carátula</label><input class="in" type="url" id="formCaratula" required placeholder="https://..."></div>
+        <div class="full" style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap">
+          <button type="button" class="btn ok" onclick="exportarTodoJSON()"><i class="fa-solid fa-file-code"></i> Descargar juegos.json</button>
+          <div style="display:flex;gap:8px"><button type="button" class="btn sec" onclick="limpiarFormulario()">Cancelar</button><button class="btn pri">Guardar juego</button></div>
         </div>
       </form>
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+        <small>Listado registrado</small>
+        <label class="ctl" style="margin:0;padding:3px 10px">Filtrar: <select id="adminPlatformFilter" onchange="renderizarTablaAdmin()"><option value="ALL">Todas</option></select></label>
+      </div>
+      <div style="overflow-x:auto"><table><thead><tr><th>ID</th><th>Carátula</th><th>Título</th><th>Plataforma</th><th>Valor</th><th style="text-align:center">Acciones</th></tr></thead><tbody id="tablaJuegosBody"></tbody></table></div>
     </div>
   </div>
+</div>
 
-  <!-- MODAL ADMIN -->
-  <div id="adminModal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex items-center justify-center p-3 sm:p-4">
-    <div class="bg-slate-900 border border-slate-700 w-full max-w-4xl rounded-2xl overflow-hidden shadow-2xl flex flex-col max-h-[90vh]">
-      <div class="bg-slate-950 px-5 py-3.5 border-b border-slate-800 flex justify-between items-center">
-        <h3 class="text-sm sm:text-base font-bold text-white flex items-center gap-2">
-          <i class="fa-solid fa-gear text-blue-400"></i> Panel de Administración
-        </h3>
-        <button onclick="cerrarAdmin()" class="text-slate-400 hover:text-white text-lg cursor-pointer"><i class="fa-solid fa-xmark"></i></button>
-      </div>
-
-      <div class="p-4 sm:p-6 overflow-y-auto flex-1 space-y-6">
-        
-        <!-- GESTOR DE PLATAFORMAS -->
-        <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800 space-y-3">
-          <h4 class="text-xs font-bold text-blue-400 uppercase tracking-wider flex items-center gap-1.5">
-            <i class="fa-solid fa-gamepad"></i> Administrar Plataformas
-          </h4>
-          <div class="flex flex-wrap gap-2 items-center">
-            <input type="text" id="nuevaPlataformaInput" placeholder="Ej. Nintendo 64" class="bg-slate-900 border border-slate-700 rounded-xl px-3 py-1.5 text-xs text-white focus:outline-none focus:border-blue-500 flex-1 min-w-[180px]">
-            <button type="button" onclick="agregarPlataforma()" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-4 py-1.5 rounded-xl text-xs transition cursor-pointer">Añadir Plataforma</button>
-          </div>
-          <div id="listaPlataformasTags" class="flex flex-wrap gap-1.5 pt-1"></div>
-        </div>
-
-        <!-- FORMULARIO DE JUEGOS -->
-        <form id="gameForm" onsubmit="guardarJuegoForm(event)" class="bg-slate-950/60 p-4 sm:p-5 rounded-xl border border-slate-800 grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <input type="hidden" id="editIndex" value="-1">
-          <div>
-            <label class="block text-xs font-bold text-slate-300 mb-1">Título del Juego</label>
-            <input type="text" id="formTitulo" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="Ej. Halo 3">
-          </div>
-          <div>
-            <label class="block text-xs font-bold text-slate-300 mb-1">Plataforma</label>
-            <select id="formPlataforma" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500"></select>
-          </div>
-          <div>
-            <label class="block text-xs font-bold text-slate-300 mb-1">Peso (Ej. 8.5 GB)</label>
-            <input type="text" id="formPeso" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="Ej. 12.0 GB">
-          </div>
-          <div>
-            <label class="block text-xs font-bold text-slate-300 mb-1">Valor ($)</label>
-            <input type="number" step="1" id="formValor" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="Ej. 15000">
-          </div>
-          <div class="sm:col-span-2">
-            <label class="block text-xs font-bold text-slate-300 mb-1">Enlace Directo de la Carátula</label>
-            <input type="url" id="formCaratula" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-white focus:outline-none focus:border-emerald-500" placeholder="https://...">
-          </div>
-          <div class="sm:col-span-2 flex items-center justify-between pt-2">
-            <button type="button" onclick="exportarTodoJSON()" class="bg-emerald-900/60 hover:bg-emerald-900 text-emerald-300 border border-emerald-700/50 font-bold px-3 py-2 rounded-xl text-xs transition cursor-pointer flex items-center gap-1.5">
-              <i class="fa-solid fa-file-code"></i> Descargar juegos.json para GitHub
-            </button>
-            <div class="flex gap-2">
-              <button type="button" onclick="limpiarFormulario()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold px-3 py-2 rounded-xl text-xs transition cursor-pointer">Cancelar</button>
-              <button type="submit" class="bg-blue-600 hover:bg-blue-500 text-white font-extrabold px-4 py-2 rounded-xl text-xs transition cursor-pointer">Guardar Juego</button>
-            </div>
-          </div>
-        </form>
-
-        <!-- SECCIÓN DE LISTADO CON FILTRO POR PLATAFORMA -->
-        <div class="space-y-3">
-          <div class="flex flex-wrap items-center justify-between gap-2">
-            <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider">Listado Registrado de Juegos</h4>
-            <div class="flex items-center gap-2">
-              <label class="text-xs text-slate-400">Filtrar tabla:</label>
-              <select id="adminPlatformFilter" onchange="renderizarTablaAdmin()" class="bg-slate-950 text-xs text-slate-200 border border-slate-700 px-2.5 py-1 rounded-lg focus:outline-none cursor-pointer">
-                <option value="ALL">Todas las Plataformas</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="overflow-x-auto">
-            <table class="w-full text-left text-xs sm:text-sm text-slate-300">
-              <thead class="bg-slate-950 text-slate-400 uppercase text-[10px] sm:text-[11px]">
-                <tr>
-                  <th class="p-2 sm:p-3">ID</th>
-                  <th class="p-2 sm:p-3">Carátula</th>
-                  <th class="p-2 sm:p-3">Título</th>
-                  <th class="p-2 sm:p-3">Plataforma</th>
-                  <th class="p-2 sm:p-3">Valor</th>
-                  <th class="p-2 sm:p-3 text-center">Acciones</th>
-                </tr>
-              </thead>
-              <tbody id="tablaJuegosBody" class="divide-y divide-slate-800"></tbody>
-            </table>
-          </div>
-        </div>
-
+<!-- CARRITO -->
+<div id="cartModal" class="modal hidden">
+  <div class="panel" style="max-width:640px">
+    <div class="ph"><b><i class="fa-solid fa-cart-shopping" style="color:var(--ac)"></i> Carrito de compras</b><button class="ic" onclick="cerrar('cartModal')" aria-label="Cerrar"><i class="fa-solid fa-xmark"></i></button></div>
+    <div class="pb" id="cartItemsContainer"></div>
+    <div class="pf">
+      <div><small>Total a pagar</small><br><span class="mono" style="font-size:22px" id="cartTotalAmount">$0</span></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <button class="btn sec" onclick="descargarListadoTXT()"><i class="fa-solid fa-download"></i> .TXT</button>
+        <button class="btn ok" onclick="enviarWhatsApp()"><i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
+        <button class="btn pri" onclick="simularPago()"><i class="fa-solid fa-credit-card"></i> Pagar</button>
       </div>
     </div>
   </div>
+</div>
 
-  <!-- MODAL CARRITO -->
-  <div id="cartModal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex items-center justify-center p-3 sm:p-4">
-    <div class="bg-slate-900 border border-slate-700 w-full max-w-2xl rounded-2xl overflow-hidden shadow-2xl flex flex-col max-h-[85vh]">
-      <div class="bg-slate-950 px-5 py-3.5 border-b border-slate-800 flex justify-between items-center">
-        <h3 class="text-sm sm:text-base font-bold text-white flex items-center gap-2">
-          <i class="fa-solid fa-cart-shopping text-emerald-400"></i> Carrito de Compras
-        </h3>
-        <button onclick="cerrarCarrito()" class="text-slate-400 hover:text-white text-lg cursor-pointer"><i class="fa-solid fa-xmark"></i></button>
-      </div>
+<script>
+'use strict';
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt = n => '$' + Number(n || 0).toLocaleString('es-CL');
+const R = (a, b) => a + Math.random() * (b - a);
+const CLAVE_HASH = '6be882871835df9bc946e052baf3b23993dd6cb653262a86f797a8d0afcea5a6'; // SHA-256
+const LS = 'carrito_juegos_3d';
+const PLACEHOLDER = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200"><rect width="150" height="200" fill="#111827"/><text x="75" y="108" font-size="44" text-anchor="middle" fill="#475569">🎮</text></svg>');
 
-      <div class="p-4 sm:p-6 overflow-y-auto flex-1 space-y-3" id="cartItemsContainer"></div>
+let plataformas = ['PlayStation 2','PlayStation 3','PlayStation 4','PlayStation 5','Xbox 360','Xbox One','Nintendo Switch','PC'];
+let juegos = [], lista = [], cards = [], carrito = leerCarrito();
+let idx = 0, filtro = 'ALL', texto = '', modoAdmin = false, temaActual = '', arrastre = false;
 
-      <div class="bg-slate-950 px-4 sm:px-6 py-3.5 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-3">
-        <div>
-          <span class="text-[10px] text-slate-400 block uppercase font-bold">Total a Pagar</span>
-          <span id="cartTotalAmount" class="text-xl sm:text-2xl font-black text-emerald-400 font-mono">$0</span>
-        </div>
-        <div class="flex items-center gap-2 flex-wrap justify-end w-full sm:w-auto">
-          <button onclick="descargarListadoTXT()" class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold px-3 py-2 rounded-xl text-xs transition flex items-center gap-1.5 cursor-pointer">
-            <i class="fa-solid fa-download"></i> .TXT
-          </button>
-          <button onclick="enviarWhatsApp()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-3 py-2 rounded-xl text-xs transition flex items-center gap-1.5 cursor-pointer">
-            <i class="fa-brands fa-whatsapp"></i> WhatsApp
-          </button>
-          <button onclick="simularPago()" class="bg-blue-600 hover:bg-blue-500 text-white font-extrabold px-4 py-2 rounded-xl text-xs transition flex items-center gap-1.5 cursor-pointer">
-            <i class="fa-solid fa-credit-card"></i> Pagar
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
+/* ---------- UTILIDADES ---------- */
+function leerCarrito() { try { return JSON.parse(localStorage.getItem(LS)) || []; } catch { return []; } }
+function guardarCarrito() { try { localStorage.setItem(LS, JSON.stringify(carrito)); } catch {} $('cartCount').textContent = carrito.length; }
+function toast(msg, tipo = 'success') {
+  const ic = {success:'fa-circle-check" style="color:#34d399', error:'fa-circle-exclamation" style="color:#f87171', info:'fa-circle-info" style="color:#60a5fa'}[tipo];
+  const t = document.createElement('div'); t.className = 'toast';
+  t.innerHTML = `<i class="fa-solid ${ic}"></i><span></span>`; t.lastChild.textContent = msg;
+  $('toastContainer').append(t); setTimeout(() => t.remove(), 3000);
+}
+const abrir = id => $(id).classList.remove('hidden');
+const cerrar = id => $(id).classList.add('hidden');
 
-  <script>
-    const claveSeguraBase64 = "Tml0aWdhbWV6MjAyNg==";
-    let plataformas = ["PlayStation 2", "PlayStation 3", "PlayStation 4", "PlayStation 5", "Xbox 360", "Xbox One", "Nintendo Switch", "PC"];
-    let juegos = [];
-    let carrito = JSON.parse(localStorage.getItem('carrito_juegos_3d')) || [];
-    let indiceActual = 0;
-    let filtroPlataforma = 'ALL';
-    let textoBusqueda = '';
-    let modoAdmin = false;
+/* ---------- TEMAS POR PLATAFORMA ---------- */
+const TEMAS = {
+  ps2:  {f:'ps', ac:'#3b6bff', bg:['#040a2c','#0c1d78']},
+  ps3:  {f:'ps', ac:'#c9d1dd', fg:'#0b0f16', bg:['#050507','#222838']},
+  ps4:  {f:'ps', ac:'#2d8cff', bg:['#02112b','#0a3a7a']},
+  ps5:  {f:'ps', ac:'#7cc4ff', fg:'#04122e', bg:['#0a1230','#2a4a8a']},
+  x360: {f:'xb', ac:'#8bd631', fg:'#08140a', bg:['#0c1a05','#3a6a0e']},
+  xone: {f:'xb', ac:'#16a34a', bg:['#041004','#0c3a0c']},
+  xbox: {f:'xb', ac:'#4fae0b', bg:['#021002','#0d3a0b']},
+  ns:   {f:'ns', ac:'#e60f2a', bg:['#16050a','#04151c']},
+  pc:   {f:'pc', ac:'#00d9f5', fg:'#021218', bg:['#05060f','#1b0b3a']},
+  def:  {f:'def', ac:'#a855f7', bg:['#0a0614','#2a1250']}
+};
+const dots = n => Array.from({length:n}, () => `<i class="dot" style="left:${R(0,98)}%;width:${R(6,22)}px;height:${R(6,22)}px;animation-duration:${R(10,26)}s;animation-delay:-${R(0,26)}s"></i>`).join('');
+const MOTIVOS = {
+  ps: () => { const S = [['△','#3ee08a'],['○','#ff5d6c'],['✕','#5aa7ff'],['□','#ff8fd0']];
+    return Array.from({length:18}, (_, i) => `<i class="sym" style="left:${R(0,96)}%;font-size:${R(28,80)}px;color:${S[i%4][1]};animation-duration:${R(14,30)}s;animation-delay:-${R(0,30)}s">${S[i%4][0]}</i>`).join(''); },
+  xb: () => `<b class="orb"></b><b class="orb b"></b><svg class="bigx" viewBox="0 0 200 200" fill="none" stroke="currentColor" stroke-linecap="round"><circle cx="100" cy="100" r="92" stroke-width="6"/><path d="M62 62L138 138M138 62L62 138" stroke-width="18"/></svg>` + dots(14),
+  ns: () => `<b class="jc l"></b><b class="jc r"></b>` + dots(16),
+  pc: () => `<b class="orb"></b><b class="grid"></b>` + Array.from({length:14}, () => `<i class="bin" style="left:${R(0,98)}%;animation-duration:${R(6,14)}s;animation-delay:-${R(0,14)}s">${Array.from({length:14}, () => Math.round(Math.random())).join('\n')}</i>`).join(''),
+  def: () => `<b class="orb"></b><b class="orb b"></b>` + dots(12)
+};
+function claveTema(p = '') {
+  p = p.toLowerCase();
+  if (/playstation|\bps\s?\d|psp|vita/.test(p)) { const n = (p.match(/\d/) || [4])[0]; return TEMAS['ps' + n] ? 'ps' + n : 'ps4'; }
+  if (/xbox|series/.test(p)) return /360/.test(p) ? 'x360' : /one|series/.test(p) ? 'xone' : 'xbox';
+  if (/switch|nintendo|wii|\bn?3?ds\b|n64|gamecube/.test(p)) return 'ns';
+  if (/\bpc\b|steam|windows/.test(p)) return 'pc';
+  return 'def';
+}
+function setTema(k) {
+  if (k === temaActual) return;
+  temaActual = k;
+  const t = TEMAS[k];
+  let el = $('t-' + k);
+  if (!el) {
+    el = document.createElement('div'); el.id = 't-' + k; el.className = 'theme';
+    el.style.cssText = `--ac:${t.ac};background:linear-gradient(160deg,${t.bg[0]},${t.bg[1]})`;
+    el.innerHTML = MOTIVOS[t.f](); $('temas').append(el);
+    requestAnimationFrame(() => requestAnimationFrame(() => el.classList.add('on')));
+  }
+  document.querySelectorAll('.theme').forEach(e => e.classList.toggle('on', e === el));
+  const s = document.documentElement.style;
+  s.setProperty('--ac', t.ac); s.setProperty('--fg', t.fg || '#fff');
+  document.querySelector('meta[name=theme-color]').content = t.bg[0];
+}
 
-    function mostrarToast(mensaje, tipo = 'success') {
-      const container = document.getElementById('toastContainer');
-      const toast = document.createElement('div');
-      toast.className = 'toast';
-      let icono = '<i class="fa-solid fa-circle-check text-emerald-400 text-sm"></i>';
-      if (tipo === 'error') icono = '<i class="fa-solid fa-circle-exclamation text-red-400 text-sm"></i>';
-      if (tipo === 'info') icono = '<i class="fa-solid fa-circle-info text-blue-400 text-sm"></i>';
-      toast.innerHTML = `${icono} <span>${mensaje}</span>`;
-      container.appendChild(toast);
-      setTimeout(() => toast.remove(), 3000);
-    }
+/* ---------- DATOS ---------- */
+async function cargarDatos() {
+  try {
+    const r = await fetch('./juegos.json', {cache: 'no-cache'});
+    if (!r.ok) throw new Error(r.status);
+    const d = await r.json();
+    if (Array.isArray(d)) juegos = d;
+    else { juegos = d.juegos || []; if (Array.isArray(d.plataformas)) plataformas = d.plataformas; }
+  } catch (e) {
+    console.warn('Usando datos de respaldo:', e);
+    juegos = [{id:1, titulo:'Tekken Tag Tournament', plataforma:'PlayStation 2', peso:'3.2 GB', valor:15000, caratula:'https://i.postimg.cc/PrH4SHQm/SCES-50001.png'}];
+  }
+  actualizarSelectores(); construirCarrusel();
+}
 
-    async function cargarDatosDesdeGitHub() {
-      try {
-        const respuesta = await fetch(`./juegos.json?t=${Date.now()}`);
-        if (!respuesta.ok) throw new Error("No se pudo cargar");
-        const data = await respuesta.json();
-        
-        // Soporta tanto si el json es un array simple de juegos o un objeto con { plataformas, juegos }
-        if (Array.isArray(data)) {
-          juegos = data;
-        } else {
-          juegos = data.juegos || [];
-          if (data.plataformas && Array.isArray(data.plataformas)) {
-            plataformas = data.plataformas;
-          }
-        }
-      } catch (error) {
-        console.warn("Usando datos predeterminados de respaldo:", error);
-        juegos = [
-          { id: 1, titulo: 'Tekken Tag Tournament', plataforma: 'PlayStation 2', peso: '3.2 GB', valor: 15000, caratula: 'https://i.postimg.cc/PrH4SHQm/SCES-50001.png' }
-        ];
-      }
-      actualizarSelectoresPlataformas();
-      renderizarCoverflow();
-      actualizarDetalles();
-    }
+function actualizarSelectores() {
+  const opt = (v, t) => `<option value="${esc(v)}">${esc(t)}</option>`;
+  const conservar = (el, html) => { const v = el.value; el.innerHTML = html; el.value = v || 'ALL'; if (el.value !== (v || 'ALL')) el.value = 'ALL'; };
+  conservar($('platformFilter'), opt('ALL', `Todas las plataformas (${juegos.length})`) + plataformas.map(p => opt(p, `${p} (${juegos.filter(j => j.plataforma === p).length})`)).join(''));
+  $('formPlataforma').innerHTML = plataformas.map(p => opt(p, p)).join('');
+  conservar($('adminPlatformFilter'), opt('ALL', 'Todas') + plataformas.map(p => opt(p, p)).join(''));
+  $('listaPlataformasTags').innerHTML = plataformas.map((p, i) =>
+    `<span class="tag">${esc(p)}<button type="button" class="ic" style="color:#f87171" onclick="eliminarPlataforma(${i})" aria-label="Eliminar ${esc(p)}"><i class="fa-solid fa-xmark"></i></button></span>`).join('');
+}
 
-    function actualizarSelectoresPlataformas() {
-      // 1. Selector Principal
-      const selectPrincipal = document.getElementById('platformFilter');
-      const valorActualPrincipal = selectPrincipal.value;
-      selectPrincipal.innerHTML = `<option value="ALL">Todas las Plataformas (${juegos.length})</option>`;
-      
-      plataformas.forEach(plat => {
-        const count = juegos.filter(j => j.plataforma === plat).length;
-        selectPrincipal.innerHTML += `<option value="${plat}">${plat} (${count})</option>`;
-      });
-      selectPrincipal.value = valorActualPrincipal;
+function agregarPlataforma() {
+  const inp = $('nuevaPlataformaInput'), n = inp.value.trim();
+  if (!n) return toast('Escribe un nombre de plataforma', 'error');
+  if (plataformas.some(p => p.toLowerCase() === n.toLowerCase())) return toast('La plataforma ya existe', 'error');
+  plataformas.push(n); inp.value = ''; actualizarSelectores(); toast('Plataforma agregada');
+}
+function eliminarPlataforma(i) {
+  if (juegos.some(j => j.plataforma === plataformas[i])) return toast('No se puede eliminar: hay juegos usando esta plataforma', 'error');
+  plataformas.splice(i, 1); actualizarSelectores(); toast('Plataforma eliminada', 'info');
+}
 
-      // 2. Selector del Formulario Admin
-      const selectForm = document.getElementById('formPlataforma');
-      selectForm.innerHTML = '';
-      plataformas.forEach(plat => {
-        selectForm.innerHTML += `<option value="${plat}">${plat}</option>`;
-      });
+/* ---------- CARRUSEL ---------- */
+function calcularLista() {
+  const t = texto.trim().toLowerCase();
+  lista = juegos.filter(j => (filtro === 'ALL' || j.plataforma === filtro) && (!t || String(j.titulo).toLowerCase().includes(t)));
+}
+function construirCarrusel() {
+  calcularLista();
+  const flow = $('flow'); flow.textContent = '';
+  if (idx >= lista.length) idx = 0;
+  cards = lista.map((j, i) => {
+    const c = document.createElement('button');
+    c.type = 'button'; c.className = 'gc off'; c.tabIndex = -1; c.setAttribute('role', 'option'); c.setAttribute('aria-label', j.titulo);
+    const im = new Image(); im.alt = j.titulo; im.draggable = false; im.decoding = 'async';
+    im.onerror = () => { im.onerror = null; im.src = PLACEHOLDER; };
+    c.append(im); c.onclick = () => { if (!arrastre) irA(i); };
+    flow.append(c); return c;
+  });
+  posicionar();
+}
+function posicionar() {
+  const grande = innerWidth >= 768, aw = (grande ? 340 : 230) * .74, paso = aw * (grande ? .3 : .26);
+  cards.forEach((c, i) => {
+    const d = i - idx, a = Math.abs(d), s = Math.sign(d);
+    c.classList.toggle('off', a > 5);
+    c.classList.toggle('on', !d);
+    c.setAttribute('aria-selected', !d);
+    if (a > 5) return;
+    const im = c.firstChild;
+    if (!im.dataset.l) { im.dataset.l = 1; im.src = lista[i].caratula; }
+    const x = d ? s * (aw * .8 + (a - 1) * paso) : 0;
+    c.style.transform = `translateX(-50%) translateX(${x}px) translateZ(${d ? -70 * a : 110}px) rotateY(${-s * 42}deg) scale(${d ? .84 : 1})`;
+    c.style.zIndex = 50 - a;
+    c.style.opacity = d ? Math.max(.25, 1 - a * .17) : 1;
+    c.style.filter = d ? `brightness(${Math.max(.3, .72 - a * .12)})` : 'none';
+  });
+  actualizarDetalles();
+}
+function actualizarDetalles() {
+  const n = lista.length, j = lista[idx];
+  $('vacio').classList.toggle('hidden', n > 0);
+  $('lblCuenta').textContent = `${n} ${n === 1 ? 'juego' : 'juegos'}`;
+  $('juegoTitulo').textContent = j ? j.titulo : 'Sin resultados';
+  $('juegoPlataformaBadge').textContent = j ? j.plataforma : '---';
+  $('lblPlat').textContent = j ? j.plataforma : '—';
+  $('juegoPeso').innerHTML = `<i class="fa-solid fa-hard-drive"></i> ${esc(j ? j.peso : '0 GB')}`;
+  $('juegoPrecio').textContent = fmt(j && j.valor);
+  $('contador').textContent = j ? `${idx + 1} de ${n}` : '';
+  setTema(j ? claveTema(j.plataforma) : 'def');
+}
+function irA(i) {
+  if (!lista.length) return;
+  const n = Math.max(0, Math.min(lista.length - 1, i));
+  if (n !== idx) { idx = n; posicionar(); }
+}
+const mover = d => irA(idx + d);
 
-      // 3. Selector de Filtro dentro de la tabla Admin
-      const selectAdminFiltro = document.getElementById('adminPlatformFilter');
-      const valorActualAdmin = selectAdminFiltro.value;
-      selectAdminFiltro.innerHTML = `<option value="ALL">Todas las Plataformas</option>`;
-      plataformas.forEach(plat => {
-        selectAdminFiltro.innerHTML += `<option value="${plat}">${plat}</option>`;
-      });
-      selectAdminFiltro.value = valorActualAdmin;
+let debounce;
+function buscar(v) { clearTimeout(debounce); debounce = setTimeout(() => { texto = v; idx = 0; construirCarrusel(); }, 150); }
+function cambiarFiltro(v) { filtro = v; idx = 0; construirCarrusel(); }
 
-      // 4. Tags de gestión de plataformas en admin
-      const tagsContainer = document.getElementById('listaPlataformasTags');
-      if (tagsContainer) {
-        tagsContainer.innerHTML = '';
-        plataformas.forEach((plat, idx) => {
-          tagsContainer.innerHTML += `
-            <span class="bg-slate-900 border border-slate-700 text-slate-200 px-2.5 py-1 rounded-lg text-xs flex items-center gap-2">
-              ${plat}
-              <button type="button" onclick="eliminarPlataforma(${idx})" class="text-red-400 hover:text-red-300 cursor-pointer"><i class="fa-solid fa-xmark"></i></button>
-            </span>
-          `;
-        });
-      }
-    }
+/* ---------- CARRITO ---------- */
+function agregarAlCarrito() {
+  const j = lista[idx]; if (!j) return;
+  if (carrito.some(i => i.id === j.id)) return toast('Ya está en el carrito', 'info');
+  carrito.push(j); guardarCarrito(); toast(`"${j.titulo}" agregado`);
+}
+const totalCarrito = () => carrito.reduce((s, i) => s + Number(i.valor || 0), 0);
+function abrirCarrito() { renderizarCarrito(); abrir('cartModal'); }
+function renderizarCarrito() {
+  $('cartItemsContainer').innerHTML = carrito.length ? carrito.map((it, i) => `
+    <div class="row"><img src="${esc(it.caratula)}" alt="" loading="lazy">
+      <div class="t"><b>${esc(it.titulo)}</b><span style="font-size:13px;color:#34d399">${esc(it.plataforma)}</span></div>
+      <span class="mono">${fmt(it.valor)}</span>
+      <button class="ic" style="color:#f87171" onclick="eliminarDelCarrito(${i})" aria-label="Quitar"><i class="fa-solid fa-trash"></i></button></div>`).join('')
+    : '<p style="text-align:center;color:#94a3b8;padding:24px 0">Tu carrito está vacío.</p>';
+  $('cartTotalAmount').textContent = fmt(totalCarrito());
+}
+function eliminarDelCarrito(i) { carrito.splice(i, 1); guardarCarrito(); renderizarCarrito(); toast('Eliminado', 'info'); }
+function descargarListadoTXT() {
+  if (!carrito.length) return toast('Carrito vacío', 'error');
+  const txt = '=== JUEGOS SELECCIONADOS ===\n\n' + carrito.map((it, i) => `${i + 1}. ${it.titulo} (${it.plataforma}) - ${fmt(it.valor)}`).join('\n') + `\n\nTOTAL: ${fmt(totalCarrito())}\n`;
+  descargar(new Blob([txt], {type: 'text/plain;charset=utf-8'}), 'juegos.txt');
+}
+function enviarWhatsApp() {
+  if (!carrito.length) return toast('Carrito vacío', 'error');
+  const msg = 'Hola, me interesan:\n\n' + carrito.map(i => `- ${i.titulo} (${i.plataforma}) [${fmt(i.valor)}]`).join('\n') + `\n\n*Total:* ${fmt(totalCarrito())}`;
+  window.open('https://wa.me/?text=' + encodeURIComponent(msg), '_blank', 'noopener');
+}
+function simularPago() {
+  if (!carrito.length) return toast('Carrito vacío', 'error');
+  toast('¡Pago simulado con éxito!'); carrito = []; guardarCarrito(); cerrar('cartModal');
+}
+function descargar(blob, nombre) {
+  const url = URL.createObjectURL(blob), a = document.createElement('a');
+  a.href = url; a.download = nombre; document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
 
-    function agregarPlataforma() {
-      const input = document.getElementById('nuevaPlataformaInput');
-      const nueva = input.value.trim();
-      if (!nueva) return mostrarToast("Escribe un nombre de plataforma", "error");
-      if (plataformas.includes(nueva)) return mostrarToast("La plataforma ya existe", "error");
-      
-      plataformas.push(nueva);
-      input.value = '';
-      actualizarSelectoresPlataformas();
-      mostrarToast("Plataforma agregada");
-    }
+/* ---------- ADMIN ---------- */
+async function sha256(t) { const b = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(t)); return [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, '0')).join(''); }
+function toggleModoSistema() {
+  if (modoAdmin) {
+    modoAdmin = false; $('labelModo').textContent = 'Vista de Cliente'; $('textToggleModo').textContent = 'Admin'; toast('Sesión cerrada', 'info');
+  } else { $('inputAdminPass').value = ''; abrir('passwordModal'); $('inputAdminPass').focus(); }
+}
+async function verificarPasswordAdmin(e) {
+  e.preventDefault();
+  try {
+    if (await sha256($('inputAdminPass').value) === CLAVE_HASH) { cerrar('passwordModal'); abrirAdmin(); return toast('Acceso concedido'); }
+    toast('Contraseña incorrecta', 'error'); $('inputAdminPass').value = '';
+  } catch { toast('Abre el sitio con HTTPS para usar el panel', 'error'); }
+}
+function abrirAdmin() {
+  modoAdmin = true; $('labelModo').textContent = 'Modo Administrador'; $('textToggleModo').textContent = 'Salir';
+  actualizarSelectores(); renderizarTablaAdmin(); abrir('adminModal');
+}
+function cerrarAdmin() { cerrar('adminModal'); actualizarSelectores(); construirCarrusel(); }
+function renderizarTablaAdmin() {
+  const f = $('adminPlatformFilter').value;
+  const filas = juegos.map((j, i) => [j, i]).filter(([j]) => f === 'ALL' || j.plataforma === f);
+  $('tablaJuegosBody').innerHTML = filas.length ? filas.map(([j, i]) => `
+    <tr><td class="mono">#${esc(j.id)}</td>
+    <td><img src="${esc(j.caratula)}" alt="" loading="lazy" style="width:32px;height:48px;object-fit:contain;background:#000;border-radius:4px"></td>
+    <td><b>${esc(j.titulo)}</b></td><td><span class="tag" style="color:#60a5fa;font-size:12px">${esc(j.plataforma)}</span></td>
+    <td class="mono">${fmt(j.valor)}</td>
+    <td style="text-align:center;white-space:nowrap"><button class="ic" style="color:#60a5fa" onclick="editarJuego(${i})" aria-label="Editar"><i class="fa-solid fa-pen"></i></button>
+    <button class="ic" style="color:#f87171" onclick="eliminarJuego(${i})" aria-label="Eliminar"><i class="fa-solid fa-trash"></i></button></td></tr>`).join('')
+    : '<tr><td colspan="6" style="text-align:center;color:#64748b;padding:16px">No hay juegos en esta vista.</td></tr>';
+}
+function refrescarTodo() { actualizarSelectores(); renderizarTablaAdmin(); construirCarrusel(); }
+function guardarJuegoForm(e) {
+  e.preventDefault();
+  const ed = parseInt($('editIndex').value, 10);
+  const id = ed === -1 ? Math.max(0, ...juegos.map(j => Number(j.id) || 0)) + 1 : juegos[ed].id;
+  const nuevo = {id, titulo: $('formTitulo').value.trim(), plataforma: $('formPlataforma').value, peso: $('formPeso').value.trim(), valor: Number($('formValor').value), caratula: $('formCaratula').value.trim()};
+  if (ed === -1) { juegos.push(nuevo); toast('Juego agregado'); } else { juegos[ed] = nuevo; toast('Juego actualizado'); }
+  limpiarFormulario(); refrescarTodo();
+}
+function editarJuego(i) {
+  const j = juegos[i];
+  $('editIndex').value = i; $('formTitulo').value = j.titulo; $('formPlataforma').value = j.plataforma;
+  $('formPeso').value = j.peso; $('formValor').value = j.valor; $('formCaratula').value = j.caratula;
+  $('gameForm').scrollIntoView({behavior: 'smooth', block: 'center'}); $('formTitulo').focus();
+}
+function eliminarJuego(i) {
+  if (!confirm('¿Eliminar juego?')) return;
+  juegos.splice(i, 1); limpiarFormulario(); refrescarTodo(); toast('Eliminado', 'info');
+}
+function limpiarFormulario() { $('gameForm').reset(); $('editIndex').value = -1; }
+function exportarTodoJSON() {
+  descargar(new Blob([JSON.stringify({plataformas, juegos}, null, 2)], {type: 'application/json'}), 'juegos.json');
+  toast('Archivo juegos.json listo para GitHub', 'info');
+}
 
-    function eliminarPlataforma(index) {
-      const platEliminar = plataformas[index];
-      const enUso = juegos.some(j => j.plataforma === platEliminar);
-      if (enUso) {
-        return mostrarToast("No se puede eliminar: hay juegos usando esta plataforma", "error");
-      }
-      plataformas.splice(index, 1);
-      actualizarSelectoresPlataformas();
-      mostrarToast("Plataforma eliminada", "info");
-    }
+/* ---------- INTERACCIÓN ---------- */
+let ultimaRueda = 0, px = null;
+const stage = $('stage');
+stage.addEventListener('wheel', e => {
+  e.preventDefault();
+  const t = Date.now(); if (t - ultimaRueda < 140) return; ultimaRueda = t;
+  mover((Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY) > 0 ? 1 : -1);
+}, {passive: false});
+$('flow').addEventListener('pointerdown', e => { px = e.clientX; arrastre = false; });
+addEventListener('pointercancel', () => px = null);
+addEventListener('pointerup', e => {
+  if (px === null) return;
+  const dx = e.clientX - px; px = null;
+  if (Math.abs(dx) > 45) { arrastre = true; mover(dx < 0 ? 1 : -1); setTimeout(() => arrastre = false, 60); }
+});
+addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    const m = [...document.querySelectorAll('.modal:not(.hidden)')].pop();
+    if (m) m.id === 'adminModal' ? cerrarAdmin() : cerrar(m.id);
+    return;
+  }
+  if (document.querySelector('.modal:not(.hidden)')) return;
+  const tag = e.target.tagName;
+  if (e.key === '/' && tag !== 'INPUT') { e.preventDefault(); $('inputBuscador').focus(); return; }
+  if (['INPUT', 'SELECT', 'TEXTAREA'].includes(tag)) return;
+  const acc = {ArrowLeft: () => mover(-1), ArrowRight: () => mover(1), Home: () => irA(0), End: () => irA(lista.length - 1), Enter: () => tag === 'BODY' && agregarAlCarrito()}[e.key];
+  if (acc) { e.preventDefault(); acc(); }
+});
+document.querySelectorAll('.modal').forEach(m => m.addEventListener('mousedown', e => { if (e.target === m) m.id === 'adminModal' ? cerrarAdmin() : cerrar(m.id); }));
+let rz; addEventListener('resize', () => { clearTimeout(rz); rz = setTimeout(posicionar, 120); });
 
-    function obtenerJuegosFiltrados() {
-      let lista = juegos;
-      if (filtroPlataforma !== 'ALL') {
-        lista = lista.filter(j => j.plataforma === filtroPlataforma);
-      }
-      if (textoBusqueda.trim() !== '') {
-        const termino = textoBusqueda.toLowerCase().trim();
-        lista = lista.filter(j => j.titulo.toLowerCase().includes(termino));
-      }
-      return lista;
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-      cargarDatosDesdeGitHub();
-      actualizarContadorCarrito();
-
-      let touchStartX = 0;
-      let touchEndX = 0;
-      const viewport = document.querySelector('.coverflow-viewport');
-      
-      viewport.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].screenX; }, false);
-      viewport.addEventListener('touchend', e => {
-        touchEndX = e.changedTouches[0].screenX;
-        if (touchEndX < touchStartX - 50) mover(1);
-        if (touchEndX > touchStartX + 50) mover(-1);
-      }, false);
-    });
-
-    function filtrarPorTexto(texto) {
-      textoBusqueda = texto;
-      indiceActual = 0;
-      renderizarCoverflow();
-    }
-
-    function cambiarFiltroPlataforma(val) {
-      filtroPlataforma = val;
-      indiceActual = 0;
-      renderizarCoverflow();
-    }
-
-    function toggleModoSistema() {
-      if (!modoAdmin) {
-        document.getElementById('inputAdminPass').value = '';
-        document.getElementById('passwordModal').classList.remove('hidden');
-        document.getElementById('inputAdminPass').focus();
-      } else {
-        modoAdmin = false;
-        document.getElementById('labelModo').innerText = "Vista de Cliente";
-        document.getElementById('textToggleModo').innerText = "Admin";
-        renderizarCoverflow();
-        mostrarToast("Sesión cerrada", "info");
-      }
-    }
-
-    function cerrarPasswordModal() { document.getElementById('passwordModal').classList.add('hidden'); }
-
-    function verificarPasswordAdmin(e) {
-      e.preventDefault();
-      const pass = document.getElementById('inputAdminPass').value;
-      if (btoa(pass) === claveSeguraBase64) {
-        modoAdmin = true;
-        cerrarPasswordModal();
-        abrirAdmin();
-        mostrarToast("Acceso concedido", "success");
-      } else {
-        mostrarToast("Contraseña incorrecta", "error");
-        document.getElementById('inputAdminPass').value = '';
-      }
-    }
-
-    function renderizarCoverflow() {
-      const container = document.getElementById('coverflowContainer');
-      container.innerHTML = '';
-      const listaActiva = obtenerJuegosFiltrados();
-      
-      if (listaActiva.length === 0) {
-        container.innerHTML = `<div class="text-slate-400 text-xs sm:text-sm font-semibold text-center px-4">No se encontraron juegos.</div>`;
-        actualizarDetalles();
-        return;
-      }
-
-      if (indiceActual >= listaActiva.length) indiceActual = 0;
-
-      listaActiva.forEach((juego, i) => {
-        const card = document.createElement('div');
-        card.className = `game-card ${obtenerClasePosicion(i, indiceActual)}`;
-        card.onclick = () => seleccionar(i);
-        card.innerHTML = `<img src="${juego.caratula}" alt="${juego.titulo}" onerror="this.src='https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&q=80'">`;
-        container.appendChild(card);
-      });
-      actualizarDetalles();
-    }
-
-    function obtenerClasePosicion(index, actual) {
-      const diff = index - actual;
-      if (diff === 0) return 'active';
-      if (diff === -1) return 'left-1';
-      if (diff === -2) return 'left-2';
-      if (diff < -2) return 'far-left';
-      if (diff === 1) return 'right-1';
-      if (diff === 2) return 'right-2';
-      if (diff > 2) return 'far-right';
-    }
-
-    function mover(dir) {
-      const listaActiva = obtenerJuegosFiltrados();
-      if (listaActiva.length === 0) return;
-      const nuevo = indiceActual + dir;
-      if (nuevo >= 0 && nuevo < listaActiva.length) {
-        indiceActual = nuevo;
-        renderizarCoverflow();
-      }
-    }
-
-    function seleccionar(i) { indiceActual = i; renderizarCoverflow(); }
-
-    function actualizarDetalles() {
-      const listaActiva = obtenerJuegosFiltrados();
-      if (listaActiva.length === 0) {
-        document.getElementById('juegoTitulo').innerText = "Sin resultados";
-        document.getElementById('juegoPlataformaBadge').innerText = "---";
-        document.getElementById('juegoPeso').innerHTML = `<i class="fa-solid fa-hard-drive mr-1"></i> 0 GB`;
-        document.getElementById('juegoPrecio').innerText = "$0";
-        return;
-      }
-      const j = listaActiva[indiceActual];
-      document.getElementById('juegoTitulo').innerText = j.titulo;
-      document.getElementById('juegoPlataformaBadge').innerText = j.plataforma;
-      document.getElementById('juegoPeso').innerHTML = `<i class="fa-solid fa-hard-drive mr-1"></i> ${j.peso}`;
-      document.getElementById('juegoPrecio').innerText = `$${Number(j.valor).toLocaleString()}`;
-    }
-
-    function agregarAlCarrito() {
-      const listaActiva = obtenerJuegosFiltrados();
-      if (listaActiva.length === 0) return;
-      const juego = listaActiva[indiceActual];
-      if (!carrito.some(item => item.id === juego.id)) {
-        carrito.push(juego);
-        localStorage.setItem('carrito_juegos_3d', JSON.stringify(carrito));
-        actualizarContadorCarrito();
-        mostrarToast(`"${juego.titulo}" agregado`);
-      } else {
-        mostrarToast("Ya está en el carrito", "info");
-      }
-    }
-
-    function actualizarContadorCarrito() { document.getElementById('cartCount').innerText = carrito.length; }
-    function abrirCarrito() { renderizarItemsCarrito(); document.getElementById('cartModal').classList.remove('hidden'); }
-    function cerrarCarrito() { document.getElementById('cartModal').classList.add('hidden'); }
-
-    function renderizarItemsCarrito() {
-      const container = document.getElementById('cartItemsContainer');
-      container.innerHTML = '';
-      if (carrito.length === 0) {
-        container.innerHTML = `<p class="text-slate-400 text-xs sm:text-sm text-center py-6">Tu carrito está vacío.</p>`;
-        document.getElementById('cartTotalAmount').innerText = "$0";
-        return;
-      }
-      let total = 0;
-      carrito.forEach((item, index) => {
-        total += item.valor;
-        container.innerHTML += `
-          <div class="flex items-center justify-between bg-slate-950 p-2.5 sm:p-3 rounded-xl border border-slate-800 gap-2">
-            <div class="flex items-center gap-3 overflow-hidden">
-              <img src="${item.caratula}" class="w-10 h-14 object-contain rounded-lg border border-slate-700 flex-shrink-0 bg-black">
-              <div class="truncate">
-                <h4 class="font-bold text-white text-xs sm:text-sm truncate">${item.titulo}</h4>
-                <span class="text-[10px] sm:text-[11px] text-emerald-400">${item.plataforma}</span>
-              </div>
-            </div>
-            <div class="flex items-center gap-3 flex-shrink-0">
-              <span class="font-mono font-bold text-xs sm:text-sm text-emerald-400">$${Number(item.valor).toLocaleString()}</span>
-              <button onclick="eliminarDelCarrito(${index})" class="text-red-400 hover:text-red-300 text-xs cursor-pointer"><i class="fa-solid fa-trash"></i></button>
-            </div>
-          </div>
-        `;
-      });
-      document.getElementById('cartTotalAmount').innerText = `$${Number(total).toLocaleString()}`;
-    }
-
-    function eliminarDelCarrito(i) {
-      carrito.splice(i, 1);
-      localStorage.setItem('carrito_juegos_3d', JSON.stringify(carrito));
-      actualizarContadorCarrito();
-      renderizarItemsCarrito();
-      mostrarToast("Eliminado", "info");
-    }
-
-    function descargarListadoTXT() {
-      if (carrito.length === 0) return mostrarToast("Carrito vacío", "error");
-      let contenido = "=== JUEGOS SELECCIONADOS ===\n\n";
-      let total = 0;
-      carrito.forEach((item, i) => {
-        contenido += `${i + 1}. ${item.titulo} (${item.plataforma}) - $${Number(item.valor).toLocaleString()}\n`;
-        total += item.valor;
-      });
-      contenido += `\nTOTAL: $${Number(total).toLocaleString()}\n`;
-      const blob = new Blob([contenido], { type: 'text/plain;charset=utf-8' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url; a.download = 'juegos.txt'; a.click();
-      URL.revokeObjectURL(url);
-    }
-
-    function enviarWhatsApp() {
-      if (carrito.length === 0) return mostrarToast("Carrito vacío", "error");
-      let msg = "Hola, me interesan:%0A";
-      let total = 0;
-      carrito.forEach(i => { msg += `%0A- ${i.titulo} (${i.plataforma}) [$${Number(i.valor).toLocaleString()}]`; total += i.valor; });
-      msg += `%0A%0A*Total:* $${Number(total).toLocaleString()}`;
-      window.open(`https://wa.me/?text=${msg}`, '_blank');
-    }
-
-    function simularPago() {
-      if (carrito.length === 0) return mostrarToast("Carrito vacío", "error");
-      mostrarToast("¡Pago simulado con éxito!");
-      carrito = [];
-      localStorage.removeItem('carrito_juegos_3d');
-      actualizarContadorCarrito();
-      cerrarCarrito();
-    }
-
-    function abrirAdmin() {
-      modoAdmin = true;
-      document.getElementById('labelModo').innerText = "Modo Administrador";
-      document.getElementById('textToggleModo').innerText = "Salir";
-      actualizarSelectoresPlataformas();
-      renderizarTablaAdmin();
-      document.getElementById('adminModal').classList.remove('hidden');
-    }
-
-    function cerrarAdmin() {
-      document.getElementById('adminModal').classList.add('hidden');
-      actualizarSelectoresPlataformas();
-      renderizarCoverflow();
-    }
-
-    function renderizarTablaAdmin() {
-      const tbody = document.getElementById('tablaJuegosBody');
-      tbody.innerHTML = '';
-      
-      const filtroAdminVal = document.getElementById('adminPlatformFilter').value;
-      let listaMostrar = juegos;
-      if (filtroAdminVal !== 'ALL') {
-        listaMostrar = juegos.filter(j => j.plataforma === filtroAdminVal);
-      }
-
-      if (listaMostrar.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="6" class="p-4 text-center text-slate-500">No hay juegos en esta vista.</td></tr>`;
-        return;
-      }
-
-      listaMostrar.forEach((j) => {
-        // Encontramos el índice real en el array global 'juegos' para poder editar/eliminar bien
-        const indexReal = juegos.findIndex(item => item.id === j.id);
-        tbody.innerHTML += `
-          <tr class="hover:bg-slate-900/50">
-            <td class="p-2 sm:p-3 font-mono text-emerald-400 font-bold">#${j.id}</td>
-            <td class="p-2 sm:p-3"><img src="${j.caratula}" class="w-8 h-12 object-contain bg-black rounded border border-slate-700"></td>
-            <td class="p-2 sm:p-3 font-bold text-white truncate max-w-[100px] sm:max-w-none">${j.titulo}</td>
-            <td class="p-2 sm:p-3"><span class="bg-slate-800 text-blue-400 text-[10px] px-2 py-0.5 rounded border border-slate-700">${j.plataforma}</span></td>
-            <td class="p-2 sm:p-3 font-semibold text-emerald-400">$${Number(j.valor).toLocaleString()}</td>
-            <td class="p-2 sm:p-3 text-center space-x-2">
-              <button onclick="editarJuego(${indexReal})" class="text-blue-400 cursor-pointer"><i class="fa-solid fa-pen"></i></button>
-              <button onclick="eliminarJuego(${indexReal})" class="text-red-400 cursor-pointer"><i class="fa-solid fa-trash"></i></button>
-            </td>
-          </tr>
-        `;
-      });
-    }
-
-    function guardarJuegoForm(e) {
-      e.preventDefault();
-      const editIndex = parseInt(document.getElementById('editIndex').value);
-      
-      let nuevoId = 1;
-      if (editIndex === -1 && juegos.length > 0) {
-        const maxId = Math.max(...juegos.map(j => Number(j.id) || 0));
-        nuevoId = maxId + 1;
-      } else if (editIndex !== -1) {
-        nuevoId = juegos[editIndex].id;
-      }
-
-      const nuevo = {
-        id: nuevoId,
-        titulo: document.getElementById('formTitulo').value.trim(),
-        plataforma: document.getElementById('formPlataforma').value,
-        peso: document.getElementById('formPeso').value.trim(),
-        valor: Number(document.getElementById('formValor').value),
-        caratula: document.getElementById('formCaratula').value.trim()
-      };
-
-      if (editIndex === -1) {
-        juegos.push(nuevo);
-        mostrarToast("Juego agregado");
-      } else {
-        juegos[editIndex] = nuevo;
-        mostrarToast("Juego actualizado");
-        document.getElementById('editIndex').value = -1;
-      }
-
-      document.getElementById('gameForm').reset();
-      actualizarSelectoresPlataformas();
-      renderizarTablaAdmin();
-      renderizarCoverflow();
-    }
-
-    function editarJuego(index) {
-      const j = juegos[index];
-      document.getElementById('editIndex').value = index;
-      document.getElementById('formTitulo').value = j.titulo;
-      document.getElementById('formPlataforma').value = j.plataforma;
-      document.getElementById('formPeso').value = j.peso;
-      document.getElementById('formValor').value = j.valor;
-      document.getElementById('formCaratula').value = j.caratula;
-    }
-
-    function eliminarJuego(index) {
-      if (confirm("¿Eliminar juego?")) {
-        juegos.splice(index, 1);
-        actualizarSelectoresPlataformas();
-        renderizarTablaAdmin();
-        renderizarCoverflow();
-        mostrarToast("Eliminado", "info");
-      }
-    }
-
-    function limpiarFormulario() {
-      document.getElementById('gameForm').reset();
-      document.getElementById('editIndex').value = -1;
-    }
-
-    function exportarTodoJSON() {
-      // Guardamos tanto las plataformas como los juegos estructurados en el JSON
-      const objetoCompleto = {
-        plataformas: plataformas,
-        juegos: juegos
-      };
-
-      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(objetoCompleto, null, 2));
-      const downloadAnchor = document.createElement('a');
-      downloadAnchor.setAttribute("href", dataStr);
-      downloadAnchor.setAttribute("download", "juegos.json");
-      document.body.appendChild(downloadAnchor);
-      downloadAnchor.click();
-      downloadAnchor.remove();
-      mostrarToast("Archivo juegos.json listo para GitHub", "info");
-    }
-  </script>
+guardarCarrito();
+cargarDatos();
+</script>
 </body>
 </html>
